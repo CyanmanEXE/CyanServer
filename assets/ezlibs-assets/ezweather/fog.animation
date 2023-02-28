@@ -1,0 +1,4 @@
+imagePath="C:/Users/Clevettes/Desktop/OBN SERVER BACKUPS/Server Set Up EXE/assets/custom/foregrounds/Fog/fog.png"
+
+animation state="BG"
+frame duration="0.05" x="0" y="0" w="256" h="256" originx="0" originy="0" flipx="0" flipy="0" 

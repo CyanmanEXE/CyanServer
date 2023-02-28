@@ -1,0 +1,11 @@
+imagePath="C:/Users/Clevettes/Desktop/OBN SERVER BACKUPS/Server_10_5_2021/assets/custom/backgrounds/Tournament/BG.png"
+
+animation state="BG"
+frame duration="0.2" x="0" y="0" w="60" h="80" originx="0" originy="0"
+frame duration="0.2" x="60" y="0" w="60" h="80" originx="0" originy="0"
+frame duration="0.2" x="120" y="0" w="60" h="80" originx="0" originy="0"
+frame duration="0.2" x="180" y="0" w="60" h="80" originx="0" originy="0"
+frame duration="0.2" x="240" y="0" w="60" h="80" originx="0" originy="0"
+frame duration="0.2" x="300" y="0" w="60" h="80" originx="0" originy="0"
+frame duration="0.2" x="360" y="0" w="60" h="80" originx="0" originy="0"
+frame duration="0.2" x="420" y="0" w="60" h="80" originx="0" originy="0"

@@ -1,0 +1,26 @@
+animation state="IDLE"
+frame duration="0.133" x="2" y="2" w="49" h="42" originx="22" originy="37"
+frame duration="0.133" x="55" y="48" w="49" h="41" originx="22" originy="36"
+frame duration="0.133" x="52" y="94" w="49" h="40" originx="22" originy="35"
+frame duration="0.133" x="108" y="48" w="49" h="41" originx="22" originy="36"
+
+animation state="SPAWN"
+frame duration="0.133" x="2" y="2" w="49" h="42" originx="22" originy="37"
+
+
+animation state="THROW"
+frame duration="0.267" x="55" y="2" w="49" h="42" originx="22" originy="37"
+frame duration="0.033" x="105" y="94" w="61" h="40" originx="27" originy="35"
+frame duration="0.05" x="64" y="139" w="43" h="38" originx="29" originy="33"
+frame duration="0.033" x="111" y="139" w="43" h="38" originx="26" originy="33"
+
+animation state="WAIT"
+frame duration="0.05" x="2" y="183" w="43" h="38" originx="26" originy="33"
+frame duration="0.05" x="49" y="183" w="43" h="38" originx="26" originy="33"
+
+animation state="RECOVER"
+frame duration="0.033" x="2" y="139" w="58" h="40" originx="24" originy="35"
+frame duration="0.05" x="2" y="94" w="46" h="41" originx="23" originy="36"
+frame duration="0.033" x="108" y="2" w="50" h="42" originx="22" originy="37"
+frame duration="0.033" x="2" y="48" w="49" h="42" originx="22" originy="37"
+

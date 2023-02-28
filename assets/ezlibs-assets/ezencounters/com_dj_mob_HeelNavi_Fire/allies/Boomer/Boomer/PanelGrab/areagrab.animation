@@ -1,0 +1,14 @@
+imagePath="C:/Users/seven/Desktop/ONB/resources/mods/cards/com_claris_card_areagrab/grab.png"
+
+animation state="FALL"
+frame duration="0.033" x="2" y="37" w="28" h="28" originx="14" originy="14" flipx="0" flipy="0"
+frame duration="0.033" x="34" y="37" w="28" h="28" originx="14" originy="14" flipx="0" flipy="0"
+frame duration="0.033" x="66" y="37" w="28" h="28" originx="14" originy="14" flipx="0" flipy="0"
+frame duration="0.033" x="2" y="69" w="28" h="28" originx="14" originy="14" flipx="0" flipy="0"
+
+animation state="EXPAND"
+frame duration="0.05" x="46" y="101" w="32" h="15" originx="16" originy="8" flipx="0" flipy="0"
+frame duration="0.067" x="34" y="69" w="46" h="28" originx="23" originy="16" flipx="0" flipy="0"
+frame duration="0.05" x="58" y="2" w="48" h="29" originx="24" originy="17" flipx="0" flipy="0"
+frame duration="0.05" x="2" y="2" w="52" h="31" originx="26" originy="19" flipx="0" flipy="0"
+frame duration="0.05" x="2" y="101" w="40" h="24" originx="20" originy="12" flipx="0" flipy="0"
