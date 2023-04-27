@@ -172,7 +172,7 @@
    </properties>
    <point/>
   </object>
-  <object id="20" name="Oba" type="NPC" x="531" y="1269">
+  <object id="20" name="UwUta" type="NPC" x="531" y="1269">
    <properties>
     <property name="Asset Name" value="heel-navi-exe4_blue"/>
     <property name="Dialogue Type" value="random"/>

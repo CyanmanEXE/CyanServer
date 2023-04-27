@@ -3,7 +3,7 @@ local encounter1 = {
     path="/server/assets/ezlibs-assets/ezencounters/ezencounters.zip",
     weight=50,
     enemies = {
-        {name="Mettaur",rank=7},
+        {name="Mettaur",rank=6},
         {name="Bladia",rank=1},
         {name="Gunner",rank=7},
         {name="HardHead",rank=1},
