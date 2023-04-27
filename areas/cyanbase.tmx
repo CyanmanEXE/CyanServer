@@ -56,7 +56,7 @@
 </data>
  </layer>
  <objectgroup id="2" name="Object Layer 1">
-  <object id="1" name="cyanbasetohp1" type="Radius Warp" x="467" y="1171">
+  <object id="1" name="cyanbasetohp1" type="Radius Warp" x="464" y="1152">
    <properties>
     <property name="Activation Radius" value="0.6"/>
     <property name="Arrival Animation" value="arrow_down_left_in"/>

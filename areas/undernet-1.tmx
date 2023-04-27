@@ -638,7 +638,7 @@
    </properties>
    <point/>
   </object>
-  <object id="190" gid="2147483782" x="1547.5" y="1114.5" width="48" height="60"/>
+  <object id="190" gid="2147483782" x="1485.5" y="1084.5" width="48" height="60"/>
   <object id="192" type="Checkpoint" gid="120" x="1808.5" y="1137.5" width="48" height="52">
    <properties>
     <property name="Dialogue Type" value="None"/>
