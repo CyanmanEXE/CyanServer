@@ -126,9 +126,12 @@
   <object id="71" name="Grove" type="NPC" x="719" y="1101">
    <properties>
     <property name="Asset Name" value="heel-navi-exe4_green"/>
-    <property name="Dialogue Type" value="first"/>
+    <property name="Dialogue Type" value="random"/>
     <property name="Direction" value="Down Left"/>
     <property name="Text 1" value="Hey... You  dont look like your from around here... What are you doing here?"/>
+    <property name="Text 2" value="Howdy, many things changed since you last been here... You might find somthing.... Concerning"/>
+    <property name="Text 3" value="Did  you know I was the first ever guy down here?"/>
+    <property name="Text 4" value="I hate kids who thinks they can just waltz down here.."/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -166,7 +169,7 @@
     <property name="Asset Name" value="pyreman"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Right"/>
-    <property name="Text 1" value="I see you got a sense of adventure in your programing! Nice, im Pyreman.EXE! I'm here to make burning data bits out of the annoying problem down here from Wiltman.... Hey I know! You should help us! He wouldnt stand a chance againts a army! My bud Cyanman can hook you up with a rare chip called Iron Bash! If you see him ask him about it!"/>
+    <property name="Text 1" value="I see you got a sense of adventure in your programing! Nice, im Pyreman.EXE! I'm here to make burning data bits out of the annoying problem down here from Wiltman.... Hey I know! You should help us! He wouldnt stand a chance againts a army! My bud Cyanmans HP is in the next area and would hook you up with somthing cool! But he locked his HP so you need a password...  I forgot what it would be... I just know its a name of a fire chip..."/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -408,8 +411,8 @@
   <object id="117" name="Undernet1ToUndernet-1" type="Radius Warp" x="496" y="1202">
    <properties>
     <property name="Activation Radius" value="0.6"/>
-    <property name="Arrival Animation" value="arrow_up_right_in"/>
-    <property name="Leave Animation" value="arrow_down_left_out"/>
+    <property name="Arrival Animation" value="arrow_down_right_in"/>
+    <property name="Leave Animation" value="arrow_down_right_out"/>
     <property name="Target Area" value="undernet-1"/>
     <property name="Target Object" value="1"/>
    </properties>

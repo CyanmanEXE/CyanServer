@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" width="60" height="60" tilewidth="64" tileheight="32" infinite="0" nextlayerid="13" nextobjectid="52">
+<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" width="60" height="60" tilewidth="64" tileheight="32" infinite="0" nextlayerid="13" nextobjectid="60">
  <properties>
   <property name="Background" value="custom"/>
   <property name="Background Animation" value="/server/assets/custom/backgrounds/area1/GrayBG.animation"/>
@@ -384,9 +384,29 @@
     <property name="Text 4" value="Cyanman didnt start as the color cyan..."/>
     <property name="Text 5" value="The head floats on Alrysc navi.."/>
     <property name="Text 6" value="someone purposely made circuit look androgynous and they don't refer to them with a gender for funny"/>
-    <property name="Text 7" value="All Cube passwords are chip names..."/>
+    <property name="Text 7" value="All Cube passwords are chip names... The ones that lead to no where somtimes are not chip names, just random words to make it less likely to get through!"/>
     <property name="Text 8" value="Bah!!!!"/>
     <property name="Text 9" value="zzzzz.....ZZzzzzz....."/>
+    <property name="Wait Time" value="2"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="52" name="Wun" type="NPC" x="758" y="694">
+   <properties>
+    <property name="Asset Name" value="heel-navi-exe4_blue"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Up Left"/>
+    <property name="Text 1" value="Hm? What's Cyanmans password? Well It's his favorite chip's name. Dunno? Well I aint telling ya nuffin! I dont give my services for free! Scram!"/>
+    <property name="Wait Time" value="2"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="53" name="Bagel Cream" type="NPC" x="1300.5" y="275.5">
+   <properties>
+    <property name="Asset Name" value="heel-navi-exe4_blue"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Up Right"/>
+    <property name="Text 1" value="This place isnt finished, boss said we got packages incoming from the surface to put up decorations.. The place is fine as it is! its no tourist attraction! who are we attracting?! We tough down here not a weenie hut jrs!!!"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -736,23 +756,26 @@
   <object id="32" name="Tex" type="NPC" x="1628.5" y="1597.5">
    <properties>
     <property name="Asset Name" value="heel-navi-exe4_green"/>
-    <property name="Dialogue Type" value="question"/>
+    <property name="Dialogue Type" value="random"/>
     <property name="Direction" value="Down Left"/>
-    <property name="Next 1" type="object" value="33"/>
-    <property name="Next 2" type="object" value="34"/>
     <property name="Text 1" value="Welcome to the Yeehaw caffe! What would you like today?"/>
+    <property name="Text 2" value="You should try our new Ballade bombing Cracker sandwich! For 20 zenny!"/>
+    <property name="Text 3" value="Welcome! We just got our new shipment of Alrysc Cookies! fresh from the cyber oven! What flavor is it? buy it and try it out? ...What if your allergic? does it look like I care? Just buy the cookie!"/>
+    <property name="Text 4" value="Hey! Try out this Tressa Icecream!.. Oh wait we are out of that..."/>
+    <property name="Text 5" value="Hey there! We have some new Ruby Pizza avaliable! For a party size it's 1,000 zenny!!! C'mon! it will take a few seconds to make! Fresh garenteed!"/>
+    <property name="Text 6" value="Check out the new Flamberge special burger! Hot and spicey to your Ram! for 40 zenny!"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
   </object>
-  <object id="33" name="Indego waffle Data Drink" type="Dialogue" x="1595.5" y="1576.5">
+  <object id="33" name="Indego waffle Data Drink" type="Dialogue" x="1576" y="1552">
    <properties>
     <property name="Dialogue Type" value="first"/>
     <property name="Text 1" value="Ah..... What? Hold on let me look this up................................................................................................ You know what just leave before I hurt you."/>
    </properties>
    <point/>
   </object>
-  <object id="34" name="Yumland oil Drink" type="Dialogue" x="1645.5" y="1576.5">
+  <object id="34" name="Yumland oil Drink" type="Dialogue" x="1573.5" y="1514.5">
    <properties>
     <property name="Dialogue Type" value="first"/>
     <property name="Text 1" value="I uh... I think our store is closed actually, come again... Never actually, what the actual heck is wrong with you? Do you have a bug in you or somthing? Damaged? C'mon, Yumland Oil drink?? Why would you drink oil! Are you even sane? Who hurt you? Forget it just scram!"/>
@@ -765,6 +788,71 @@
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Left"/>
     <property name="Text 1" value="Dude, like... Flamberge burn burger is the bomb"/>
+    <property name="Wait Time" value="2"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="54" name="Chicken" type="NPC" x="757" y="1303">
+   <properties>
+    <property name="Asset Name" value="punk-navi-exe6_navy"/>
+    <property name="Dialogue Type" value="random"/>
+    <property name="Direction" value="Up Right"/>
+    <property name="Text 1" value="Do you ever wonder how we got here?"/>
+    <property name="Text 2" value="Did you know that i didnt exist until 4/25/23 at 11:20pm? Thats now my birthday!"/>
+    <property name="Text 3" value="Do you think that the guy all the way across from me wonders why im standing here?..."/>
+    <property name="Wait Time" value="2"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="55" name="Sausage" type="NPC" x="692.5" y="309.5">
+   <properties>
+    <property name="Asset Name" value="punk-navi-exe6_navy"/>
+    <property name="Dialogue Type" value="random"/>
+    <property name="Direction" value="Down Left"/>
+    <property name="Text 1" value="Why is that guy staring at me?"/>
+    <property name="Text 2" value="Hm? Whats Cyanmans password? why are you asking me? Do i look like i know what a Cyanman is?"/>
+    <property name="Text 3" value="Dude, that knight girl i saw a few days ago is stunning.. Do you think i'd have a chance?..."/>
+    <property name="Wait Time" value="2"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="56" name="Pete" type="NPC" x="944.5" y="177.5">
+   <properties>
+    <property name="Asset Name" value="heel-navi-exe4_red"/>
+    <property name="Dialogue Type" value="random"/>
+    <property name="Direction" value="Up Left"/>
+    <property name="Next Waypoint 1" type="object" value="57"/>
+    <property name="Text 1" value="Hello"/>
+    <property name="Text 2" value="Aloha"/>
+    <property name="Text 3" value="Can i walk without you talking to me for like 2 seconds????? "/>
+    <property name="Wait Time" value="2"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="57" name="Waypoint 1" type="Waypoint" x="656.5" y="177.5">
+   <properties>
+    <property name="Direction" value="Down Right"/>
+    <property name="Next Waypoint 1" type="object" value="56"/>
+    <property name="Wait Time" value="2"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="58" name="Pico" type="NPC" x="1525" y="1591">
+   <properties>
+    <property name="Asset Name" value="heel-navi-exe4_purple"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Down Left"/>
+    <property name="Text 1" value="I know... I know... Im sorry...(help me please...)"/>
+    <property name="Wait Time" value="2"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="59" name="Violet" type="NPC" x="1525.5" y="1620.5">
+   <properties>
+    <property name="Asset Name" value="female-navi-exe5_purple"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Up Right"/>
+    <property name="Text 1" value="AND YOU DECIDED TO KEEP DOING IT! Why do i even bother with you at this point! All you do is &quot;sorry babe i gotta hang with the boys&quot; and dont come back till its midnight and just go to sleep! I want some love and affection Pico! What about our relationship?! When will you give me the time and day!?"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>

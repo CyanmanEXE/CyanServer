@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" width="38" height="35" tilewidth="64" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="10">
+<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" width="50" height="45" tilewidth="64" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="43">
  <properties>
   <property name="Background" value="custom"/>
   <property name="Background Animation" value="/server/assets/custom/backgrounds/area1/GrayBG.animation"/>
@@ -12,43 +12,57 @@
  <tileset firstgid="1" source="../assets/tiles/central_arrows3.tsx"/>
  <tileset firstgid="5" source="../assets/tiles/ughlol.tsx"/>
  <tileset firstgid="13" source="../assets/tiles/invis tile.tsx"/>
- <layer id="1" name="Tile Layer 1" width="38" height="35">
+ <tileset firstgid="14" source="../assets/tiles/Netopia_Tileset_directional_paths.tsx"/>
+ <tileset firstgid="50" source="../assets/tiles/warp.tsx"/>
+ <tileset firstgid="56" source="../assets/tiles/Custom_Central_Tiles_yes.tsx"/>
+ <tileset firstgid="64" source="../assets/tiles/bn6_securitycube.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="50" height="45">
   <data encoding="csv">
-0,0,0,0,0,0,13,13,13,13,13,13,13,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,8,8,8,0,0,0,0,0,9,9,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,13,13,13,5,8,8,8,0,0,0,0,0,9,0,9,9,9,9,9,0,0,0,0,0,13,13,13,13,13,13,0,0,0,0,0,0,0,
-0,0,0,0,0,8,8,8,0,0,0,0,0,9,0,0,0,0,0,9,0,0,0,0,0,13,0,0,0,0,13,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,9,0,0,0,0,0,9,9,9,9,13,13,13,0,0,0,0,13,13,0,0,0,0,0,0,
-0,0,0,0,0,0,13,13,13,13,0,0,0,0,0,0,0,0,0,0,0,0,9,0,0,0,0,0,0,0,0,13,0,0,0,0,0,0,
-0,0,0,11,11,11,11,0,0,13,0,0,0,0,0,0,12,12,12,0,0,0,9,0,0,0,7,7,7,7,7,7,7,7,7,7,7,7,
-0,0,0,11,0,0,11,11,0,13,0,11,11,11,11,0,0,0,12,0,0,0,9,0,0,0,7,0,0,0,0,0,0,0,0,0,0,7,
-0,0,0,11,0,0,0,0,0,13,13,13,0,0,11,0,0,0,6,0,0,0,9,0,0,0,7,0,12,12,12,12,12,12,12,0,0,7,
-0,0,0,11,0,0,0,0,0,0,0,0,11,11,11,0,0,0,6,0,0,0,0,0,0,0,7,0,12,0,0,0,0,0,12,0,0,7,
-0,0,0,11,0,0,0,0,0,5,0,11,11,0,11,0,0,0,6,6,0,0,0,0,0,0,7,0,12,0,0,0,0,0,12,0,0,7,
-0,0,0,11,0,0,0,0,0,5,0,0,0,0,11,0,0,0,0,6,0,0,0,0,0,0,7,0,12,0,12,12,12,0,12,0,0,7,
-0,0,0,11,0,0,0,0,0,5,0,0,13,13,11,0,0,0,0,6,0,0,0,0,0,0,7,0,12,0,0,0,12,0,12,0,0,7,
-0,0,0,11,0,12,12,12,12,5,0,0,13,0,0,0,0,6,0,6,6,0,6,0,0,0,7,13,12,12,12,12,12,0,12,0,0,7,
-0,0,0,11,0,0,0,0,0,5,0,0,13,13,7,7,7,7,0,0,0,0,6,0,0,0,7,0,0,0,0,0,0,0,12,0,0,7,
-0,0,0,13,0,0,0,0,0,5,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,0,0,7,
-0,0,0,13,0,0,0,5,5,5,5,5,5,0,0,0,0,7,6,6,6,6,13,12,12,12,12,12,12,12,12,12,12,12,12,0,0,7,
-0,0,0,13,0,0,0,5,0,5,0,0,5,5,5,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,
-0,0,0,13,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,7,
-0,0,0,13,0,0,0,5,0,0,0,0,5,0,0,0,0,0,0,0,6,0,0,0,0,7,7,7,7,7,7,7,7,7,0,0,7,0,
-0,0,0,13,0,0,0,5,0,5,5,0,5,5,5,5,5,5,5,0,6,0,0,0,0,0,0,0,0,0,0,0,0,7,7,7,7,0,
-0,0,0,13,0,9,9,5,5,5,0,0,13,0,0,0,0,13,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,13,0,9,0,5,0,5,13,13,13,0,0,0,13,13,13,7,7,7,0,7,0,0,0,9,9,9,9,9,9,9,0,0,0,0,
-0,0,0,13,13,9,0,5,0,5,0,0,0,0,0,5,0,0,0,0,0,7,7,7,13,13,13,9,0,0,0,0,0,9,0,0,0,0,
-0,0,0,0,0,9,0,5,0,5,0,0,5,5,5,5,5,5,5,0,0,0,0,7,0,0,0,9,0,9,9,9,0,9,0,0,0,0,
-0,0,0,0,0,9,0,0,0,5,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,9,0,9,0,9,0,9,0,0,0,0,
-0,0,0,0,0,9,0,0,0,5,0,0,0,0,0,0,0,0,5,13,13,13,0,0,0,0,0,9,0,9,0,9,0,9,0,0,0,0,
-0,0,0,0,0,0,0,0,0,5,0,0,5,5,5,5,0,0,5,6,0,13,0,0,0,0,0,9,0,9,0,0,0,9,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,13,0,0,5,0,0,13,13,13,9,9,9,9,0,9,9,9,9,9,0,0,0,0,
-0,0,0,0,0,0,0,0,7,0,0,0,5,0,0,13,0,0,5,0,0,0,0,0,0,0,0,0,0,13,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,7,7,7,0,0,5,0,0,13,0,0,5,0,0,9,9,9,0,13,7,7,7,7,7,7,7,7,0,0,0,0,
-0,0,13,13,13,13,6,7,7,7,5,5,5,0,0,5,5,5,5,0,0,9,0,0,0,13,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,7,7,7,0,0,0,0,0,0,0,0,0,0,0,9,13,13,13,13,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,9,9,9,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,8,8,8,0,8,8,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,13,13,13,5,8,8,8,5,8,8,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,8,8,8,0,8,8,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,5,5,5,10,5,5,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,32,0,0,5,5,6,0,0,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,32,0,0,6,5,5,0,0,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,10,8,8,8,10,0,0,0,0,32,0,0,5,5,5,0,0,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,8,8,8,8,8,8,8,0,0,10,5,5,5,5,5,5,5,5,5,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,8,8,8,8,8,8,8,6,6,5,6,5,5,5,5,5,5,5,5,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,8,8,8,8,8,8,8,0,0,5,5,5,5,0,0,0,0,0,0,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,10,8,8,8,10,0,0,0,0,5,0,0,0,0,0,0,0,0,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,12,12,12,0,5,5,5,0,0,0,0,0,0,0,0,0,0,0,35,0,0,0,0,0,0,0,0,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,12,12,12,5,5,5,5,0,0,0,9,5,5,5,6,5,5,5,5,0,0,0,0,0,0,0,0,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,12,12,12,0,5,6,5,0,0,0,5,0,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,5,5,10,5,5,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,5,5,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,5,5,5,5,5,5,5,5,5,5,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,5,5,0,0,0,5,0,0,0,0,0,0,0,5,5,5,6,5,5,0,0,0,5,6,5,5,5,6,5,5,5,5,9,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,5,5,0,0,0,5,0,0,9,5,6,5,5,5,0,0,0,0,5,0,0,0,5,5,10,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,5,5,5,5,0,0,5,0,0,0,0,0,0,0,5,0,5,0,0,5,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,5,5,5,6,0,0,5,0,0,0,0,0,0,0,5,0,6,0,0,6,5,5,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,5,6,5,5,0,0,9,5,5,5,5,6,5,10,5,0,5,0,5,5,0,5,0,0,0,0,0,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,5,5,5,5,0,0,0,0,0,0,0,0,0,0,5,0,6,5,5,0,0,5,29,29,29,29,5,5,5,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,5,5,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,5,0,0,0,0,5,5,5,6,5,5,5,5,5,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,5,5,5,5,6,5,5,5,0,0,0,5,0,0,0,0,0,8,8,8,0,0,0,6,5,5,5,5,5,5,5,6,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,5,0,0,0,5,0,0,0,0,8,8,8,8,8,0,0,0,0,0,5,5,0,0,0,5,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,7,0,0,0,6,0,0,5,0,0,0,5,0,0,0,0,8,8,8,8,8,0,0,0,0,0,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,7,7,7,0,0,5,0,0,5,0,0,0,5,0,0,0,0,8,8,8,8,8,0,0,0,0,0,5,5,0,0,0,9,0,0,0,0,0,0,0,0,0,0,
+0,0,13,13,13,13,6,7,7,7,5,5,9,0,0,5,0,0,0,5,0,0,0,0,8,8,8,8,8,0,0,0,0,0,6,5,5,5,5,5,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,7,7,7,0,0,0,0,0,9,5,6,5,9,0,0,0,0,8,8,8,8,8,0,0,0,0,0,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,8,8,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,5,5,0,0,0,0,0,0,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,11,11,11,12,0,0,5,5,5,5,5,5,5,5,5,26,26,26,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,12,8,12,11,7,7,7,11,0,0,5,0,0,5,5,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,8,8,8,11,7,7,7,11,0,0,5,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,12,8,12,11,7,7,7,11,5,5,10,0,0,7,7,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11,7,7,7,11,0,0,0,0,0,7,7,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,11,11,11,12,0,0,0,0,0,7,7,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
  <objectgroup id="2" name="Object Layer 1">
@@ -57,7 +71,7 @@
     <property name="Asset Name" value="prog"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Left"/>
-    <property name="Text 1" value="*SMILE*"/>
+    <property name="Text 1" value="THIS PLACE USED TO BE VERY DIFFRENT... WONDER HOW DID THAT HAPPENED?"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -67,17 +81,17 @@
     <property name="Asset Name" value="punk-navi-exe6_lime"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Right"/>
-    <property name="Text 1" value="Hey, someone's in for a rough time... They say if you managed to get through this maze, you might earn somthing... But I dont belive it, you do you though. I say its not worth it and just turn back now. I herd viruses here dont like visitors..."/>
+    <property name="Text 1" value="What?"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
   </object>
-  <object id="3" name="Hakke" type="NPC" x="438" y="882">
+  <object id="3" name="Hakke" type="NPC" x="277.5" y="788.5">
    <properties>
     <property name="Asset Name" value="heel-navi-exe4_green"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Right"/>
-    <property name="Text 1" value="wheres the rest of the road?! This got to be a scam!"/>
+    <property name="Text 1" value="Did you know super armor is a........Huh? who are you? What the heck is a super armor?! scram!"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -104,5 +118,490 @@
   </object>
   <object id="6" gid="1" x="128.5" y="975.5" width="96" height="64"/>
   <object id="9" gid="1" x="66" y="48" width="96" height="64"/>
+  <object id="11" name="tp1" type="Custom Warp" gid="51" x="65.5" y="546.5" width="61" height="32">
+   <properties>
+    <property name="Direction" value="Down Right"/>
+    <property name="Target Area" value="undernet0"/>
+    <property name="Target Object" value="16"/>
+   </properties>
+  </object>
+  <object id="12" type="Checkpoint" gid="64" x="722" y="1202" width="48" height="52">
+   <properties>
+    <property name="Dialogue Type" value="None"/>
+    <property name="Disappear Cooldown" type="float" value="0"/>
+    <property name="Once" type="bool" value="false"/>
+    <property name="Password" value="Dark Meteor"/>
+    <property name="Required Keys" type="int" value="1"/>
+    <property name="Take Item" type="bool" value="false"/>
+    <property name="Unlock GID" type="int" value="0"/>
+    <property name="Unlock Item" value="Shifting Key"/>
+   </properties>
+  </object>
+  <object id="14" type="Checkpoint" gid="64" x="529" y="433" width="48" height="52">
+   <properties>
+    <property name="Dialogue Type" value="None"/>
+    <property name="Disappear Cooldown" type="float" value="0"/>
+    <property name="Once" type="bool" value="false"/>
+    <property name="Password" value="Prism"/>
+    <property name="Required Keys" type="int" value="1"/>
+    <property name="Take Item" type="bool" value="false"/>
+    <property name="Unlock GID" type="int" value="0"/>
+    <property name="Unlock Item" value="Shifting Key"/>
+   </properties>
+  </object>
+  <object id="18" name="tp4" type="Custom Warp" gid="51" x="320.5" y="63.5" width="61" height="32">
+   <properties>
+    <property name="Direction" value="Up Left"/>
+    <property name="Target Area" value="undernet0"/>
+    <property name="Target Object" value="17"/>
+   </properties>
+  </object>
+  <object id="19" name="Destroy" type="NPC" x="562.5" y="1231.5">
+   <properties>
+    <property name="Asset Name" value="ow"/>
+    <property name="Dialogue Type" value="random"/>
+    <property name="Direction" value="Down Left"/>
+    <property name="Text 1" value="I am the Dark Moloko, released from the &quot;prank&quot; some called the zettabyte moloko bomb... But it released me! The strongest moloko there is! You talking to me must mean you somhow got through the gate i strageticly placed to withold who is unworthy of talking to me. Or someone leaked the password wich i shall smite them with my wool I mearly use as armor!... Anyways what are you even doing here? I'm not looking for more followers at this time since our base of operation isnt even set up properly... So uh.. Just go please?"/>
+    <property name="Text 2" value="Bahh Bahh!!"/>
+    <property name="Text 3" value="Bahh *nuzzle*"/>
+    <property name="Text 4" value="*glare*"/>
+    <property name="Text 5" value="Stop talking to me, or else I'll sick the fans at you!"/>
+    <property name="Text 6" value=".....................ZZzzzzz.........................ZZZZZz......................zzzzzz............."/>
+    <property name="Text 7" value="Dont disturb them! I need them to keep working!"/>
+    <property name="Wait Time" value="2"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="20" name="Oba" type="NPC" x="531" y="1269">
+   <properties>
+    <property name="Asset Name" value="heel-navi-exe4_blue"/>
+    <property name="Dialogue Type" value="random"/>
+    <property name="Direction" value="Up Left"/>
+    <property name="Text 1" value="Keyan! Why wasnt that draft done!? That was supposed to be done ever since I started this sentence!!!!"/>
+    <property name="Text 2" value="Wait! I thought the primary color for this thing was maroon! Its freaking brick?! Brick isnt a color! This isnt a debate!"/>
+    <property name="Text 3" value="No no no! Keyan your supposed to be doing the key animation and trella is doing the coloring while Drawy gives the sound effects! We planned this yesterday!"/>
+    <property name="Text 4" value="lets see....one..two....wait.... Oh no I left the supplies in the dungeon hole! Think you guys can distract him while I go get it?..."/>
+    <property name="Text 5" value="Cant you see we are busy?!... Wait how did you get here.."/>
+    <property name="Wait Time" value="2"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="21" name="Trella" type="NPC" x="498.5" y="1271.5">
+   <properties>
+    <property name="Asset Name" value="heel-navi-exe4_green"/>
+    <property name="Dialogue Type" value="random"/>
+    <property name="Direction" value="Down Right"/>
+    <property name="Text 1" value="This is why I shouldnt talk to sheeps..."/>
+    <property name="Text 2" value="Ok yall I got the coffee and cookies we orderd! Lets take a break to recharge so we dont end up like the rest!"/>
+    <property name="Text 3" value="Huh? A vistor? Well hello, We are kinda busy right now.. How about coming back later so we dont get distracted?"/>
+    <property name="Wait Time" value="2"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="22" name="Keyan" type="NPC" x="510" y="1256">
+   <properties>
+    <property name="Asset Name" value="heel-navi-exe4_black"/>
+    <property name="Dialogue Type" value="random"/>
+    <property name="Direction" value="Down Left"/>
+    <property name="Text 1" value="Ok this sheet is done, but I noticed I...NO I ACCIDENTLY DELETED IT!!!!!!!!!! Guys just delete me already there's no way im doing it again"/>
+    <property name="Text 2" value="The chest area seems too big on her.. Maybe tone it down abit...."/>
+    <property name="Text 3" value="Oba, wheres the model anyways we hired? We cant just draw willy nilly like this..."/>
+    <property name="Text 4" value="Runey was part of the above group with us but she's stuck on another prodject I think..."/>
+    <property name="Wait Time" value="2"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="23" name="Drawy" type="NPC" x="518.5" y="1289.5">
+   <properties>
+    <property name="Asset Name" value="female-navi-exe5_lime"/>
+    <property name="Dialogue Type" value="random"/>
+    <property name="Direction" value="Up Right"/>
+    <property name="Text 1" value="I call him Novaman! hes spikey and cool!~ What do you think Oba??"/>
+    <property name="Text 2" value="Trella, the desk broke again and I dont like pointing fingers but im sure I saw you kicking it over..."/>
+    <property name="Text 3" value="Hi... Surprised anyone else is here, these are my friends Trella, Keyan and Oba. We was recruited by the soft looking Moloko over there who calls himself destroy or somthig?... What? Yes it can talk! He's randomly shy somtimes.... I think?"/>
+    <property name="Wait Time" value="2"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="24" name="tp1" type="Custom Warp" gid="51" x="415.5" y="1248.5" width="61" height="32">
+   <properties>
+    <property name="Direction" value="Down Right"/>
+    <property name="Target Area" value="undernet0"/>
+    <property name="Target Object" value="16"/>
+   </properties>
+  </object>
+  <object id="25" type="Checkpoint" gid="64" x="464.5" y="1297.5" width="48" height="52">
+   <properties>
+    <property name="Dialogue Type" value="None"/>
+    <property name="Disappear Cooldown" type="float" value="0"/>
+    <property name="Once" type="bool" value="false"/>
+    <property name="Password" value="a"/>
+    <property name="Required Keys" type="int" value="1"/>
+    <property name="Take Item" type="bool" value="false"/>
+    <property name="Unlock GID" type="int" value="0"/>
+    <property name="Unlock Item" value="Shifting Key"/>
+   </properties>
+  </object>
+  <object id="26" type="Checkpoint" gid="64" x="465" y="1265" width="48" height="52">
+   <properties>
+    <property name="Dialogue Type" value="None"/>
+    <property name="Disappear Cooldown" type="float" value="0"/>
+    <property name="Once" type="bool" value="false"/>
+    <property name="Password" value="a"/>
+    <property name="Required Keys" type="int" value="1"/>
+    <property name="Take Item" type="bool" value="false"/>
+    <property name="Unlock GID" type="int" value="0"/>
+    <property name="Unlock Item" value="Shifting Key"/>
+   </properties>
+  </object>
+  <object id="27" type="Checkpoint" gid="64" x="464.5" y="1233.5" width="48" height="52">
+   <properties>
+    <property name="Dialogue Type" value="None"/>
+    <property name="Disappear Cooldown" type="float" value="0"/>
+    <property name="Once" type="bool" value="false"/>
+    <property name="Password" value="a"/>
+    <property name="Required Keys" type="int" value="1"/>
+    <property name="Take Item" type="bool" value="false"/>
+    <property name="Unlock GID" type="int" value="0"/>
+    <property name="Unlock Item" value="Shifting Key"/>
+   </properties>
+  </object>
+  <object id="28" name="Baba" type="NPC" x="242.5" y="529.5">
+   <properties>
+    <property name="Asset Name" value="female-navi-exe5_purple"/>
+    <property name="Dialogue Type" value="random"/>
+    <property name="Direction" value="Up Right"/>
+    <property name="Text 1" value="We spent the entire day under this bridge, I herd that love birds tend to hang under bridges alot! "/>
+    <property name="Text 2" value="Mine!.. Oh sorry I thought you was someone else...."/>
+    <property name="Text 3" value="I tried a buger in the far other area and wow its super hot! Too hot for my taste.. But Booey seemed to love it.. "/>
+    <property name="Wait Time" value="2"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="29" name="Booey" type="NPC" x="213.5" y="530.5">
+   <properties>
+    <property name="Asset Name" value="female-navi-exe5_purple"/>
+    <property name="Dialogue Type" value="random"/>
+    <property name="Direction" value="Up Right"/>
+    <property name="Text 1" value="Oh hi! "/>
+    <property name="Text 2" value="Hey! Hey! Think you could take a picture of us? Ill give you 1 zenny!"/>
+    <property name="Text 3" value="I tried that new burger that was on the menue and it was claimed that its hot... tasted cold to me really..."/>
+    <property name="Text 4" value="I wonder why my friend is so... Cuddley today?"/>
+    <property name="Wait Time" value="2"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="30" name="Tela" type="NPC" x="819.5" y="948.5">
+   <properties>
+    <property name="Asset Name" value="heel-navi-exe4_blue"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Up Left"/>
+    <property name="Text 1" value="Ya'know, this place isnt half bad.. As long as you dont get robbed.... *wink*"/>
+    <property name="Wait Time" value="2"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="31" name="Ral" type="NPC" x="758" y="278">
+   <properties>
+    <property name="Asset Name" value="heel-navi-exe4_blue"/>
+    <property name="Dialogue Type" value="random"/>
+    <property name="Direction" value="Up Left"/>
+    <property name="Next Waypoint 1" type="object" value="32"/>
+    <property name="Text 1" value="....?"/>
+    <property name="Text 2" value="Hey..."/>
+    <property name="Text 3" value="What... Come to mug me? I got nuffin on me... Go look elsewhere.."/>
+    <property name="Wait Time" value="2"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="32" name="Waypoint 1" type="Waypoint" x="758" y="438">
+   <properties>
+    <property name="Direction" value="Down Right"/>
+    <property name="Next Waypoint 1" type="object" value="31"/>
+    <property name="Wait Time" value="2"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="39" name="Heat" type="NPC" x="877.5" y="1004.5">
+   <properties>
+    <property name="Asset Name" value="punk-navi-exe6_red"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Up Right"/>
+    <property name="Text 1" value="THE WINDBOXES! THE WINDBOXES!!! PLEASE MAKE THEM STOP!!!!"/>
+    <property name="Wait Time" value="2"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <layer id="3" name="Tile Layer 2" width="50" height="45" offsetx="0" offsety="-16">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="6" name="Object Layer 2" offsetx="0" offsety="-16"/>
+ <layer id="4" name="Tile Layer 3" width="50" height="45" offsetx="0" offsety="-32">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="7" name="Object Layer 3" offsetx="0" offsety="-32"/>
+ <layer id="5" name="Tile Layer 4" width="50" height="45" offsetx="0" offsety="-48">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,56,56,56,56,56,56,56,56,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,56,56,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,0,0,0,0,0,0,0,0,0,0,0,0,0,56,56,56,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,0,56,56,56,56,56,56,56,56,56,56,56,56,56,56,0,0,0,0,0,0,0,0,56,56,56,56,0,56,56,56,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,0,0,0,0,0,0,0,56,56,56,56,56,56,56,56,0,0,0,0,0,0,0,0,56,56,56,56,0,0,56,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,0,0,0,0,0,0,0,0,0,0,56,56,56,56,0,0,0,0,0,0,0,0,0,56,56,56,56,0,0,56,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,56,56,56,0,0,56,0,0,0,
+0,0,0,0,0,0,0,0,0,0,56,56,56,0,0,0,56,0,56,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,0,0,0,0,0,56,0,0,0,
+0,0,0,0,0,0,56,56,56,56,56,56,56,56,56,56,56,56,56,56,17,17,17,17,17,17,17,17,17,17,17,17,56,0,0,0,0,0,0,0,56,0,0,0,0,56,56,0,0,0,
+0,0,0,0,0,0,56,56,56,56,0,0,0,56,56,56,56,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,0,0,0,0,0,0,0,56,56,56,56,56,56,56,0,0,0,
+0,0,0,0,0,0,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,0,0,0,0,56,56,56,56,56,56,56,56,56,56,0,0,0,
+0,0,0,0,0,0,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,56,0,0,0,56,0,0,0,0,0,23,0,0,56,0,0,0,
+0,0,0,0,0,56,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,56,0,0,0,56,56,0,0,0,0,23,0,0,56,0,0,0,
+0,0,0,0,0,56,56,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,56,56,56,0,0,56,0,0,0,0,23,0,0,56,0,0,0,
+0,0,0,0,0,0,56,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,56,56,56,56,56,0,0,0,0,23,0,0,20,0,0,0,
+0,0,0,0,0,0,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,56,0,0,0,0,0,0,23,0,0,20,0,0,0,
+0,0,0,0,0,0,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,56,0,0,0,0,0,0,23,0,0,20,0,0,0,
+0,0,0,0,0,0,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,56,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,56,56,56,0,0,0,
+0,0,0,0,0,0,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,56,56,56,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,56,56,56,0,0,0,
+0,0,0,0,0,0,56,0,0,56,56,56,0,0,0,0,0,0,0,0,0,0,0,56,56,56,0,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,56,56,56,0,0,0,
+0,0,0,0,0,0,56,0,0,56,56,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,56,56,56,0,0,0,
+0,0,0,0,0,0,56,0,0,56,56,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,56,56,56,0,0,0,
+0,0,0,0,0,0,56,56,56,56,56,56,56,56,0,0,0,0,0,0,0,0,0,0,0,0,0,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,56,56,56,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,56,0,56,0,0,0,0,0,0,0,0,0,0,0,0,0,56,56,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,56,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,56,0,56,56,56,56,56,0,0,0,0,0,0,0,0,0,0,0,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,56,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,56,0,0,0,0,0,56,0,0,0,0,0,0,0,0,0,0,0,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,56,56,56,56,0,0,56,0,0,0,0,0,0,0,0,0,0,0,56,0,0,0,0,0,0,0,0,56,56,56,56,56,56,56,56,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,0,0,56,0,0,0,0,0,0,0,56,56,56,56,56,0,0,0,0,0,0,0,0,56,0,0,0,56,56,56,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,0,0,56,0,0,0,0,56,56,56,56,0,0,0,56,56,0,0,0,0,0,0,0,56,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,0,0,56,0,0,0,0,56,56,56,0,0,0,0,0,56,0,0,0,0,0,0,56,56,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,0,0,56,56,56,56,56,56,56,56,0,0,0,0,0,56,0,0,0,0,0,0,56,56,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,0,0,0,0,0,0,0,56,56,56,0,0,0,0,0,56,0,0,0,0,0,0,56,56,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,56,0,0,0,0,0,0,56,56,56,0,0,0,0,0,56,0,0,0,0,0,0,0,56,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,56,56,56,0,0,0,0,0,0,56,56,56,0,0,0,0,0,56,0,56,0,56,0,0,0,56,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,56,56,0,0,0,0,0,0,0,0,0,0,56,56,0,0,0,56,56,56,56,56,56,56,56,56,56,56,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,56,0,0,0,0,0,0,0,0,0,0,0,0,56,56,56,56,56,0,0,0,56,0,0,0,0,56,56,0,0,0,0,0,0,0,0,0,0,
+0,0,0,56,56,56,56,56,56,56,56,56,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,56,0,0,0,0,0,0,0,0,0,0,
+0,0,56,56,56,56,56,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,56,0,0,0,0,0,0,0,0,0,0,
+0,0,56,56,56,56,56,56,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,56,0,0,0,0,0,0,0,0,0,0,
+0,0,56,56,56,56,56,56,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,56,56,0,0,0,0,0,0,0,0,0,
+0,0,0,56,56,56,56,56,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,56,56,56,56,56,0,0,0,0,0,0,
+0,0,0,0,56,56,56,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,56,0,0,0,0,0,0,0,0,0,
+0,0,0,0,56,56,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="8" name="Object Layer 4" offsetx="0" offsety="-48">
+  <object id="13" type="Checkpoint" gid="64" x="944.5" y="849.5" width="48" height="52">
+   <properties>
+    <property name="Dialogue Type" value="None"/>
+    <property name="Disappear Cooldown" type="float" value="0"/>
+    <property name="Once" type="bool" value="false"/>
+    <property name="Password" value="Rook"/>
+    <property name="Required Keys" type="int" value="1"/>
+    <property name="Take Item" type="bool" value="false"/>
+    <property name="Unlock GID" type="int" value="0"/>
+    <property name="Unlock Item" value="Shifting Key"/>
+   </properties>
+  </object>
+  <object id="16" name="tp2" type="Custom Warp" gid="51" x="1470.5" y="63.5" width="61" height="32">
+   <properties>
+    <property name="Direction" value="Down Left"/>
+    <property name="Target Area" value="undernet0"/>
+    <property name="Target Object" value="11"/>
+   </properties>
+  </object>
+  <object id="17" name="tp3" type="Custom Warp" gid="51" x="768.5" y="575.5" width="61" height="32">
+   <properties>
+    <property name="Direction" value="Down Right"/>
+    <property name="Target Area" value="undernet0"/>
+    <property name="Target Object" value="18"/>
+   </properties>
+  </object>
+  <object id="33" name="Pepper" type="NPC" x="788.5" y="949.5">
+   <properties>
+    <property name="Asset Name" value="punk-navi-exe6_navy"/>
+    <property name="Dialogue Type" value="random"/>
+    <property name="Direction" value="Up Left"/>
+    <property name="Text 1" value="I saw somthing weird but no one belives me... A Golden Moloko! Where? In that area that we all thought didnt exsist anymore.. But it seemed to had move on. Where did it go..."/>
+    <property name="Text 2" value="Do you ever get the feeling that your not in control of what you say?... Just me?... Hm..."/>
+    <property name="Text 3" value="Some guy called smith down here makes new battle chips. He was cool with everyone till some dark navi abducted him... We all miss him"/>
+    <property name="Wait Time" value="2"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="34" name="Cleaver" type="NPC" x="149.5" y="1206.5">
+   <properties>
+    <property name="Asset Name" value="heel-navi-exe4_purple"/>
+    <property name="Dialogue Type" value="random"/>
+    <property name="Direction" value="Down Left"/>
+    <property name="Text 1" value="Hm?.."/>
+    <property name="Text 2" value="I wonder how often people get lost down here..."/>
+    <property name="Text 3" value="So bored... I should maybe... I dunno.... Make a robot navi or somthing and take care of it.... What? Whats that smile fer? Scram if your going to be weird about it!"/>
+    <property name="Wait Time" value="2"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="35" name="Flake" type="NPC" x="1365" y="145">
+   <properties>
+    <property name="Asset Name" value="heel-navi-exe4_white"/>
+    <property name="Dialogue Type" value="random"/>
+    <property name="Direction" value="Down Left"/>
+    <property name="Text 1" value="Maybe i should open a shop..."/>
+    <property name="Text 2" value="I hate snow."/>
+    <property name="Text 3" value="Wonder if that new area ever finished.."/>
+   </properties>
+   <point/>
+  </object>
+  <object id="36" name="Jade" type="NPC" x="566.5" y="277.5">
+   <properties>
+    <property name="Asset Name" value="female-navi-exe5_purple"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Up Right"/>
+    <property name="Next Waypoint 1" type="object" value="37"/>
+    <property name="Text 1" value="Im supposed to be waiting for someone here but I dont see them yet.. Did they stood me up?..."/>
+    <property name="Wait Time" value="2"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="37" name="Waypoint 1" type="Waypoint" x="214.5" y="277.5">
+   <properties>
+    <property name="Direction" value="Down Left"/>
+    <property name="Next Waypoint 1" type="object" value="36"/>
+    <property name="Wait Time" value="2"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="38" name="Heat" type="NPC" x="1175.5" y="1484.5">
+   <properties>
+    <property name="Asset Name" value="punk-navi-exe6_red"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Up Right"/>
+    <property name="Text 1" value="THE WINDBOXES! THE WINDBOXES!!! PLEASE MAKE THEM STOP!!!!"/>
+    <property name="Wait Time" value="2"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="40" name="Cream" type="NPC" x="1463" y="567">
+   <properties>
+    <property name="Asset Name" value="ow"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Up"/>
+    <property name="Text 1" value="Bahh!! "/>
+    <property name="Wait Time" value="2"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="41" name="Bagel" type="NPC" x="1428.5" y="567.5">
+   <properties>
+    <property name="Asset Name" value="ow"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Down"/>
+    <property name="Text 1" value="Bah? Bah.."/>
+    <property name="Wait Time" value="2"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="42" name="Zenny" type="NPC" x="788.5" y="1011.5">
+   <properties>
+    <property name="Asset Name" value="ow"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Right"/>
+    <property name="Text 1" value="bah! Babah!"/>
+    <property name="Wait Time" value="2"/>
+   </properties>
+   <point/>
+  </object>
  </objectgroup>
 </map>

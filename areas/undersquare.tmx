@@ -574,7 +574,7 @@
    </properties>
    <point/>
   </object>
-  <object id="77" name="Destroy" type="NPC" x="1008" y="976">
+  <object id="77" name="Chaos" type="NPC" x="1008" y="976">
    <properties>
     <property name="Asset Name" value="ow"/>
     <property name="Dialogue Type" value="first"/>
