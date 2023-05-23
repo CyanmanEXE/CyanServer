@@ -79,10 +79,77 @@ local encounter3 = {
     },    
 }
 
+local encounter4 = {
+    path="/server/assets/ezlibs-assets/ezencounters/ezencounters.zip",
+    weight=50,
+    enemies = {
+        {name="Fishy",rank=4},
+        {name="Volgear",rank=4},
+        {name="Gloomer",rank=1},
+     
+    },
+    positions = {
+        
+        {0,0,0,0,0,0},
+        {0,0,0,1,2,3},
+        {0,0,0,0,0,0}
+    },
+    tiles = {
+        {1,1,12,11,1,1},
+        {1,12,1,1,11,1},
+        {12,1,1,1,1,11}
+    },
+}
+
+local encounter5 = {
+    path="/server/assets/ezlibs-assets/ezencounters/ezencounters.zip",
+    weight=50,
+    enemies = {
+        {name="Shrimpy",rank=3},
+        {name="Canosmart",rank=1},
+        {name="Chimpy",rank=1},
+     
+    },
+    positions = {
+        
+        {0,0,0,1,3,0},
+        {0,0,0,0,0,0},
+        {0,0,0,0,2,1}
+    },
+    tiles = {
+        {2,2,1,1,1,1},
+        {2,1,1,1,1,1},
+        {2,9,2,1,1,1}
+    },
+}
+
+local encounter6 = {
+    path="/server/assets/ezlibs-assets/ezencounters/ezencounters.zip",
+    weight=50,
+    enemies = {
+        {name="Shrimpy",rank=3},
+        {name="Metrid",rank=4},
+        {name="MegaBunny",rank=1},
+        {name="Gloomer",rank=1},
+     
+    },
+    positions = {
+        
+        {0,0,0,0,2,0},
+        {0,0,0,4,0,1},
+        {0,0,0,0,3,0}
+    },
+    tiles = {
+        {1,12,1,1,11,1},
+        {2,1,13,11,1,11},
+        {1,9,1,1,11,1}
+    },
+}
+
 return {
     minimum_steps_before_encounter=80,
     encounter_chance_per_step=0.9,
-    encounters={encounter1, encounter2, encounter3}
+    encounters={encounter1, encounter2, encounter3, encounter4, encounter5, encounter6}
 }
 
 

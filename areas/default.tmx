@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" width="44" height="40" tilewidth="64" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="140">
+<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" width="44" height="40" tilewidth="64" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="172">
  <properties>
   <property name="Background" value="custom"/>
   <property name="Background Animation" value="/server/assets/custom/backgrounds/area1/GrayBG.animation"/>
@@ -24,6 +24,7 @@
  <tileset firstgid="87" source="../assets/tiles/Netopia_Tileset_directional_paths.tsx"/>
  <tileset firstgid="123" source="../assets/tiles/bn6_securitycube.tsx"/>
  <tileset firstgid="137" source="../assets/tiles/hp_warp.tsx"/>
+ <tileset firstgid="142" source="../assets/tiles/rak.tsx"/>
  <layer id="1" name="Tile Layer 1" width="44" height="40">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,12,0,0,0,0,0,0,0,0,0,0,0,0,8,7,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -34,7 +35,7 @@
 0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,4,0,0,0,0,0,0,0,0,0,0,0,0,12,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,4,3,3,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,3,3,3,3,4,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,0,0,12,12,12,12,0,0,0,0,0,0,0,
-0,0,0,0,0,0,3,3,4,3,3,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,0,12,12,0,0,12,0,0,0,0,0,0,0,
+0,0,0,0,0,0,3,3,4,3,3,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,0,12,12,0,0,12,0,0,0,0,0,0,0,
 0,0,0,0,0,4,4,3,3,3,3,2,2,2,1,5,1,1,0,0,0,0,0,0,0,0,0,0,0,0,12,0,0,0,0,0,12,0,0,0,0,0,0,0,
 0,0,0,0,0,0,3,3,3,3,4,0,0,1,1,0,0,1,1,0,0,0,0,0,0,3,0,0,0,0,12,12,12,0,0,0,12,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,12,0,0,0,12,12,12,0,12,12,0,0,
@@ -509,7 +510,7 @@
     <property name="Password" value="Veist"/>
     <property name="Required Keys" type="int" value="1"/>
     <property name="Take Item" type="bool" value="false"/>
-    <property name="Unlock GID" type="int" value="0"/>
+    <property name="Unlock GID" type="int" value="8"/>
     <property name="Unlock Item" value="Shifting Key"/>
    </properties>
   </object>
@@ -519,6 +520,56 @@
     <property name="Target Area" value="devroom"/>
     <property name="Target Object" value="1"/>
    </properties>
+  </object>
+  <object id="140" gid="144" x="675.5" y="1154.5" width="48" height="40"/>
+  <object id="141" gid="145" x="772" y="1184" width="48" height="40"/>
+  <object id="142" gid="145" x="838" y="1282" width="48" height="40"/>
+  <object id="143" gid="143" x="839" y="1223" width="48" height="40"/>
+  <object id="144" gid="143" x="331.5" y="582.5" width="48" height="40"/>
+  <object id="145" gid="143" x="323" y="573" width="48" height="40"/>
+  <object id="146" gid="143" x="317.5" y="574.5" width="48" height="40"/>
+  <object id="147" gid="143" x="321.5" y="584.5" width="48" height="40"/>
+  <object id="148" gid="143" x="330.5" y="575.5" width="48" height="40"/>
+  <object id="149" gid="143" x="324.5" y="579.5" width="48" height="40"/>
+  <object id="150" gid="143" x="328.5" y="587.5" width="48" height="40"/>
+  <object id="151" gid="143" x="321.5" y="586.5" width="48" height="40"/>
+  <object id="152" gid="143" x="318" y="580" width="48" height="40"/>
+  <object id="153" gid="143" x="314.5" y="587.5" width="48" height="40"/>
+  <object id="154" gid="143" x="335" y="591" width="48" height="40"/>
+  <object id="155" gid="143" x="336.5" y="573.5" width="48" height="40"/>
+  <object id="156" gid="144" x="764" y="840" width="48" height="40"/>
+  <object id="157" gid="144" x="776.5" y="827.5" width="48" height="40"/>
+  <object id="158" gid="144" x="776.5" y="841.5" width="48" height="40"/>
+  <object id="159" gid="144" x="764.5" y="831.5" width="48" height="40"/>
+  <object id="160" gid="144" x="768.5" y="827.5" width="48" height="40"/>
+  <object id="161" gid="145" x="1031.5" y="1208.5" width="48" height="40"/>
+  <object id="162" gid="2147483793" x="1043.5" y="1260.5" width="48" height="40"/>
+  <object id="163" gid="2147483793" x="977.5" y="1254.5" width="48" height="40"/>
+  <object id="164" gid="145" x="977.5" y="1198.5" width="48" height="40"/>
+  <object id="165" gid="144" x="1090.5" y="1121.5" width="48" height="40"/>
+  <object id="166" gid="144" x="894.5" y="569.5" width="48" height="40"/>
+  <object id="167" gid="144" x="926.5" y="453.5" width="48" height="40"/>
+  <object id="168" gid="144" x="285.5" y="994.5" width="48" height="40"/>
+  <object id="169" gid="144" x="321.5" y="706.5" width="48" height="40"/>
+  <object id="170" name="Pink" type="NPC" x="1007.5" y="1164.5">
+   <properties>
+    <property name="Asset Name" value="punk-navi-exe6_red"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Up Right"/>
+    <property name="Text 1" value="Sorry kid, this area is offline at the moment..."/>
+    <property name="Wait Time" value="2"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="171" name="Prog-582" type="NPC" x="436.5" y="277.5">
+   <properties>
+    <property name="Asset Name" value="prog"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Down Right"/>
+    <property name="Text 1" value="I AM SORRY, BUT THE OWNER OF THIS PLACE WANTS NO OUTSIDERS TO GET IN! IF YOU ALREADY DONT KNOW HOW TO GET IN, THAT MEANS YOU ARENT SUPPOSED TO BE IN THERE!"/>
+    <property name="Wait Time" value="2"/>
+   </properties>
+   <point/>
   </object>
  </objectgroup>
  <layer id="7" name="Tile Layer 2" width="44" height="40" offsetx="0" offsety="-16">

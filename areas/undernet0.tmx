@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" width="50" height="45" tilewidth="64" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="43">
+<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" width="50" height="45" tilewidth="64" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="81">
  <properties>
   <property name="Background" value="custom"/>
   <property name="Background Animation" value="/server/assets/custom/backgrounds/area1/GrayBG.animation"/>
@@ -16,6 +16,7 @@
  <tileset firstgid="50" source="../assets/tiles/warp.tsx"/>
  <tileset firstgid="56" source="../assets/tiles/Custom_Central_Tiles_yes.tsx"/>
  <tileset firstgid="64" source="../assets/tiles/bn6_securitycube.tsx"/>
+ <tileset firstgid="78" source="../assets/tiles/rak.tsx"/>
  <layer id="1" name="Tile Layer 1" width="50" height="45">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -54,11 +55,11 @@
 0,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,8,8,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,5,5,0,0,0,0,0,0,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,10,5,5,0,0,0,0,0,0,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,11,11,11,12,0,0,5,5,5,5,5,5,5,5,5,26,26,26,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,12,8,12,11,7,7,7,11,0,0,5,0,0,5,5,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,8,8,8,11,7,7,7,11,0,0,5,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,12,8,12,11,7,7,7,11,5,5,10,0,0,7,7,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,8,12,8,0,11,7,7,7,11,0,0,5,0,0,5,5,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,8,8,8,8,11,7,7,7,11,0,0,5,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,8,12,8,0,11,7,7,7,11,5,5,10,0,0,7,7,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11,7,7,7,11,0,0,0,0,0,7,7,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,11,11,11,12,0,0,0,0,0,7,7,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -137,7 +138,7 @@
     <property name="Unlock Item" value="Shifting Key"/>
    </properties>
   </object>
-  <object id="14" type="Checkpoint" gid="64" x="529" y="433" width="48" height="52">
+  <object id="14" type="Checkpoint" gid="64" x="1584" y="1416" width="48" height="52">
    <properties>
     <property name="Dialogue Type" value="None"/>
     <property name="Disappear Cooldown" type="float" value="0"/>
@@ -172,7 +173,7 @@
    </properties>
    <point/>
   </object>
-  <object id="20" name="UwUta" type="NPC" x="531" y="1269">
+  <object id="20" name="UwUta" type="NPC" x="559" y="1297">
    <properties>
     <property name="Asset Name" value="heel-navi-exe4_blue"/>
     <property name="Dialogue Type" value="random"/>
@@ -186,7 +187,7 @@
    </properties>
    <point/>
   </object>
-  <object id="21" name="Trella" type="NPC" x="498.5" y="1271.5">
+  <object id="21" name="Trella" type="NPC" x="525" y="1297">
    <properties>
     <property name="Asset Name" value="heel-navi-exe4_green"/>
     <property name="Dialogue Type" value="random"/>
@@ -198,7 +199,7 @@
    </properties>
    <point/>
   </object>
-  <object id="22" name="Keyan" type="NPC" x="510" y="1256">
+  <object id="22" name="Keyan" type="NPC" x="537.5" y="1284.5">
    <properties>
     <property name="Asset Name" value="heel-navi-exe4_black"/>
     <property name="Dialogue Type" value="random"/>
@@ -211,7 +212,7 @@
    </properties>
    <point/>
   </object>
-  <object id="23" name="Drawy" type="NPC" x="518.5" y="1289.5">
+  <object id="23" name="Drawy" type="NPC" x="549.5" y="1312.5">
    <properties>
     <property name="Asset Name" value="female-navi-exe5_lime"/>
     <property name="Dialogue Type" value="random"/>
@@ -223,14 +224,14 @@
    </properties>
    <point/>
   </object>
-  <object id="24" name="tp1" type="Custom Warp" gid="51" x="415.5" y="1248.5" width="61" height="32">
+  <object id="24" name="tp1" type="Custom Warp" gid="51" x="383" y="1249" width="61" height="32">
    <properties>
     <property name="Direction" value="Down Right"/>
-    <property name="Target Area" value="undernet0"/>
-    <property name="Target Object" value="16"/>
+    <property name="Target Area" value="dungeon"/>
+    <property name="Target Object" value="1"/>
    </properties>
   </object>
-  <object id="25" type="Checkpoint" gid="64" x="464.5" y="1297.5" width="48" height="52">
+  <object id="25" type="Checkpoint" gid="64" x="1543.5" y="1406.5" width="48" height="52">
    <properties>
     <property name="Dialogue Type" value="None"/>
     <property name="Disappear Cooldown" type="float" value="0"/>
@@ -242,7 +243,7 @@
     <property name="Unlock Item" value="Shifting Key"/>
    </properties>
   </object>
-  <object id="26" type="Checkpoint" gid="64" x="465" y="1265" width="48" height="52">
+  <object id="26" type="Checkpoint" gid="64" x="1578" y="1394" width="48" height="52">
    <properties>
     <property name="Dialogue Type" value="None"/>
     <property name="Disappear Cooldown" type="float" value="0"/>
@@ -250,11 +251,11 @@
     <property name="Password" value="a"/>
     <property name="Required Keys" type="int" value="1"/>
     <property name="Take Item" type="bool" value="false"/>
-    <property name="Unlock GID" type="int" value="0"/>
+    <property name="Unlock GID" type="int" value="8"/>
     <property name="Unlock Item" value="Shifting Key"/>
    </properties>
   </object>
-  <object id="27" type="Checkpoint" gid="64" x="464.5" y="1233.5" width="48" height="52">
+  <object id="27" type="Checkpoint" gid="64" x="1582" y="1390" width="48" height="52">
    <properties>
     <property name="Dialogue Type" value="None"/>
     <property name="Disappear Cooldown" type="float" value="0"/>
@@ -332,6 +333,61 @@
    </properties>
    <point/>
   </object>
+  <object id="43" name="Prog-135" type="NPC" x="760" y="1176">
+   <properties>
+    <property name="Asset Name" value="prog"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Down Left"/>
+    <property name="Text 1" value="HELLO, THIS AREA IS PRIVATE AS IT BELONGS TO A CUTE FLUFFY MOLOKO! IF YOU WANT ACESS YOU MUST PROVIDE THE PASSWORD... NEED A HINT? IT'S THE MOLOKO'S FAVORITE CHIP! IT TALKS ABOUT DARKNESS ALOT... SO MAYBE THERES A CLUE THERE!"/>
+    <property name="Wait Time" value="2"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="45" name="Plotter" type="NPC" x="472" y="440">
+   <properties>
+    <property name="Asset Name" value="heel-navi-exe4_yellow"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Down Right"/>
+    <property name="Text 1" value="Hm? What am I doing? I'm thinking of making a nice lil area where its just a giant flat land and just filled to the brim with viruses! To kill and squash under your boot! It gets me RILED UP!... Ahem... Sorry virus busting just gets me going ya know?..."/>
+    <property name="Wait Time" value="2"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="46" gid="79" x="318.5" y="1065.5" width="48" height="40"/>
+  <object id="47" gid="79" x="336" y="1052" width="48" height="40"/>
+  <object id="48" gid="79" x="334" y="1068" width="48" height="40"/>
+  <object id="49" gid="79" x="320" y="1054" width="48" height="40"/>
+  <object id="50" gid="79" x="252.5" y="1067.5" width="48" height="40"/>
+  <object id="51" gid="81" x="258.5" y="991.5" width="48" height="40"/>
+  <object id="52" gid="81" x="229.5" y="832.5" width="48" height="40"/>
+  <object id="53" gid="80" x="222" y="842" width="48" height="40"/>
+  <object id="54" gid="80" x="235" y="831" width="48" height="40"/>
+  <object id="55" gid="80" x="825" y="1305" width="48" height="40"/>
+  <object id="56" gid="80" x="828.5" y="1319.5" width="48" height="40"/>
+  <object id="57" gid="80" x="840.5" y="1307.5" width="48" height="40"/>
+  <object id="58" gid="80" x="839" y="1317" width="48" height="40"/>
+  <object id="59" gid="80" x="907" y="1387" width="48" height="40"/>
+  <object id="60" gid="80" x="1283" y="995" width="48" height="40"/>
+  <object id="61" gid="80" x="993.5" y="606.5" width="48" height="40"/>
+  <object id="62" gid="80" x="985.5" y="700.5" width="48" height="40"/>
+  <object id="63" gid="80" x="999" y="701" width="48" height="40"/>
+  <object id="64" gid="80" x="1245.5" y="666.5" width="48" height="40"/>
+  <object id="65" gid="80" x="1247.5" y="678.5" width="48" height="40"/>
+  <object id="66" gid="80" x="1258" y="670" width="48" height="40"/>
+  <object id="67" gid="80" x="1259" y="679" width="48" height="40"/>
+  <object id="68" gid="80" x="1242" y="684" width="48" height="40"/>
+  <object id="69" gid="80" x="920" y="640" width="48" height="40"/>
+  <object id="70" gid="81" x="952.5" y="503.5" width="48" height="40"/>
+  <object id="71" gid="81" x="972" y="520" width="48" height="40"/>
+  <object id="72" gid="81" x="825" y="453" width="48" height="40"/>
+  <object id="73" gid="2147483729" x="838.5" y="443.5" width="48" height="40"/>
+  <object id="74" gid="80" x="836.5" y="453.5" width="48" height="40"/>
+  <object id="75" gid="80" x="612" y="418" width="48" height="40"/>
+  <object id="76" gid="80" x="601" y="415" width="48" height="40"/>
+  <object id="77" gid="80" x="897" y="1189" width="48" height="40"/>
+  <object id="78" gid="80" x="796" y="926" width="48" height="40"/>
+  <object id="79" gid="79" x="801.5" y="940.5" width="48" height="40"/>
+  <object id="80" gid="79" x="815" y="927" width="48" height="40"/>
  </objectgroup>
  <layer id="3" name="Tile Layer 2" width="50" height="45" offsetx="0" offsety="-16">
   <data encoding="csv">
@@ -463,9 +519,9 @@
 0,0,0,0,0,0,0,0,0,0,0,56,0,0,0,0,0,56,0,0,0,0,0,0,0,0,0,0,0,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,56,56,56,56,0,0,56,0,0,0,0,0,0,0,0,0,0,0,56,0,0,0,0,0,0,0,0,56,56,56,56,56,56,56,56,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,0,0,56,0,0,0,0,0,0,0,56,56,56,56,56,0,0,0,0,0,0,0,0,56,0,0,0,56,56,56,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,0,0,56,0,0,0,0,56,56,56,56,0,0,0,56,56,0,0,0,0,0,0,0,56,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,0,0,56,0,0,0,0,56,56,56,0,0,0,0,0,56,0,0,0,0,0,0,56,56,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,0,0,56,56,56,56,56,56,56,56,0,0,0,0,0,56,0,0,0,0,0,0,56,56,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,0,0,56,0,0,0,0,56,56,56,56,0,0,0,56,56,56,0,0,0,0,0,0,56,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,0,0,56,0,0,0,0,56,56,56,0,0,0,0,0,56,56,0,0,0,0,0,56,56,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,0,0,56,56,56,56,56,56,56,56,0,0,0,0,0,56,56,0,0,0,0,0,56,56,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,0,0,0,0,0,0,0,56,56,56,0,0,0,0,0,56,0,0,0,0,0,0,56,56,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,56,0,0,0,0,0,0,56,56,56,0,0,0,0,0,56,0,0,0,0,0,0,0,56,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,56,56,56,0,0,0,0,0,0,56,56,56,0,0,0,0,0,56,0,56,0,56,0,0,0,56,0,0,0,0,0,0,0,0,0,0,0,
@@ -599,6 +655,16 @@
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Right"/>
     <property name="Text 1" value="bah! Babah!"/>
+    <property name="Wait Time" value="2"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="44" name="Ladder" type="NPC" x="1008" y="912">
+   <properties>
+    <property name="Asset Name" value="heel-navi-exe4_purple"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Up Left"/>
+    <property name="Text 1" value="Hm? Whats the code for that gate? I think a bud of mines said its a really good deffense chip... Started with a R I think..."/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>

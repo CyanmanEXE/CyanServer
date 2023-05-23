@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" width="80" height="80" tilewidth="64" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="202">
+<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" width="80" height="80" tilewidth="64" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="307">
  <properties>
   <property name="Background" value="custom"/>
   <property name="Background Animation" value="/server/assets/custom/backgrounds/area1/GrayBG.animation"/>
@@ -25,30 +25,32 @@
  <tileset firstgid="116" source="../assets/tiles/tree.tsx"/>
  <tileset firstgid="120" source="../assets/tiles/bn6_securitycube.tsx"/>
  <tileset firstgid="134" source="../assets/tiles/Internet House.tsx"/>
+ <tileset firstgid="135" source="../assets/tiles/frag.tsx"/>
+ <tileset firstgid="136" source="../assets/tiles/rak.tsx"/>
  <layer id="3" name="Tile Layer 1" width="80" height="80">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,84,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,84,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,1,1,1,3,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,84,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,1,1,1,1,1,1,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,1,1,1,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,3,1,1,1,3,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,1,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,1,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,1,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,1,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,65,0,0,62,62,62,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,62,62,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,56,1,1,1,0,0,0,1,1,1,1,0,0,0,0,0,0,8,8,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,8,8,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,1,5,1,1,1,1,1,0,0,0,0,0,0,8,8,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,7,7,7,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,1,1,1,1,1,1,1,0,1,1,1,1,1,5,0,0,0,1,0,0,4,1,0,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,19,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,84,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,0,0,
+0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,1,1,1,1,1,1,0,0,0,
+0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,62,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,1,1,1,0,0,0,
+0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,3,1,1,1,3,0,0,0,
+0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,1,1,1,1,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,1,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,1,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,12,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,1,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,1,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,65,0,0,62,62,62,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,0,1,1,0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,62,62,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,56,1,1,1,0,0,0,1,1,1,1,0,0,0,0,0,0,8,8,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,8,8,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,5,1,1,1,1,1,0,0,0,0,0,0,8,8,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,7,7,7,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,4,1,0,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,19,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,
 0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,
 0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,1,1,1,1,1,1,0,0,0,0,0,0,8,8,8,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,
 0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,8,8,8,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,
@@ -66,7 +68,7 @@
 0,5,1,0,0,0,0,0,0,0,1,1,1,0,0,1,1,1,56,1,1,1,1,1,1,6,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,62,0,0,3,1,1,1,1,1,1,3,0,0,0,65,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,
 0,0,1,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,62,0,0,0,6,1,1,1,1,6,0,0,0,0,65,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,
 0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,65,65,0,0,0,0,0,0,0,4,0,0,0,0,62,0,0,0,0,0,0,0,0,0,0,0,0,0,65,0,0,0,0,0,0,4,0,0,0,0,0,1,0,0,0,0,0,0,0,
-0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,65,65,0,0,0,0,0,0,0,1,0,0,0,0,3,56,56,56,56,1,1,1,56,56,56,56,56,56,3,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,
+0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,65,65,0,0,0,0,0,0,0,1,0,0,0,0,3,56,56,56,56,1,1,1,56,56,56,56,56,56,3,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,
 0,0,0,1,1,1,1,1,1,1,0,0,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,1,5,1,1,1,0,0,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,1,1,1,1,1,2,2,2,2,2,2,2,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,1,1,1,1,1,0,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,
@@ -155,7 +157,7 @@
     <property name="Asset Name" value="heel-navi-exe4_red"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Right"/>
-    <property name="Text 1" value="What if you can spell sus without the sus?"/>
+    <property name="Text 1" value="Oh yeah so hot…!"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -486,7 +488,7 @@
     <property name="Asset Name" value="punk-navi-exe6_red"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Left"/>
-    <property name="Text 1" value="Huh? im not even a fan, just the only people  I talk too so I just go along whatever they say."/>
+    <property name="Text 1" value="I need more fire chips to show that I like fire. I should hunt for some spikey viruses.."/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -496,7 +498,7 @@
     <property name="Asset Name" value="punk-navi-exe6_red"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Right"/>
-    <property name="Text 1" value="Huh? im not even a fan, just the only people  I talk too so I just go along whatever they say."/>
+    <property name="Text 1" value="What is it?"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -506,7 +508,7 @@
     <property name="Asset Name" value="punk-navi-exe6_red"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Right"/>
-    <property name="Text 1" value="Huh? im not even a fan, just the only people  I talk too so I just go along whatever they say."/>
+    <property name="Text 1" value="Yo, Got a fire chip you can trade me? I'm tryna be my own cool hero protaganist who only uses fire chips! I'll call it the burning Ronin Navi!"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -526,7 +528,7 @@
     <property name="Asset Name" value="heel-navi-exe4_red"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Left"/>
-    <property name="Text 1" value="What if you can spell sus without the sus?"/>
+    <property name="Text 1" value="Welcome to the Fire club, we aim to spread far and wide and grow while at it! If you cant take the heat then get out!"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -743,6 +745,36 @@
    </properties>
    <point/>
   </object>
+  <object id="202" name="Burn guy" type="NPC" x="2360" y="1272">
+   <properties>
+    <property name="Asset Name" value="heel-navi-exe4_red"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Down Right"/>
+    <property name="Text 1" value="Hey lil ember, this is the Fire navi club! You need the password to get in or your not gettin in... What's the password? You think im that dumb to...ehh why do I care, its Salamandar... Look you guard this box 24/7 and get the &quot;hey man whats the password?&quot; over and over again, it gets repetetive and annoying after a while and im the only one to be in this position! I'm startin to think they dont like me........"/>
+    <property name="Wait Time" value="2"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="206" gid="135" x="1694.5" y="1341.5" width="28" height="34"/>
+  <object id="207" gid="135" x="2204.5" y="1563.5" width="28" height="34"/>
+  <object id="208" gid="135" x="2201.5" y="1570.5" width="28" height="34"/>
+  <object id="209" gid="135" x="2212" y="1570" width="28" height="34"/>
+  <object id="222" gid="135" x="836.5" y="211.5" width="28" height="34"/>
+  <object id="223" gid="135" x="828.5" y="209.5" width="28" height="34"/>
+  <object id="224" gid="135" x="822.5" y="211.5" width="28" height="34"/>
+  <object id="225" gid="135" x="819" y="217" width="28" height="34"/>
+  <object id="226" gid="135" x="818" y="224" width="28" height="34"/>
+  <object id="227" gid="135" x="822" y="230" width="28" height="34"/>
+  <object id="228" gid="135" x="829.5" y="234.5" width="28" height="34"/>
+  <object id="229" gid="135" x="835.5" y="234.5" width="28" height="34"/>
+  <object id="230" gid="135" x="839" y="229" width="28" height="34"/>
+  <object id="231" gid="135" x="839" y="221" width="28" height="34"/>
+  <object id="232" gid="135" x="711" y="389" width="28" height="34"/>
+  <object id="233" gid="135" x="893" y="667" width="28" height="34"/>
+  <object id="234" gid="135" x="924.5" y="1147.5" width="28" height="34"/>
+  <object id="235" gid="135" x="1018" y="1342" width="28" height="34"/>
+  <object id="236" gid="135" x="738" y="1260" width="28" height="34"/>
+  <object id="237" gid="135" x="1536" y="1340" width="28" height="34"/>
  </objectgroup>
  <layer id="4" name="Tile Layer 2" width="80" height="80" offsetx="0" offsety="-16">
   <data encoding="csv">
@@ -858,6 +890,9 @@
   <object id="166" gid="101" x="440" y="288" width="64" height="32"/>
   <object id="167" gid="101" x="560" y="216" width="64" height="32"/>
   <object id="168" gid="101" x="400" y="376" width="64" height="32"/>
+  <object id="251" gid="135" x="468.5" y="211.5" width="28" height="34"/>
+  <object id="252" gid="135" x="469" y="221" width="28" height="34"/>
+  <object id="253" gid="135" x="480.5" y="211.5" width="28" height="34"/>
  </objectgroup>
  <layer id="5" name="Tile Layer 3" width="80" height="80" offsetx="0" offsety="-32">
   <data encoding="csv">
@@ -1013,8 +1048,8 @@
 36,36,36,36,36,36,36,36,36,36,0,0,0,0,0,0,36,36,36,36,36,0,0,0,0,0,0,0,0,0,0,0,0,0,36,36,36,36,36,36,36,36,36,36,0,0,0,0,0,0,0,36,0,0,0,0,0,36,0,0,36,36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 36,36,36,36,36,36,36,36,36,36,36,36,36,36,36,36,36,0,0,0,36,36,36,36,36,36,36,36,36,36,36,36,36,36,36,36,36,36,36,36,36,36,36,36,36,36,36,36,36,36,36,36,0,0,0,0,36,36,36,36,36,36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 36,36,36,36,36,36,36,36,36,36,0,0,0,0,0,0,36,36,36,36,36,0,0,0,0,0,0,0,0,0,0,0,0,0,36,36,36,36,36,36,36,36,36,36,0,0,0,0,0,0,0,36,0,0,0,0,0,36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-36,36,36,36,36,36,36,36,36,36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,36,36,36,36,36,36,36,36,0,0,0,0,0,0,0,0,36,0,0,0,0,0,36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-36,36,36,36,36,36,36,36,36,36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,36,36,36,36,36,36,0,0,0,0,0,0,0,0,0,36,0,0,0,0,0,36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+36,36,36,36,36,36,36,36,36,36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,36,36,36,36,36,36,36,36,0,0,0,0,0,0,0,0,36,36,36,36,36,0,36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+36,36,36,36,36,36,36,36,36,36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,36,36,36,36,36,36,0,0,0,0,0,0,0,0,0,36,36,36,36,36,0,36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 36,36,36,36,36,36,36,36,36,36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,36,36,36,36,36,36,36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -1074,9 +1109,9 @@
   <object id="84" gid="104" x="604" y="158" width="64" height="32"/>
   <object id="85" gid="103" x="572" y="126" width="64" height="32"/>
   <object id="86" gid="105" x="636" y="190" width="64" height="32"/>
-  <object id="87" gid="104" x="708" y="158" width="64" height="32"/>
-  <object id="88" gid="103" x="676" y="126" width="64" height="32"/>
-  <object id="89" gid="105" x="740" y="190" width="64" height="32"/>
+  <object id="87" gid="104" x="736" y="160" width="64" height="32"/>
+  <object id="88" gid="103" x="704" y="128" width="64" height="32"/>
+  <object id="89" gid="105" x="768" y="192" width="64" height="32"/>
   <object id="90" gid="104" x="180" y="382" width="64" height="32"/>
   <object id="91" gid="103" x="148" y="350" width="64" height="32"/>
   <object id="92" gid="105" x="212" y="414" width="64" height="32"/>
@@ -1176,11 +1211,146 @@
     <property name="Dialogue Type" value="None"/>
     <property name="Disappear Cooldown" type="float" value="0"/>
     <property name="Once" type="bool" value="false"/>
-    <property name="Password" value="Bolt"/>
+    <property name="Password" value="Delete"/>
     <property name="Required Keys" type="int" value="1"/>
     <property name="Take Item" type="bool" value="false"/>
     <property name="Unlock GID" type="int" value="0"/>
     <property name="Unlock Item" value="Shifting Key"/>
+   </properties>
+  </object>
+  <object id="204" name="Blade" type="NPC" x="1720" y="2168">
+   <properties>
+    <property name="Asset Name" value="heel-navi-exe4_black"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Up Right"/>
+    <property name="Text 1" value="Trying to get overthere too? Yea im trying to figure out the same thing... The password I herd is somthing.... Powerful... Some navi's name... Wonder who's?"/>
+    <property name="Wait Time" value="2"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="210" gid="135" x="317.5" y="962.5" width="28" height="34"/>
+  <object id="211" gid="135" x="323" y="957" width="28" height="34"/>
+  <object id="212" gid="135" x="314" y="952" width="28" height="34"/>
+  <object id="213" gid="135" x="309.5" y="960.5" width="28" height="34"/>
+  <object id="214" gid="135" x="323" y="759" width="28" height="34"/>
+  <object id="215" gid="135" x="314.5" y="757.5" width="28" height="34"/>
+  <object id="216" gid="135" x="308.5" y="759.5" width="28" height="34"/>
+  <object id="217" gid="135" x="308.5" y="765.5" width="28" height="34"/>
+  <object id="218" gid="135" x="314.5" y="773.5" width="28" height="34"/>
+  <object id="219" gid="135" x="322" y="778" width="28" height="34"/>
+  <object id="220" gid="135" x="326.5" y="771.5" width="28" height="34"/>
+  <object id="221" gid="135" x="320" y="764" width="28" height="34"/>
+  <object id="238" gid="135" x="1941.5" y="242.5" width="28" height="34"/>
+  <object id="239" gid="135" x="1950" y="250" width="28" height="34"/>
+  <object id="240" gid="135" x="1953.5" y="264.5" width="28" height="34"/>
+  <object id="241" gid="135" x="1945.5" y="256.5" width="28" height="34"/>
+  <object id="242" gid="135" x="1942.5" y="261.5" width="28" height="34"/>
+  <object id="243" gid="135" x="1950" y="278" width="28" height="34"/>
+  <object id="244" gid="135" x="1954.5" y="279.5" width="28" height="34"/>
+  <object id="245" gid="135" x="1950.5" y="267.5" width="28" height="34"/>
+  <object id="246" gid="135" x="1942" y="278" width="28" height="34"/>
+  <object id="247" gid="135" x="1943" y="289" width="28" height="34"/>
+  <object id="248" gid="135" x="1951" y="293" width="28" height="34"/>
+  <object id="249" gid="135" x="1957" y="291" width="28" height="34"/>
+  <object id="250" gid="135" x="325" y="161" width="28" height="34"/>
+  <object id="254" gid="135" x="1326.5" y="2189.5" width="28" height="34"/>
+  <object id="255" gid="135" x="1240" y="2054" width="28" height="34"/>
+  <object id="256" gid="135" x="1188.5" y="2095.5" width="28" height="34"/>
+  <object id="257" gid="135" x="1233.5" y="2172.5" width="28" height="34"/>
+  <object id="258" gid="135" x="1332.5" y="2059.5" width="28" height="34"/>
+  <object id="259" gid="135" x="1278" y="2018" width="28" height="34"/>
+  <object id="260" gid="135" x="1279" y="2135" width="28" height="34"/>
+  <object id="261" gid="135" x="1179.5" y="2138.5" width="28" height="34"/>
+  <object id="262" gid="135" x="1157" y="2047" width="28" height="34"/>
+  <object id="263" gid="135" x="1286.5" y="2077.5" width="28" height="34"/>
+  <object id="264" gid="135" x="1271" y="2197" width="28" height="34"/>
+  <object id="265" gid="135" x="1231" y="2103" width="28" height="34"/>
+  <object id="266" gid="135" x="1372" y="2132" width="28" height="34"/>
+  <object id="267" gid="135" x="1307.5" y="2106.5" width="28" height="34"/>
+  <object id="268" gid="135" x="1321" y="2013" width="28" height="34"/>
+  <object id="269" gid="135" x="1231.5" y="2012.5" width="28" height="34"/>
+  <object id="270" gid="135" x="1184.5" y="2187.5" width="28" height="34"/>
+  <object id="271" gid="135" x="1133" y="2083" width="28" height="34"/>
+  <object id="272" gid="135" x="35.5" y="2222.5" width="28" height="34"/>
+  <object id="273" gid="135" x="263.5" y="2212.5" width="28" height="34"/>
+  <object id="274" gid="135" x="268" y="2004" width="28" height="34"/>
+  <object id="275" gid="135" x="84.5" y="1983.5" width="28" height="34"/>
+  <object id="276" gid="135" x="56" y="2140" width="28" height="34"/>
+  <object id="277" gid="135" x="314.5" y="2077.5" width="28" height="34"/>
+  <object id="278" gid="135" x="182.5" y="1973.5" width="28" height="34"/>
+  <object id="279" gid="135" x="79.5" y="2118.5" width="28" height="34"/>
+  <object id="280" gid="135" x="186.5" y="2221.5" width="28" height="34"/>
+  <object id="281" gid="135" x="278.5" y="2123.5" width="28" height="34"/>
+  <object id="282" gid="135" x="54.5" y="2015.5" width="28" height="34"/>
+  <object id="283" gid="135" x="101" y="2199" width="28" height="34"/>
+  <object id="284" gid="135" x="242.5" y="1949.5" width="28" height="34"/>
+  <object id="285" gid="135" x="106.5" y="2029.5" width="28" height="34"/>
+  <object id="286" gid="135" x="298.5" y="2193.5" width="28" height="34"/>
+  <object id="287" gid="135" x="215.5" y="2030.5" width="28" height="34"/>
+  <object id="288" gid="135" x="31.5" y="2054.5" width="28" height="34"/>
+  <object id="289" gid="135" x="37.5" y="1954.5" width="28" height="34"/>
+  <object id="290" gid="135" x="186.5" y="2169.5" width="28" height="34"/>
+  <object id="291" gid="135" x="317.5" y="2174.5" width="28" height="34"/>
+  <object id="292" gid="135" x="302.5" y="1989.5" width="28" height="34"/>
+  <object id="293" gid="135" x="132.5" y="2165.5" width="28" height="34"/>
+  <object id="294" name="Nade" type="NPC" x="1749.5" y="2166.5">
+   <properties>
+    <property name="Asset Name" value="heel-navi-exe4_black"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Up Right"/>
+    <property name="Text 1" value="Actually I think the password is somthing else.. Might be somthing about dying but for navis being killed... What was the word...?"/>
+    <property name="Wait Time" value="2"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="295" gid="136" x="159" y="2113" width="48" height="40">
+   <properties>
+    <property name="Flavor" value="Seems like a broken grave stone... But from who?...."/>
+   </properties>
+  </object>
+  <object id="296" gid="136" x="166.5" y="2083.5" width="48" height="40">
+   <properties>
+    <property name="Flavor" value="Seems like a broken grave stone... But from who?...."/>
+   </properties>
+  </object>
+  <object id="297" gid="2147483784" x="188" y="2074" width="48" height="40">
+   <properties>
+    <property name="Flavor" value="Seems like a broken grave stone... But from who?...."/>
+   </properties>
+  </object>
+  <object id="298" gid="137" x="194.5" y="2117.5" width="48" height="40">
+   <properties>
+    <property name="Flavor" value="Seems like a broken grave stone... But from who?...."/>
+   </properties>
+  </object>
+  <object id="299" gid="137" x="193" y="2099" width="48" height="40">
+   <properties>
+    <property name="Flavor" value="Seems like a broken grave stone... But from who?...."/>
+   </properties>
+  </object>
+  <object id="300" gid="137" x="179.5" y="2104.5" width="48" height="40">
+   <properties>
+    <property name="Flavor" value="Seems like a broken grave stone... But from who?...."/>
+   </properties>
+  </object>
+  <object id="301" gid="138" x="208" y="2104" width="48" height="40">
+   <properties>
+    <property name="Flavor" value="Seems like a broken grave stone... But from who?...."/>
+   </properties>
+  </object>
+  <object id="302" gid="138" x="181" y="2123" width="48" height="40">
+   <properties>
+    <property name="Flavor" value="Seems like a broken grave stone... But from who?...."/>
+   </properties>
+  </object>
+  <object id="303" gid="139" x="165.5" y="2096.5" width="48" height="40">
+   <properties>
+    <property name="Flavor" value="Seems like a broken grave stone... But from who?...."/>
+   </properties>
+  </object>
+  <object id="304" gid="2147483787" x="176" y="2082" width="48" height="40">
+   <properties>
+    <property name="Flavor" value="Seems like a broken grave stone... But from who?...."/>
    </properties>
   </object>
  </objectgroup>

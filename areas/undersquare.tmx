@@ -937,7 +937,7 @@
 </data>
  </layer>
  <objectgroup id="6" name="Object Layer 3" offsetx="0" offsety="-32">
-  <object id="115" name="Yokai" type="NPC" x="85.5" y="150.5">
+  <object id="115" name="Yokai" type="NPC" x="179.5" y="438.5">
    <properties>
     <property name="Asset Name" value="heel-navi-exe4_blue"/>
     <property name="Dialogue Type" value="first"/>
@@ -947,7 +947,7 @@
    </properties>
    <point/>
   </object>
-  <object id="116" name="Ky" type="NPC" x="88" y="182">
+  <object id="116" name="Ky" type="NPC" x="181.5" y="470.5">
    <properties>
     <property name="Asset Name" value="punk-navi-exe6_red"/>
     <property name="Dialogue Type" value="first"/>
@@ -957,7 +957,7 @@
    </properties>
    <point/>
   </object>
-  <object id="117" name="Layla" type="NPC" x="53.5" y="148.5">
+  <object id="117" name="Layla" type="NPC" x="153" y="467">
    <properties>
     <property name="Asset Name" value="female-navi-exe5_purple"/>
     <property name="Dialogue Type" value="first"/>
