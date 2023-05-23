@@ -153,7 +153,7 @@ local encounter8 = {
     enemies = {
         {name="Basher",rank=1},--!
         {name="VacuumFan",rank=4},
-        {name="Breaker",rank=1},
+        {name="Mettaur",rank=3},
         
     },
     positions = {

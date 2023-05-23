@@ -5,7 +5,7 @@
   <property name="Background Animation" value="/server/assets/custom/backgrounds/hp/bg.animation"/>
   <property name="Background Texture" value="/server/assets/custom/backgrounds/hp/bg.png"/>
   <property name="Background Vel X" value="1"/>
-  <property name="Background Vel Y" value="3"/>
+  <property name="Background Vel Y" value="2"/>
   <property name="Name" value="Cyanman HP"/>
   <property name="Song" value="/server/assets/music/undernet4theme.ogg"/>
  </properties>
