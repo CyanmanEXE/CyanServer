@@ -20,7 +20,7 @@ local encounter1 = {
         {1,8,2,11,1,11}
     },
     music={
-        path="/server/encounters/bn4ds.ogg"
+        path="bn4ds.ogg"
     }
 }
 
@@ -52,7 +52,7 @@ local encounter2 = {
         {0,0,0,0,0,1}
     },
     music={
-        path="/server/encounters/bn4ds.ogg"
+        path="bn4ds.ogg"
     }
     
 }
@@ -72,7 +72,7 @@ local encounter3 = {
         {0,0,0,0,0,2}
     },
     music={
-        path="/server/encounters/bn4ds.ogg"
+        path="bn4ds.ogg"
     }
     
 }
@@ -92,7 +92,7 @@ local encounter4 = {
         {0,0,0,2,0,0}
     },
     music={
-        path="/server/encounters/bn4ds.ogg"
+        path="bn4ds.ogg"
     }
     
 }
@@ -117,7 +117,7 @@ local encounter5 = {
         {1,1,6,1,1,1}
     },
     music={
-        path="/server/encounters/bn4ds.ogg"
+        path="bn4ds.ogg"
     }
     
 }
@@ -139,7 +139,7 @@ local encounter6 = {
         {0,0,0,3,0,4}
     },
     music={
-        path="/server/encounters/bn4ds.ogg"
+        path="bn4ds.ogg"
     }
     
 }
@@ -161,7 +161,7 @@ local encounter7 = {
         {0,0,0,0,1,3}
     },
     music={
-        path="/server/encounters/bn4ds.ogg"
+        path="bn4ds.ogg"
     }
     
 }
@@ -197,7 +197,7 @@ local encounter8 = {
         {0,0,0,0,0,0}
     },
     music={
-        path="/server/encounters/bn4ds.ogg"
+        path="bn4ds.ogg"
     }
 }
 
@@ -216,7 +216,7 @@ local encounter9 = {
         {0,0,0,2,0,2}
     },
     music={
-        path="/server/encounters/bn4ds.ogg"
+        path="bn4ds.ogg"
     }
 }
 
@@ -240,7 +240,7 @@ local encounter10 = {
         {1,1,1,8,1,1}
     },
     music={
-        path="/server/encounters/bn4ds.ogg"
+        path="bn4ds.ogg"
     }
 }
 
