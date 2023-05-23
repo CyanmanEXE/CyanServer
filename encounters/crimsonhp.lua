@@ -272,7 +272,7 @@ local encounter11 = {
         {0,0,0,0,0,0}
     },
     music={
-        path="/server/encounters/bn4ds.ogg"
+        path="bn4ds.ogg"
     }
 }
 
