@@ -19,6 +19,9 @@ local encounter1 = {
         {1,1,9,9,9,9},
         {1,8,2,11,1,11}
     },
+    music={
+        path="bn4ds.mid"
+    }
 }
 
 
@@ -48,6 +51,9 @@ local encounter2 = {
         {0,0,0,0,0,0},
         {0,0,0,0,0,1}
     },
+    music={
+        path="bn4ds.mid"
+    }
     
 }
 
@@ -65,6 +71,9 @@ local encounter3 = {
         {0,0,0,1,0,0},
         {0,0,0,0,0,2}
     },
+    music={
+        path="bn4ds.mid"
+    }
     
 }
 
@@ -82,6 +91,9 @@ local encounter4 = {
         {0,0,0,2,0,1},
         {0,0,0,2,0,0}
     },
+    music={
+        path="bn4ds.mid"
+    }
     
 }
 
@@ -104,6 +116,9 @@ local encounter5 = {
         {7,1,6,1,1,1},
         {1,1,6,1,1,1}
     },
+    music={
+        path="bn4ds.mid"
+    }
     
 }
 
@@ -123,6 +138,9 @@ local encounter6 = {
         {0,0,0,0,2,0},
         {0,0,0,3,0,4}
     },
+    music={
+        path="bn4ds.mid"
+    }
     
 }
 
@@ -142,6 +160,9 @@ local encounter7 = {
         {0,0,0,0,0,2},
         {0,0,0,0,1,3}
     },
+    music={
+        path="bn4ds.mid"
+    }
     
 }
 
@@ -174,7 +195,10 @@ local encounter8 = {
         {0,0,0,0,0,0},
         {0,0,0,1,0,0},
         {0,0,0,0,0,0}
-    },    
+    },
+    music={
+        path="bn4ds.mid"
+    }
 }
 
 local encounter9 = {
@@ -191,6 +215,9 @@ local encounter9 = {
         {0,0,0,0,3,0},
         {0,0,0,2,0,2}
     },
+    music={
+        path="bn4ds.mid"
+    }
 }
 
 local encounter10 = {
@@ -212,6 +239,9 @@ local encounter10 = {
         {11,1,11,1,1,1},
         {1,1,1,8,1,1}
     },
+    music={
+        path="bn4ds.mid"
+    }
 }
 
 local encounter11 = {
@@ -240,7 +270,10 @@ local encounter11 = {
         {0,0,0,0,0,0},
         {0,0,1,1,0,0},
         {0,0,0,0,0,0}
-    },    
+    },
+    music={
+        path="bn4ds.mid"
+    }
 }
 
 

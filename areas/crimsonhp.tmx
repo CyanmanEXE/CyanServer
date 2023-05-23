@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" width="80" height="94" tilewidth="64" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="201">
+<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" width="80" height="94" tilewidth="64" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="216">
  <properties>
   <property name="Background" value="custom"/>
   <property name="Background Animation" value="/server/assets/custom/backgrounds/crimsonhp/bg.animation"/>
   <property name="Background Texture" value="/server/assets/custom/backgrounds/crimsonhp/bg.png"/>
   <property name="Background Vel X" value="0"/>
   <property name="Background Vel Y" value="0"/>
-  <property name="Name" value="Crmsn HP"/>
+  <property name="Name" value="Crimson HP"/>
   <property name="Song" value="/server/assets/music/undermetal.ogg"/>
  </properties>
  <tileset firstgid="1" source="../assets/tiles/rainbow_floor.tsx"/>
@@ -948,6 +948,151 @@
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Left"/>
     <property name="Text 1" value="THIS MUSIC IS BY DjentManEXE! Check out his amazing work!"/>
+    <property name="Wait Time" value="2"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="201" name="Booma" type="NPC" x="1744" y="2032">
+   <properties>
+    <property name="Asset Name" value="punk-navi-exe6_navy"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Up Left"/>
+    <property name="Next Waypoint 1" type="object" value="202"/>
+    <property name="Text 1" value="I wonder if I can score some fire chips here..."/>
+    <property name="Wait Time" value="2"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="202" name="Waypoint 1" type="Waypoint" x="1552" y="2032">
+   <properties>
+    <property name="Direction" value="Down Left"/>
+    <property name="Next Waypoint 1" type="object" value="201"/>
+    <property name="Wait Time" value="2"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="203" name="Katana" type="NPC" x="1104" y="1616">
+   <properties>
+    <property name="Asset Name" value="heel-navi-exe4_black"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Down Left"/>
+    <property name="Text 1" value="I wonder if I should be pink..."/>
+    <property name="Wait Time" value="2"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="204" name="Lyla" type="NPC" x="560" y="1360">
+   <properties>
+    <property name="Asset Name" value="female-navi-exe5_purple"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Up Right"/>
+    <property name="Text 1" value="Oh hello! Rock on!"/>
+    <property name="Wait Time" value="2"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="205" name="Brave" type="NPC" x="208" y="1520">
+   <properties>
+    <property name="Asset Name" value="heel-navi-exe4_green"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Up Left"/>
+    <property name="Text 1" value="Hm....Wonder how she got this background..."/>
+    <property name="Wait Time" value="2"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="206" name="Scar" type="NPC" x="208" y="1488">
+   <properties>
+    <property name="Asset Name" value="heel-navi-exe4_green"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Up Left"/>
+    <property name="Text 1" value="Prob just stole it... wait how would you steal a background? isnt this just a endless void?"/>
+    <property name="Wait Time" value="2"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="207" name="Flurry" type="NPC" x="2353" y="2771">
+   <properties>
+    <property name="Asset Name" value="heel-navi-exe4_red"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Down Right"/>
+    <property name="Next Waypoint 1" type="object" value="208"/>
+    <property name="Text 1" value="Wazzap!"/>
+    <property name="Wait Time" value="2"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="208" name="Waypoint 1" type="Waypoint" x="2352" y="2416">
+   <properties>
+    <property name="Direction" value="Down Left"/>
+    <property name="Next Waypoint 1" type="object" value="207"/>
+    <property name="Wait Time" value="2"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="209" name="Rouge" type="NPC" x="2417" y="2579">
+   <properties>
+    <property name="Asset Name" value="heel-navi-exe4_red"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Down Right"/>
+    <property name="Next Waypoint 1" type="object" value="210"/>
+    <property name="Text 1" value="Wazzap!"/>
+    <property name="Wait Time" value="2"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="210" name="Waypoint 1" type="Waypoint" x="2416" y="2072">
+   <properties>
+    <property name="Direction" value="Down Left"/>
+    <property name="Next Waypoint 1" type="object" value="209"/>
+    <property name="Wait Time" value="2"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="211" name="Wan" type="NPC" x="2384" y="2864">
+   <properties>
+    <property name="Asset Name" value="heel-navi-exe4_purple"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Up Left"/>
+    <property name="Next Waypoint 1" type="object" value="212"/>
+    <property name="Text 1" value="Wait you didnt bring snacks! DUDE you was incharge of that! I gave you zenny for that reason!"/>
+    <property name="Wait Time" value="2"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="212" name="Waypoint 1" type="Waypoint" x="2384" y="1808">
+   <properties>
+    <property name="Direction" value="Down Left"/>
+    <property name="Next Waypoint 1" type="object" value="211"/>
+    <property name="Wait Time" value="2"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="213" name="Pepper" type="NPC" x="2352" y="2320">
+   <properties>
+    <property name="Asset Name" value="ow"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Down"/>
+    <property name="Next Waypoint 1" type="object" value="214"/>
+    <property name="Text 1" value="bbaahhh! brrr!"/>
+    <property name="Wait Time" value="2"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="214" name="Waypoint 1" type="Waypoint" x="2352" y="1168">
+   <properties>
+    <property name="Direction" value="Down Left"/>
+    <property name="Next Waypoint 1" type="object" value="213"/>
+    <property name="Wait Time" value="2"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="215" name="Chester" type="NPC" x="2416" y="1168">
+   <properties>
+    <property name="Asset Name" value="heel-navi-exe4_orange"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Up Left"/>
+    <property name="Text 1" value="Even from here, her singing reaches to my feeble coding.."/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
