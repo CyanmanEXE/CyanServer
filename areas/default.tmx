@@ -553,7 +553,7 @@
   <object id="169" gid="144" x="321.5" y="706.5" width="48" height="40"/>
   <object id="170" name="Pink" type="NPC" x="1007.5" y="1164.5">
    <properties>
-    <property name="Asset Name" value="punk-navi-exe6_red"/>
+    <property name="Asset Name" value="punk-navi-exe6_magenta"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Right"/>
     <property name="Text 1" value="Sorry kid, this area is offline at the moment..."/>

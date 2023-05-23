@@ -157,7 +157,7 @@
     <property name="Asset Name" value="heel-navi-exe4_red"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Right"/>
-    <property name="Text 1" value="Oh yeah so hot…!"/>
+    <property name="Text 1" value="Oh yeah so hot...!"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
