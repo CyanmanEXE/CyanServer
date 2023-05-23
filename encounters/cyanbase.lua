@@ -19,9 +19,7 @@ local encounter1 = {
         {9,9,9,9,9,9},
         {11,11,11,11,1,11}
     },
-    music={
-        path="CyanServer/assets/vschamp.ogg"
-    }
+    
 }
 
 
