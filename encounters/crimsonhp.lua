@@ -19,7 +19,10 @@ local encounter1 = {
         {1,1,9,9,9,9},
         {1,8,2,11,1,11}
     },
+<<<<<<< HEAD
    
+=======
+>>>>>>> parent of e94f262 (added more and fixes from again prev update)
 }
 
 
@@ -49,7 +52,10 @@ local encounter2 = {
         {0,0,0,0,0,0},
         {0,0,0,0,0,1}
     },
+<<<<<<< HEAD
    
+=======
+>>>>>>> parent of e94f262 (added more and fixes from again prev update)
     
 }
 
@@ -67,7 +73,10 @@ local encounter3 = {
         {0,0,0,1,0,0},
         {0,0,0,0,0,2}
     },
+<<<<<<< HEAD
    
+=======
+>>>>>>> parent of e94f262 (added more and fixes from again prev update)
     
 }
 
@@ -85,7 +94,10 @@ local encounter4 = {
         {0,0,0,2,0,1},
         {0,0,0,2,0,0}
     },
+<<<<<<< HEAD
    
+=======
+>>>>>>> parent of e94f262 (added more and fixes from again prev update)
     
 }
 
@@ -108,7 +120,10 @@ local encounter5 = {
         {7,1,6,1,1,1},
         {1,1,6,1,1,1}
     },
+<<<<<<< HEAD
     
+=======
+>>>>>>> parent of e94f262 (added more and fixes from again prev update)
     
 }
 
@@ -128,7 +143,10 @@ local encounter6 = {
         {0,0,0,0,2,0},
         {0,0,0,3,0,4}
     },
+<<<<<<< HEAD
     
+=======
+>>>>>>> parent of e94f262 (added more and fixes from again prev update)
     
 }
 
@@ -148,7 +166,10 @@ local encounter7 = {
         {0,0,0,0,0,2},
         {0,0,0,0,1,3}
     },
+<<<<<<< HEAD
    
+=======
+>>>>>>> parent of e94f262 (added more and fixes from again prev update)
     
 }
 
@@ -181,8 +202,12 @@ local encounter8 = {
         {0,0,0,0,0,0},
         {0,0,0,1,0,0},
         {0,0,0,0,0,0}
+<<<<<<< HEAD
     },
     
+=======
+    },    
+>>>>>>> parent of e94f262 (added more and fixes from again prev update)
 }
 
 local encounter9 = {
@@ -199,7 +224,10 @@ local encounter9 = {
         {0,0,0,0,3,0},
         {0,0,0,2,0,2}
     },
+<<<<<<< HEAD
    
+=======
+>>>>>>> parent of e94f262 (added more and fixes from again prev update)
 }
 
 local encounter10 = {
@@ -221,7 +249,10 @@ local encounter10 = {
         {11,1,11,1,1,1},
         {1,1,1,8,1,1}
     },
+<<<<<<< HEAD
     
+=======
+>>>>>>> parent of e94f262 (added more and fixes from again prev update)
 }
 
 local encounter11 = {
@@ -250,8 +281,12 @@ local encounter11 = {
         {0,0,0,0,0,0},
         {0,0,1,1,0,0},
         {0,0,0,0,0,0}
+<<<<<<< HEAD
     },
    
+=======
+    },    
+>>>>>>> parent of e94f262 (added more and fixes from again prev update)
 }
 
 
