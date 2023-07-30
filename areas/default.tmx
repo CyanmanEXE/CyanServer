@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" width="44" height="40" tilewidth="64" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="172">
+<map version="1.8" tiledversion="1.9.2" orientation="isometric" renderorder="right-down" width="44" height="40" tilewidth="64" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="172">
  <properties>
   <property name="Background" value="custom"/>
   <property name="Background Animation" value="/server/assets/custom/backgrounds/area1/GrayBG.animation"/>
@@ -129,8 +129,8 @@
     <property name="Asset Name" value="heel-navi-exe4_green"/>
     <property name="Dialogue Type" value="random"/>
     <property name="Direction" value="Down Left"/>
-    <property name="Text 1" value="Hey... You  dont look like your from around here... What are you doing here?"/>
-    <property name="Text 2" value="Howdy, many things changed since you last been here... You might find somthing.... Concerning"/>
+    <property name="Text 1" value="Hey... You  don't look like you're from around here... What are you doing here?"/>
+    <property name="Text 2" value="Howdy, many things changed since you last been here... You might find somthing.... concerning"/>
     <property name="Text 3" value="Did  you know I was the first ever guy down here?"/>
     <property name="Text 4" value="I hate kids who thinks they can just waltz down here.."/>
     <property name="Wait Time" value="2"/>
@@ -145,7 +145,6 @@
     <property name="Next Waypoint 1" type="object" value="73"/>
     <property name="Text 1" value="Huh? What's a navi like you doing down here? Lookin' fer trouble? Then how about lookin fer Wiltman, he sure would love to meet you..."/>
     <property name="Wait Time" value="2"/>
-    <property name="Waypoint Type" value="first"/>
    </properties>
    <point/>
   </object>
@@ -170,7 +169,7 @@
     <property name="Asset Name" value="pyreman"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Right"/>
-    <property name="Text 1" value="I see you got a sense of adventure in your programing! Nice, im Pyreman.EXE! I'm here to make burning data bits out of the annoying problem down here from Wiltman.... Hey I know! You should help us! He wouldnt stand a chance againts a army! My bud Cyanmans HP is in the next area and would hook you up with somthing cool! But he locked his HP so you need a password...  I forgot what it would be... I just know its a name of a fire chip..."/>
+    <property name="Text 1" value="I see you got a sense of adventure in your programming! Nice, I'm Pyreman.EXE! I'm here to make burning data bits out of the annoying problem down here from Wiltman.... Hey I know! You should help us! He wouldn't stand a chance against an army! My bud Cyanman's HP is in the next area and would hook you up with something cool! But he locked his HP so you need a password...  I forgot what it would be... I just know it's a name of a fire chip..."/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -191,7 +190,7 @@
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Right"/>
     <property name="Next Waypoint 1" type="object" value="79"/>
-    <property name="Text 1" value="Cant you see im busy here! Move it!"/>
+    <property name="Text 1" value="Can't you see I'm busy here! Move it!"/>
     <property name="Waypoint Type" value="first"/>
    </properties>
    <point/>
@@ -209,7 +208,7 @@
     <property name="Asset Name" value="heel-navi-exe4_black"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Left"/>
-    <property name="Text 1" value="Beat it! Wiltman doesnt want annnnnnyyy interuptions today! He will deal with you another day...."/>
+    <property name="Text 1" value="Beat it! Wiltman doesn't want annnnnnyyy interruptions today! He will deal with you another day...."/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -229,7 +228,7 @@
     <property name="Asset Name" value="female-navi-exe5_purple"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Left"/>
-    <property name="Text 1" value="Oh that guy? I told him if he wants to date me he gotta lose some weight first... I said it as a joke to get him to go away but he's really determend... I like that in a guy."/>
+    <property name="Text 1" value="Oh that guy? I told him if he wants to date me; he gotta lose some weight first... I said it as a joke to get him to go away, but he's really determined... I like that in a guy."/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -239,7 +238,7 @@
     <property name="Asset Name" value="prog"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Right"/>
-    <property name="Text 1" value="THE UNDERSQUARE IS UP! IM HERE TO MAKE SURE A CERTAIN TROUBLE MAKER DOESNT COME BACK! OOOOO WHEN I SEE HIM IMA WACK HIM IN THE NOGGIN WITH THIS BUSTER I FOUND!"/>
+    <property name="Text 1" value="THE UNDERSQUARE IS UP! I'M HERE TO MAKE SURE A CERTAIN TROUBLE MAKER DOESN'T COME BACK! OOOOO WHEN I SEE HIM I'MA WACK HIM IN THE NOGGIN WITH THIS BUSTER I FOUND!"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -249,7 +248,7 @@
     <property name="Asset Name" value="heel-navi-exe4_yellow"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Left"/>
-    <property name="Text 1" value="Hey, i'm sellin sum chocolates chips... Pretty rare if you think about it, my op makes them every saturday night, 1,000 zenny for just 5 of them! Cmon I know your interested..... What? you dont want any?? Suit your self!"/>
+    <property name="Text 1" value="Hey, I'm sellin sum chocolate chips... Pretty rare if you think about it, my 'Op makes them every Saturday night, 1,000 zenny for just 5 of them! C'mon I know you're interested..... What? you don't want any?? Suit your self!"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -265,7 +264,7 @@
     <property name="Asset Name" value="normal-navi-bn4_bad"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Right"/>
-    <property name="Text 1" value="Hehehehe.... I just pulled off a big prank! I spent months collecting Moloko's and let em all out on the square! Bwahahahah! You shoulda seen their faces!!!"/>
+    <property name="Text 1" value="Hehehehe.... I just pulled off a big prank! I spent months collecting Molokos and let em all out in the square! Bwahahahah! You shoulda seen their faces!!!"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -300,7 +299,7 @@
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Right"/>
     <property name="Next Waypoint 1" type="object" value="96"/>
-    <property name="Text 1" value="Bah! some stupid punks mugged me of my zenny! You better watch out yourself..."/>
+    <property name="Text 1" value="Bah! Some stupid punks mugged me of my zenny! You better watch out for yourself..."/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -319,7 +318,7 @@
     <property name="Direction" value="Down Left"/>
     <property name="Next 1" type="object" value="110"/>
     <property name="Next 2" type="object" value="107"/>
-    <property name="Text 1" value="Psst, hey! you! You look like you can take a hit or two... How about a fight? "/>
+    <property name="Text 1" value="Psst, hey! You! You look like you can take a hit or two... How about a fight? "/>
    </properties>
    <point/>
   </object>
@@ -333,7 +332,7 @@
   <object id="107" name="No" type="Dialogue" x="165" y="389">
    <properties>
     <property name="Dialogue Type" value="first"/>
-    <property name="Text 1" value="Bah such a shame... But i'll be here if you change your mind."/>
+    <property name="Text 1" value="Bah such a shame... But I'll be here if you change your mind."/>
    </properties>
    <point/>
   </object>
@@ -347,7 +346,7 @@
   <object id="109" name="No" type="Dialogue" x="643.5" y="850.5">
    <properties>
     <property name="Dialogue Type" value="first"/>
-    <property name="Text 1" value="... You better get out of my sight little man."/>
+    <property name="Text 1" value="... You'd better get out of my sight little man."/>
    </properties>
    <point/>
   </object>
@@ -424,7 +423,7 @@
     <property name="Asset Name" value="prog"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Right"/>
-    <property name="Text 1" value="THIS LEADS TO THE RESIDENTAL AREA! HOME AREA, HANG OUTS, STORES AND A PLANNED SECRET! IM NOT ALLOWED TO SAY WHAT THAT IS BUT GET GOING!"/>
+    <property name="Text 1" value="THIS LEADS TO THE RESIDENTIAL AREA! HOME AREA, HANG OUTS, STORES AND A PLANNED SECRET! IM NOT ALLOWED TO SAY WHAT THAT IS, BUT GET GOING!"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -434,7 +433,7 @@
     <property name="Asset Name" value="heel-navi-exe4_blue"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Left"/>
-    <property name="Text 1" value="I herd theres a shape shifting key that changes forms when you speak , to unlock gates in your path.... where is it? I herd its infront of a text board or somthing..."/>
+    <property name="Text 1" value="I herd there's a shape shiftin key that changes forms; &quot;Where you speak&quot;. It &quot;unlocks gates in your path&quot;.... Where is it? I herd it's infront of a text board or somthin..."/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -444,7 +443,7 @@
     <property name="Asset Name" value="heel-navi-exe4_blue"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Left"/>
-    <property name="Text 1" value="Drat! I was gonna buy this lot but someone beat me to it! Now I gotta try somwhere else..."/>
+    <property name="Text 1" value="Drat! I was gonna buy this lot but someone beat me to it! Now I gotta try somewhere else..."/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -454,7 +453,7 @@
     <property name="Asset Name" value="heel-navi-exe4_orange"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Right"/>
-    <property name="Text 1" value="...Huh? me? Nothing at all kid, im just minding my buissness here.. heh heh..."/>
+    <property name="Text 1" value="...Huh? Me? Doin Nothing at all kid, I'm just minding my business here.. heh heh..."/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -495,7 +494,7 @@
   <object id="133" gid="14" x="65" y="1039" width="96" height="64"/>
   <object id="134" gid="17" x="1248.5" y="1167.5" width="96" height="64"/>
   <object id="136" gid="17" x="1248.5" y="687.5" width="96" height="64"/>
-  <object id="137" name="Potatoe Chip" type="Item" x="952" y="408">
+  <object id="137" name="Potato Chip" type="Item" x="952" y="408">
    <properties>
     <property name="Dialogue Type" value="first"/>
     <property name="Text 1" value="Bingo"/>
@@ -566,7 +565,7 @@
     <property name="Asset Name" value="prog"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Right"/>
-    <property name="Text 1" value="I AM SORRY, BUT THE OWNER OF THIS PLACE WANTS NO OUTSIDERS TO GET IN! IF YOU ALREADY DONT KNOW HOW TO GET IN, THAT MEANS YOU ARENT SUPPOSED TO BE IN THERE!"/>
+    <property name="Text 1" value="I AM SORRY, BUT THE OWNER OF THIS PLACE WANTS NO OUTSIDERS TO GET IN! IF YOU ALREADY DON'T KNOW HOW TO GET IN, THAT MEANS YOU ARENT SUPPOSED TO BE IN THERE!"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" width="60" height="40" tilewidth="64" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="30">
+<map version="1.8" tiledversion="1.9.2" orientation="isometric" renderorder="right-down" width="60" height="40" tilewidth="64" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="30">
  <properties>
   <property name="Background" value="custom"/>
   <property name="Background Animation" value="/server/assets/custom/backgrounds/hp/bg.animation"/>
@@ -96,7 +96,7 @@
     <property name="Asset Name" value="prog"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Right"/>
-    <property name="Text 1" value="DID YOU KNOW MR. CYANMAN'S FAVORITE COLOR IS CYAN? I WONDER IF THATS WHY HE'S CALLED THAT.... NAH CANT BE!"/>
+    <property name="Text 1" value="DID YOU KNOW MR. CYANMAN'S FAVORITE COLOR IS CYAN? I WONDER IF THAT'S WHY HE'S CALLED THAT.... NAH CAN'T BE!"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -129,7 +129,7 @@
     <property name="Asset Name" value="prog"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Right"/>
-    <property name="Text 1" value="WHATS THAT BOX RIGHT THERE FOR? ITS TO ONLY LET CERTAIN PEOPLE IN FOR THE &quot;CLUB&quot;! IF YOU HAVE NO PASSWORD FOR IT, YOUR NOT PART OF THE CLUB!"/>
+    <property name="Text 1" value="WHAT'S THAT BOX RIGHT THERE FOR? IT'S TO ONLY LET CERTAIN PEOPLE IN FOR THE &quot;CLUB&quot;! IF YOU HAVE NO PASSWORD FOR IT, YOU'RE NOT PART OF THE CLUB!"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -142,21 +142,21 @@
     <property name="Text 1" value="?...."/>
     <property name="Text 10" value="bah....bah.................."/>
     <property name="Text 11" value="??????????????????????"/>
-    <property name="Text 12" value="Personally I dont get why he likes tacos so much.."/>
-    <property name="Text 13" value="Password for the Sprite dungeon is Art."/>
+    <property name="Text 12" value="Personally I don't get why he likes tacos so much.."/>
+    <property name="Text 13" value="Password for the SpriteDungeon is &quot;Art&quot;."/>
     <property name="Text 14" value="*eating a jaw breaker*"/>
-    <property name="Text 15" value="Cyanman used to be friends with a stick figure navi named James and Samurai Siy.. Unsure whatever happened to them."/>
-    <property name="Text 16" value="Cyanman was recarinated so far 4 times! Somthing about him prevents him to stay dead!"/>
-    <property name="Text 17" value="Dont you hate it when you get beaten by some obscure secondary character?"/>
-    <property name="Text 18" value="What a treat to come here and meet~.. Your face as it hits concreat!~"/>
+    <property name="Text 15" value="Cyanman used to be friends with a stick figure navi named James and Samurai Siy...Unsure whatever happened to them."/>
+    <property name="Text 16" value="Cyanman has reincarnated 4 times so far! Something about him prevents him staying dead!"/>
+    <property name="Text 17" value="Don't you hate it when you get beaten by some obscure secondary character?"/>
+    <property name="Text 18" value="What a treat to come here and meet~.. Your face as it hits concrete!~"/>
     <property name="Text 19" value="My favorite food is cookies dipped in milk!"/>
     <property name="Text 2" value="What? I was programed to talk, unsure how the other Moloko's started talking..."/>
     <property name="Text 3" value="On average, 100 people choke to death on ballpoint pens every year."/>
-    <property name="Text 4" value="How did I started talking? I got bored and decided to follow alot of navis around, till i started mimicing their speach pattern and well here I am.."/>
+    <property name="Text 4" value="How did I started talking? I got bored and decided to follow a bunch of navis around, till I started mimicing their speech patterns, and well here I am...Or was I? *Dramatic Music intensifies*"/>
     <property name="Text 5" value="Why I decided to be a pet? Free food."/>
-    <property name="Text 6" value="Have you wonder what would happen if Cyanman was Crimson colored instead?"/>
-    <property name="Text 7" value="That Moloko by the BBS outside is wrong about the cubes all being chip password, some are generic words chosen by whoever was allowed to put it there... So better watch out for passwords you come by!"/>
-    <property name="Text 8" value="What am I doing? Eating... I might go invite my friend over to play some Navi man later."/>
+    <property name="Text 6" value="Have you wondered what would happen if Cyanman was Crimson colored instead?"/>
+    <property name="Text 7" value="That Moloko by the BBS outside is wrong about the cubes all being chip name passwords! Some are generic words chosen by whoever was allowed to put it there... So better watch out for passwords you come by!"/>
+    <property name="Text 8" value="What am I doing? Eating... I might go invite my friend over to play some NaviMan later."/>
     <property name="Text 9" value="zzzzz.....ZZzzzzz....."/>
     <property name="Wait Time" value="2"/>
    </properties>

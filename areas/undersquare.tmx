@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" width="35" height="35" tilewidth="64" tileheight="32" infinite="0" nextlayerid="7" nextobjectid="125">
+<map version="1.8" tiledversion="1.9.2" orientation="isometric" renderorder="right-down" width="35" height="35" tilewidth="64" tileheight="32" infinite="0" nextlayerid="7" nextobjectid="125">
  <properties>
   <property name="Background" value="custom"/>
   <property name="Background Animation" value="/server/assets/custom/backgrounds/area1/GrayBG.animation"/>
@@ -39,9 +39,9 @@
 0,0,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,0,0,0,3,3,3,0,0,0,0,8,8,8,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,2,1,2,1,2,2,2,0,7,7,0,0,0,0,0,0,0,8,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,8,2,2,2,2,2,1,0,8,0,0,0,0,0,0,0,0,8,0,0,0,0,0,0,
-0,3,0,0,0,0,0,0,0,0,0,8,0,2,2,2,2,2,0,8,0,0,0,0,0,0,0,0,8,0,0,0,0,0,0,
-3,3,3,13,13,13,13,0,0,0,0,8,0,0,2,2,2,0,0,8,8,7,8,8,8,0,0,0,8,0,0,0,0,0,0,
-3,3,3,3,13,13,13,0,0,0,0,8,0,0,0,0,0,0,0,0,0,0,8,8,8,8,8,8,7,0,0,0,0,0,0,
+0,3,0,0,0,0,0,0,0,0,0,8,0,2,2,2,2,2,0,8,0,0,0,0,0,0,0,0,8,0,0,0,13,0,0,
+3,3,3,13,13,13,13,0,0,0,0,8,0,0,2,2,2,0,0,8,8,7,8,8,8,0,0,0,8,0,0,0,13,0,0,
+3,3,3,3,13,13,13,0,0,0,0,8,0,0,0,0,0,0,0,0,0,0,8,8,8,8,8,8,7,13,13,13,13,0,0,
 3,3,3,0,0,0,13,0,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,2,0,0,0,0,0,0,
 0,3,0,0,0,0,13,0,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,2,0,0,0,0,0,0,
 0,0,0,0,0,0,13,0,0,0,0,8,8,8,8,8,8,0,0,0,0,0,0,7,0,0,2,1,2,2,1,0,0,0,0,
@@ -63,7 +63,7 @@
     <property name="Asset Name" value="heel-navi-exe4_purple"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Right"/>
-    <property name="Text 1" value="Heh... I thought the prank was pretty funny.."/>
+    <property name="Text 1" value="Heh... I thought the prank was pretty funny..."/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -73,7 +73,7 @@
     <property name="Asset Name" value="heel-navi-exe4_purple"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Left"/>
-    <property name="Text 1" value="Hey kid, im cooking up sum neat programs right now, give me sum time and maybe we can do sum buissness somtimes..."/>
+    <property name="Text 1" value="Hey kid, I'm cooking up sum neat programs right now! Give me sum time, and maybe we can do sum business sometime..."/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -83,7 +83,7 @@
     <property name="Asset Name" value="heel-navi-exe4_green"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Left"/>
-    <property name="Text 1" value="You!...wait wrong guy.... Im still tryin to find that stupid punk who let lose all of those blasted sheeps! I was about to score on a chip then the square crashed! Grr....."/>
+    <property name="Text 1" value="You!...Wait wrong guy.... I'm still tryin to find that stupid punk who let lose all of those blasted sheeps! I was about to score on a chip then the square crashed! Grr....."/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -93,7 +93,7 @@
     <property name="Asset Name" value="normal-navi-bn4_bad"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Left"/>
-    <property name="Text 1" value="Geez i keep getting interigated by that guy, i just got here after getting through that darn door..."/>
+    <property name="Text 1" value="Geez I keep getting interrogated by that guy, I just got here after getting through that darn door..."/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -103,7 +103,7 @@
     <property name="Asset Name" value="heel-navi-exe4_yellow"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Left"/>
-    <property name="Text 1" value="Is that so?.... Hmm maybe i should find him.."/>
+    <property name="Text 1" value="Is that so?.... Hmm maybe I should find him.."/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -124,7 +124,7 @@
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Left"/>
     <property name="Next Waypoint 1" type="object" value="8"/>
-    <property name="Text 1" value="Hey... Got sum Dark Chips?.... cmon i can smell it on you."/>
+    <property name="Text 1" value="Hey... Got sum Dark Chips?.... C'mon I can smell it on you."/>
     <property name="Wait Time" type="float" value="1"/>
     <property name="Waypoint Type" value="first"/>
    </properties>
@@ -203,7 +203,7 @@
     <property name="Asset Name" value="normal-navi-bn4_bad"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Right"/>
-    <property name="Text 1" value="Look at all these Moloko's! i convined Mr.Prog to keep them here since they dont harm anyone! I know i look mean but I cant help myself when I see somthing adorable!!! I even gave each and every one of them nicknames! Like good ol dorphie over there!"/>
+    <property name="Text 1" value="Look at all these Molokos! I convinced Mr.Prog to keep them here since they don't harm anyone! I know I look mean but I can't help myself when I see something adorable!!! I even gave each and every one of them nicknames! Like good ol' dorphie over there!"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -223,7 +223,7 @@
     <property name="Asset Name" value="heel-navi-exe4_white"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Right"/>
-    <property name="Text 1" value="Great! More baby navi's are coming down here! why do people keep coming down here?? Do they think this is weenie hut Jr's?! Its the freaking undernet! THE UNDERNET! Look at me! You wouldnt trust me with borrowing a spoon now wouldnt you?! Id proboly stab you with it! Why am I even talking to you?!! Scram! all of you!"/>
+    <property name="Text 1" value="Great! More baby navis are coming down here! Why do people keep coming down here!? Do they think this is Weenie Hut Jr's?! It's the freaking Undernet! THE UNDERNET! Look at me! You wouldn't trust me with borrowing a spoon now would you?! I'd probably stab you with it! Why am I even talking to you?!! SCRAM! All of you!"/>
     <property name="Waypoint Type" value="first"/>
    </properties>
    <point/>
@@ -243,7 +243,7 @@
     <property name="Asset Name" value="punk-navi-exe6_lime"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Right"/>
-    <property name="Text 1" value="Mans need sum dark fragmetns if you know what im saying.."/>
+    <property name="Text 1" value="Man needs sum dark fragments if you know what I'm saying.."/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -253,7 +253,7 @@
     <property name="Asset Name" value="heel-navi-exe4_yellow"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Left"/>
-    <property name="Text 1" value="Come up! Step right up! To Static shop! I want your money and you want chips!..... Wait your no navi from down here...Snoopin on my prices? Tryna see if you can out price me?!"/>
+    <property name="Text 1" value="Come on! Step right up! To Static Shop! I want your money and you want chips!..... Wait you're no navi from down here...Snoopin on my prices? Tryna see if you can out price me?!"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -263,7 +263,7 @@
     <property name="Asset Name" value="female-navi-exe5_purple"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Left"/>
-    <property name="Text 1" value="Hm.... Lets see...super Gold.... Rare Encounter....Sheep....H-hey! get away from me you creep! Shoo! Shoo!....where was I?.... Dang it! You made me forget you jerk!"/>
+    <property name="Text 1" value="Hm.... Let's see...super Gold.... Rare Encounter....Sheep....H-hey! Get away from me you creep! Shoo! Shoo!....where was I?.... Dang it! You made me forget you jerk!"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -273,7 +273,7 @@
     <property name="Asset Name" value="normal-navi-bn4_bad"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Right"/>
-    <property name="Text 1" value="Dude! dude... You wont belive this! I managed to scam that guy freaking 1 million zenny! By deleting him! Hahaha! You shoulda seen the look of his face!"/>
+    <property name="Text 1" value="Dude! Dude... You won't believe this! I managed to scam that guy  1 million freakin zenny! By deleting him! Hahaha! You shoulda seen the look on his face!"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -303,14 +303,14 @@
   <object id="30" name="Yes" type="Dialogue" x="416" y="656">
    <properties>
     <property name="Dialogue Type" value="first"/>
-    <property name="Text 1" value="Ofocurse you had too! Battery and Ram are so cute!!! oh my  I need some aqua chips to cool down!!! I herd a secret that they came down here!!!!!! Do you think they will sign my helment if I begged them?... Too creepy you think?"/>
+    <property name="Text 1" value="Of course you had too! Battery and Ram are so cute!!! Oh my  I need some aqua chips to cool down!!! I heard a secret that THEY came down here!!!!!! Do you think they'll sign my helmet if I begged them?... Too creepy you think?"/>
    </properties>
    <point/>
   </object>
   <object id="31" name="No" type="Dialogue" x="454.5" y="651.5">
    <properties>
     <property name="Dialogue Type" value="first"/>
-    <property name="Text 1" value="WHAT?! WHAT DO YOU MEAN YOU DONT KNOW THEM?! THEY ARE THE BEST SINGING DUO YOU WILL EVER HEAR, SEE, SMELL, AND ENJOY! BATTERY AND RAM ARE LIKE, THE BEST! ugh cant belive you dont know them... "/>
+    <property name="Text 1" value="WHAT?! WHAT DO YOU MEAN YOU DON'T KNOW THEM?! THEY ARE THE BEST SINGING DUO YOU WILL EVER HEAR, SEE, SMELL, AND ENJOY! BATTERY AND RAM ARE LIKE, THE BEST! UGH; I can't believe you don't know them... "/>
    </properties>
    <point/>
   </object>
@@ -321,7 +321,7 @@
     <property name="Direction" value="Down Left"/>
     <property name="Next 1" type="object" value="34"/>
     <property name="Next 2" type="object" value="35"/>
-    <property name="Text 1" value="*twinkle twinkle* With that my simp-ies, we shall go find this... Oh! Hi there, you must be that navi who I'm collabing with! (what was your name again?....hmm the name sounds lame, lets just call you norm for now) well norm! your abit late but never too late for a *ahem* Beat! That! Simp! are you ready to see who's the unlucky fighter today?"/>
+    <property name="Text 1" value="*twinkle twinkle* With that my simp-ies, we shall go find this... Oh! Hi there, you must be that navi who I'm collabing with! (what was your name again?....hmm the name sounds lame, lets just call you Norm for now) Well Norm! you're a bit late, but never too late for *ahem* Beat! That! Simp! Are you ready to see who's the unlucky fighter today?"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -330,14 +330,14 @@
    <properties>
     <property name="Dialogue Type" value="first"/>
     <property name="Next 1" type="object" value="36"/>
-    <property name="Text 1" value="Alright! Fan number 100 was chosen to fight! go get em, Norm!"/>
+    <property name="Text 1" value="Alright! Fan number 100 was chosen to fight! Go get em, Norm!"/>
    </properties>
    <point/>
   </object>
   <object id="35" name="No" type="Dialogue" x="950.5" y="171.5">
    <properties>
     <property name="Dialogue Type" value="first"/>
-    <property name="Text 1" value="(What? your not supposed to say that! your going to make things look akward!) Awe thats too bad, but I understand... my simp fans can be scary... thats ok, guess we can go get some cyber icecream then! (next time bring your big pants on or we are not collabing again.)"/>
+    <property name="Text 1" value="(What? You're not supposed to say that! You're going to make things look akward!) Awe that's too bad, but I understand... My simp fans can be scary... that's ok, guess we can go get some cyber icecream then! (Next time put your big pants on or we are not collabing again.)"/>
    </properties>
    <point/>
   </object>
@@ -353,7 +353,7 @@
     <property name="Asset Name" value="punk-navi-exe6_navy"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Right"/>
-    <property name="Text 1" value="Moloko's tend to be rare these days... So how did someone get so much of them to crash a square?..."/>
+    <property name="Text 1" value="Moloko's tend to be rare these days... So how did someone get so many of them to flood a square?..."/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -372,7 +372,7 @@
     <property name="Asset Name" value="prog"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Left"/>
-    <property name="Text 1" value="*SIGH* SOMEONE POURED INVISIBLE DATA INK ON THE ROADS AT RANDOM, NOW I GOT TO CLEAN IT UP BUT I DONT KNOW WHERE THEY DID IT.... "/>
+    <property name="Text 1" value="*SIGH* SOMEONE POURED INVISIBLE DATA INK ON THE ROADS AT RANDOM, AND NOW I GOTTA CLEAN IT UP! BUT, I DONT KNOW WHERE THEY DID IT.... "/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -382,7 +382,7 @@
     <property name="Asset Name" value="ranked-navi-bn3"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Right"/>
-    <property name="Text 1" value="Ah...A curious one has come. Welcome! Since You Came this way, let me tell you a secret... You can go further down than 0."/>
+    <property name="Text 1" value="Ah...A curious one has come. Welcome! Since you came this way; let me tell you a secret... You can go further down than 0."/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -407,12 +407,17 @@
    </properties>
    <point/>
   </object>
-  <object id="58" name="Rune" type="NPC" x="884" y="942">
+  <object id="58" name="Rune" type="NPC" x="1052" y="627">
    <properties>
-    <property name="Asset Name" value="ow"/>
-    <property name="Dialogue Type" value="first"/>
-    <property name="Direction" value="Up"/>
+    <property name="Asset Name" value="ShellRuneV5"/>
+    <property name="Dialogue Type" value="random"/>
+    <property name="Direction" value="Down Left"/>
     <property name="Text 1" value="*stare*"/>
+    <property name="Text 2" value="(As much as you try; it doesn't seem to move...)"/>
+    <property name="Text 3" value="(For some reason you feel like this thing comes from a different dimension...)"/>
+    <property name="Text 4" value="If you see either a girl named Ikegai or one named Ruby tell them where I'm at for me please.     I do not move very far on my own..."/>
+    <property name="Text 5" value="Despite sharing my owners name I am just their pet.    I seem to have gotten lost, and wound up here. They'll find me eventually though."/>
+    <property name="Text 6" value="The panels connected to where I'm sitting have begun to be crushed and lose their visibility due to the weight of my work load...            Apologize to the admins for me."/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -837,7 +842,7 @@
     <property name="Asset Name" value="normal-navi-bn4_bad"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Left"/>
-    <property name="Text 1" value="I herd their was alot of Moloko's down here, so I originally came to delete them for some rare chips but.... I cant bring myself to do it..."/>
+    <property name="Text 1" value="I heard there was a flock of Moloko's down here; so I originally came to delete them for some rare chips but.... I can't bring myself to do it..."/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -850,7 +855,7 @@
     <property name="Asset Name" value="heel-navi-exe4_blue"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Right"/>
-    <property name="Text 1" value="Hey, no one else belives me on this... Maybe a weenie hut jr navi like you woud understand... That orange guy in the area next to us seems suspicous dont you think?... He seems like he's hiding somthing ya know?"/>
+    <property name="Text 1" value="Hey, no one else believes me on this... Maybe a Weenie Hut Jr. navi like you would understand... That orange guy in the area next to us seems suss don't you think?... He seems like he's hiding something ya know?"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -942,7 +947,7 @@
     <property name="Asset Name" value="heel-navi-exe4_blue"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Left"/>
-    <property name="Text 1" value="Go team cod!"/>
+    <property name="Text 1" value="Go Team Cod!"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -952,7 +957,7 @@
     <property name="Asset Name" value="punk-navi-exe6_red"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Right"/>
-    <property name="Text 1" value="Huh? im not even a fan, just the only people  I talk too so I just go along whatever they say."/>
+    <property name="Text 1" value="Huh? I'm not even a fan; just the only people I talk too...so I just go along with whatever they say."/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -962,7 +967,7 @@
     <property name="Asset Name" value="female-navi-exe5_purple"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Right"/>
-    <property name="Text 1" value="C! O! D! go team cod!"/>
+    <property name="Text 1" value="C! O! D! Go Team Cod!"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -972,17 +977,17 @@
     <property name="Asset Name" value="normal-navi-bn4_bad"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Right"/>
-    <property name="Text 1" value="Why.... Why is that girl down there talking like a moloko?..."/>
+    <property name="Text 1" value="Why.... Why is that girl down there talking like a Moloko?..."/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
   </object>
-  <object id="123" name="Eggs" type="NPC" x="210.5" y="563.5">
+  <object id="123" name="Eggs" type="NPC" x="212" y="565">
    <properties>
     <property name="Asset Name" value="normal-navi-bn4_bad"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Right"/>
-    <property name="Text 1" value="Dude, theres been rumors about this golden Heel navi going around spouting about lord flees or somthing... They just suddenly appeared , its weird!"/>
+    <property name="Text 1" value="Dude, there's been rumors about this golden Heel Navi going around spouting about Lord Flees or something... They just suddenly appeared, it's weird!"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -992,7 +997,7 @@
     <property name="Asset Name" value="heel-navi-exe4_black"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Right"/>
-    <property name="Text 1" value="I herd that most gates passwords are chip names... But still unsure wich ones though.."/>
+    <property name="Text 1" value="I heard that most gate passwords are chip names... But, still unsure which ones though.."/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" width="80" height="80" tilewidth="64" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="307">
+<map version="1.8" tiledversion="1.9.2" orientation="isometric" renderorder="right-down" width="80" height="80" tilewidth="64" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="307">
  <properties>
   <property name="Background" value="custom"/>
   <property name="Background Animation" value="/server/assets/custom/backgrounds/area1/GrayBG.animation"/>
@@ -127,7 +127,7 @@
     <property name="Asset Name" value="heel-navi-exe4_purple"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Left"/>
-    <property name="Text 1" value="Hey.. Did you felt a disturbance earlier?... meh could just be me.."/>
+    <property name="Text 1" value="Hey...Did you feel a disturbance earlier?... Meh could just be me.."/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -177,7 +177,7 @@
     <property name="Asset Name" value="heel-navi-exe4_white"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Right"/>
-    <property name="Text 1" value="Leave me be.."/>
+    <property name="Text 1" value="Leave me be..."/>
     <property name="Waypoint Type" value="first"/>
    </properties>
    <point/>
@@ -237,7 +237,7 @@
     <property name="Asset Name" value="punk-navi-exe6_red"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Right"/>
-    <property name="Text 1" value="what?"/>
+    <property name="Text 1" value="What?"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -279,7 +279,7 @@
     <property name="Asset Name" value="punk-navi-exe6_lime"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Left"/>
-    <property name="Text 1" value="There used to be more of us. A green customized Heel navi was with us all the time till he started acting weird... Then he just cut communication from us all togther... Hope he's alright"/>
+    <property name="Text 1" value="There used to be more of us. A green customized Heel Navi was with us all the time till he started acting weird... Then he just cut communication from us all togther... Hope he's alright..."/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -289,7 +289,7 @@
     <property name="Asset Name" value="heel-navi-exe4_green"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Left"/>
-    <property name="Text 1" value="Welcome to the under club! This is our hang out spot since not many go this far actually... What do we do? we just chat, play games and make stupid bets every saturday. We dont bother being rude all the time, gets tiring like being nice all thhe time can also be tiring ya know?"/>
+    <property name="Text 1" value="Welcome to the UnderClub! This is our hang out spot since not many go this far actually...What do we do? We just chat, play games, and make stupid bets every Saturday. We don't bother being rude all the time. Gets tiring; just like being nice all the time can also be tiring ya know?"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -299,7 +299,7 @@
     <property name="Asset Name" value="heel-navi-exe4_purple"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Right"/>
-    <property name="Text 1" value="Hey kid, herd about  the rumors? Alot of bug frags are poping up randomly... weird right?"/>
+    <property name="Text 1" value="Hey kid, heard about the rumors? Bunches of BugFrags are popping up randomly... weird right?"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -309,7 +309,7 @@
     <property name="Asset Name" value="heel-navi-exe4_blue"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Right"/>
-    <property name="Text 1" value="Legends says theres this crazed navi who name start with bug or somthing, powerful too! So powerful he sorta spawned this area we are standing right now!"/>
+    <property name="Text 1" value="Legends say there's this Crazed Navi who's name starts with Bug or something...Powerful too; so powerful he sorta spawned this area we're standing in right now!"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -319,7 +319,7 @@
     <property name="Asset Name" value="female-navi-exe5_purple"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Left"/>
-    <property name="Text 1" value="I found this cute Moloko All by itself! Decided to adopt it and saw it already has a name. Wonder who they belonged too.. It would speak somtimes but no one belives me!"/>
+    <property name="Text 1" value="I found this cute Moloko all by itself! Decided to adopt it, and saw it already has a name. Wonder who they belonged too...It speaks sometimes, but no one believes me!"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -329,7 +329,7 @@
     <property name="Asset Name" value="normal-navi-bn4_bad"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Right"/>
-    <property name="Text 1" value="I herd from some guy that somhow brought this area back from extinction! This place orignally was erased by a powerful navi..  And now its back from a assumed powerful navi... Gee maybe I should be a powerful navi too huh?"/>
+    <property name="Text 1" value="I heard from some guy; that somehow they brought this area back from extinction! This place was orignally erased by a powerful Navi... And, now it's back from an assumed powerful Navi... Gee maybe I should be a powerful Navi too huh?"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -342,7 +342,7 @@
     <property name="Text 1" value="Bah???"/>
     <property name="Text 2" value="*Stare*"/>
     <property name="Text 3" value="bah...."/>
-    <property name="Text 4" value="2 bodies found.... 1 burried"/>
+    <property name="Text 4" value="2 bodies found.... 1 buried"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -357,7 +357,7 @@
     <property name="Asset Name" value="ranked-navi-bn3"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Left"/>
-    <property name="Text 1" value="Im supposed to be deleted.. This land was supposed to be gone. But its back as if it never happened... And somthing powerful came with it. Somthing deep and dark..."/>
+    <property name="Text 1" value="I'm supposed to be deleted.. This land was supposed to be gone. But it's back as if it never happened... And something powerful came with it. Something deep and dark..."/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -373,7 +373,7 @@
     <property name="Asset Name" value="heel-navi-exe4_blue"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Left"/>
-    <property name="Text 1" value="Welcome to the crispy splatoon!"/>
+    <property name="Text 1" value="Welcome to the CrispySplatoon!"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -386,8 +386,7 @@
     <property name="Next 1" type="object" value="126"/>
     <property name="Next 2" type="object" value="127"/>
     <property name="Next Waypoint 1" type="object" value="125"/>
-    <property name="Text 1" value="How did you get here? Are you a fan of team Cod?"/>
-    <property name="Waypoint Type" value="first"/>
+    <property name="Text 1" value="How did you get here? Are you a fan of Team COD?"/>
    </properties>
    <point/>
   </object>
@@ -402,14 +401,14 @@
   <object id="126" name="Yes" type="Dialogue" x="2264" y="2216">
    <properties>
     <property name="Dialogue Type" value="first"/>
-    <property name="Text 1" value="Then scram! We hate freaking cods! its a stupid name and a stupid team! go team Buster!"/>
+    <property name="Text 1" value="Then scram! We hate freaking CODs! It's a stupid name, and a stupid team! Go Team Buster!"/>
    </properties>
    <point/>
   </object>
   <object id="127" name="No" type="Dialogue" x="2299.5" y="2210.5">
    <properties>
     <property name="Dialogue Type" value="first"/>
-    <property name="Text 1" value="Good, that team sucks. We root for team Buster! everyone knows busters are the best weapon to have on you no matter what! It never lets you down!"/>
+    <property name="Text 1" value="Good, that team sucks. We root for Team Buster! Everyone knows Busters are the best weapon to have on you no matter what! It never lets you down!"/>
    </properties>
    <point/>
   </object>
@@ -418,7 +417,7 @@
     <property name="Asset Name" value="female-navi-exe5_purple"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Right"/>
-    <property name="Text 1" value="What? Speak up! I dont speak upper people!"/>
+    <property name="Text 1" value="What? Speak up! I don't speak upper people!"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -438,7 +437,7 @@
     <property name="Asset Name" value="heel-navi-exe4_black"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Right"/>
-    <property name="Text 1" value="Its weird... From what I learned from this place is this was the original undernet 1. But it was put into stasis or destroyed or whatever right? So how did it come back? It's like someone wanted it to come back. I cant imagine someone from the inside to break free if it was stasis... But if it was deleted, how does one come back from the brink of deletion? Somthing doesnt make sense ya know?"/>
+    <property name="Text 1" value="It's weird... From what I learned about this place; this was the ORIGINAL Undernet1. But, it was put into stasis or destroyed or whatever right? So how'd it come back? It's like someone wanted it to come back. I can't imagine someone from the inside breaking free if it was stasis... But, if it was deleted...how does one come back from the brink of deletion? Something doesn't make sense ya know?"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -448,7 +447,7 @@
     <property name="Asset Name" value="heel-navi-exe4_black"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Left"/>
-    <property name="Text 1" value="All these bugfrags started showin up. I can finally afford that life aura!"/>
+    <property name="Text 1" value="All these BugFrags started showin up. I can finally afford that LifeAura!"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -458,7 +457,7 @@
     <property name="Asset Name" value="heel-navi-exe4_black"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Right"/>
-    <property name="Text 1" value="Where the hell are these bugfrags coming from? Meh, Whatever."/>
+    <property name="Text 1" value="Where the hell are these BugFrags coming from? Meh, Whatever."/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -469,7 +468,7 @@
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Right"/>
     <property name="Next Waypoint 1" type="object" value="136"/>
-    <property name="Text 1" value="Whats going on with this place? "/>
+    <property name="Text 1" value="What's going on with this place? "/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -488,7 +487,7 @@
     <property name="Asset Name" value="punk-navi-exe6_red"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Left"/>
-    <property name="Text 1" value="I need more fire chips to show that I like fire. I should hunt for some spikey viruses.."/>
+    <property name="Text 1" value="I need more fire chips to show that I like fire. I should hunt for some Spikey viruses..."/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -508,7 +507,7 @@
     <property name="Asset Name" value="punk-navi-exe6_red"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Right"/>
-    <property name="Text 1" value="Yo, Got a fire chip you can trade me? I'm tryna be my own cool hero protaganist who only uses fire chips! I'll call it the burning Ronin Navi!"/>
+    <property name="Text 1" value="Yo, got a fire chip you can trade me? I'm tryna be my own cool hero protaganist who only uses fire chips! I'll call myself the Burning Ronin Navi!"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -528,7 +527,7 @@
     <property name="Asset Name" value="heel-navi-exe4_red"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Left"/>
-    <property name="Text 1" value="Welcome to the Fire club, we aim to spread far and wide and grow while at it! If you cant take the heat then get out!"/>
+    <property name="Text 1" value="Welcome to the Fire Navi Club! We aim to spread far, and wide! And grow while we're at it! If you can't take the heat then get out!"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -538,7 +537,7 @@
     <property name="Asset Name" value="heel-navi-exe4_brown"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Left"/>
-    <property name="Text 1" value="So you see me? So im no ghost or somthing weird... Im alive again... What happened to me? I could of sworn I....."/>
+    <property name="Text 1" value="So you see me? So I'm not a ghost or something weird...? I'm alive again... What happened to me? I could've sworn I....."/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -548,7 +547,7 @@
     <property name="Asset Name" value="heel-navi-exe4_super"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Right"/>
-    <property name="Text 1" value="Bow to Lord Fleetway! He will show us the way! Lord Fleetway is the strongest! Not even Bugriser stands a chance!"/>
+    <property name="Text 1" value="Bow to Lord Fleetway! He will show us the way! Lord Fleetway is the strongest! Not even BugRiser stands a chance!"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -558,7 +557,7 @@
     <property name="Asset Name" value="heel-navi-exe4_super"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Right"/>
-    <property name="Text 1" value="Are you also a follower? Of Lord Fleetway?! Our almighty Lord Fleetway is the strongest! He has returned! If you dont want to be perished then join us for the rightful ruler of the undernet!"/>
+    <property name="Text 1" value="Are you also a follower? Of Lord Fleetway?! Our almighty Lord Fleetway is the strongest! He has returned! If you don't want to  perish then join us in serving the rightful ruler of the undernet!"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -569,17 +568,17 @@
     <property name="Asset Name" value="heel-navi-exe4_purple"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Right"/>
-    <property name="Text 1" value=". . . . Whats this tree doing here?"/>
+    <property name="Text 1" value=". . . . What's this tree doing here?"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
   </object>
-  <object id="160" name="Window" type="NPC" x="1493.5" y="1398.5">
+  <object id="160" name="Window" type="NPC" x="1496" y="1400">
    <properties>
     <property name="Asset Name" value="heel-navi-exe4_purple"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Left"/>
-    <property name="Text 1" value="No point on even cutting it down, we dont even have a cyber axe.. But I guess its fine where it is..."/>
+    <property name="Text 1" value="No point on even trying to cut it down; we don't even have a CybrAxe... But, I guess it's fine where it is..."/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -613,7 +612,7 @@
     <property name="Asset Name" value="punk-navi-exe6_navy"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Left"/>
-    <property name="Text 1" value="Wonder whats on the other side?"/>
+    <property name="Text 1" value="Wonder what's on the other side?"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -665,22 +664,22 @@
     <property name="Unlock Item" value="Shifting Key"/>
    </properties>
   </object>
-  <object id="194" name="Prog-???" type="NPC" x="1684" y="1042">
+  <object id="194" name="Prog-???" type="NPC" x="1688" y="1040">
    <properties>
     <property name="Asset Name" value="prog"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Right"/>
-    <property name="Text 1" value="YOUR NOT SUPPOSED TO BE IN THIS SPOT"/>
+    <property name="Text 1" value="YOU'RE NOT SUPPOSED TO BE IN THIS SPOT"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
   </object>
-  <object id="195" name="Prog-???" type="NPC" x="1622" y="1078">
+  <object id="195" name="Prog-???" type="NPC" x="1624" y="1080">
    <properties>
     <property name="Asset Name" value="prog"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Left"/>
-    <property name="Text 1" value="YOUR NOT SUPPOSED TO BE IN THIS SPOT"/>
+    <property name="Text 1" value="YOU'RE NOT SUPPOSED TO BE IN THIS SPOT"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -690,7 +689,7 @@
     <property name="Asset Name" value="prog"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Right"/>
-    <property name="Text 1" value="YOUR NOT SUPPOSED TO BE IN THIS SPOT"/>
+    <property name="Text 1" value="YOU'RE NOT SUPPOSED TO BE IN THIS SPOT"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -700,7 +699,7 @@
     <property name="Asset Name" value="prog"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Left"/>
-    <property name="Text 1" value="YOUR NOT SUPPOSED TO BE IN THIS SPOT"/>
+    <property name="Text 1" value="YOU'RE NOT SUPPOSED TO BE IN THIS SPOT"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -710,7 +709,7 @@
     <property name="Asset Name" value="prog"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Left"/>
-    <property name="Text 1" value="YOUR NOT SUPPOSED TO BE IN THIS SPOT"/>
+    <property name="Text 1" value="YOU'RE NOT SUPPOSED TO BE IN THIS SPOT"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -720,7 +719,7 @@
     <property name="Asset Name" value="prog"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Left"/>
-    <property name="Text 1" value="YOUR NOT SUPPOSED TO BE IN THIS SPOT"/>
+    <property name="Text 1" value="YOU'RE NOT SUPPOSED TO BE IN THIS SPOT"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -730,7 +729,7 @@
     <property name="Asset Name" value="prog"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Left"/>
-    <property name="Text 1" value="YOUR NOT SUPPOSED TO BE IN THIS SPOT"/>
+    <property name="Text 1" value="YOU'RE NOT SUPPOSED TO BE IN THIS SPOT"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -740,7 +739,7 @@
     <property name="Asset Name" value="punk-navi-exe6_red"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Right"/>
-    <property name="Text 1" value="Dude.... What could those Progs be talking about over there? I'd go in myself but they got it sealed off... Wonder Where's the password for the cubes?"/>
+    <property name="Text 1" value="Dude.... What could those Progs be talking about over there? I'd go in myself, but they got it sealed off... Wonder where the password is for the cubes?"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -750,7 +749,7 @@
     <property name="Asset Name" value="heel-navi-exe4_red"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Right"/>
-    <property name="Text 1" value="Hey lil ember, this is the Fire navi club! You need the password to get in or your not gettin in... What's the password? You think im that dumb to...ehh why do I care, its Salamandar... Look you guard this box 24/7 and get the &quot;hey man whats the password?&quot; over and over again, it gets repetetive and annoying after a while and im the only one to be in this position! I'm startin to think they dont like me........"/>
+    <property name="Text 1" value="Hey lil ember; this is the Fire Navi Club! You need the password to get in or you're not gettin in... What's the password? You think I'm dumb enough to...ehh why do I care? It's Salamandar... Look; you guard this box 24/7, and get the &quot;Hey man what's the password?&quot; over, and over again...It gets repetitive, and annoying after a whil. I'm the only one to ever be in this position! I'm startin to think they don't like me........"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -867,9 +866,8 @@
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Left"/>
     <property name="Next Waypoint 1" type="object" value="40"/>
-    <property name="Text 1" value="Im trying to find any rare stuff while this place is new!"/>
+    <property name="Text 1" value="I'm trying to find any rare stuff while this place is new!"/>
     <property name="Wait Time" value="2"/>
-    <property name="Waypoint Type" value="first"/>
    </properties>
    <point/>
   </object>
@@ -1077,7 +1075,7 @@
     <property name="Asset Name" value="prog"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Right"/>
-    <property name="Text 1" value="I WANNA BE PART OF THEIR CLUB, BUT I DONT KNOW IF THEY WILL ACCEPT ME.."/>
+    <property name="Text 1" value="I WANNA BE PART OF THEIR CLUB, BUT I DON'T KNOW IF THEY WILL ACCEPT ME.."/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -1138,7 +1136,6 @@
     <property name="Next Waypoint 1" type="object" value="118"/>
     <property name="Text 1" value="Dude, this place is huge! I could start a hang out here!"/>
     <property name="Wait Time" value="2"/>
-    <property name="Waypoint Type" value="first"/>
    </properties>
    <point/>
   </object>
@@ -1155,7 +1152,7 @@
     <property name="Asset Name" value="heel-navi-exe4_super"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Right"/>
-    <property name="Text 1" value="WEEEEEEEEEEEEEEEEEEEEEE IM ALIVE BABY! FINALLY I CAN GET BACK TO WHO PUT ME DOWN! THEN ITS EVERYONES NECK'S AFTER!!!"/>
+    <property name="Text 1" value="WEEEEEEEEEEEEEEEEEEEEEE I'M ALIVE BABY! FINALLY I CAN GET BACK AT WHO PUT ME DOWN HERE! THEN IT'S EVERYONES NECKS AFTER!!!"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -1165,7 +1162,7 @@
     <property name="Asset Name" value="heel-navi-exe4_brown"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Left"/>
-    <property name="Text 1" value="I just came to find rare chips but what do I find? A lunitic!"/>
+    <property name="Text 1" value="I just came to find rare chips, but what do I find? A lunatic!"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -1186,7 +1183,7 @@
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Left"/>
     <property name="Next Waypoint 1" type="object" value="134"/>
-    <property name="Text 1" value="All the molokos started eating the bugfrags on the ground. They don't look so good..."/>
+    <property name="Text 1" value="All the Molokos started eating the BugFrags on the ground. They don't look so good..."/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -1223,7 +1220,7 @@
     <property name="Asset Name" value="heel-navi-exe4_black"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Right"/>
-    <property name="Text 1" value="Trying to get overthere too? Yea im trying to figure out the same thing... The password I herd is somthing.... Powerful... Some navi's name... Wonder who's?"/>
+    <property name="Text 1" value="Trying to get over there too? Yea I'm trying to figure out the same thing... The password I heard is something...Powerful...Some navi's name... Wonder who's?"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -1298,7 +1295,7 @@
     <property name="Asset Name" value="heel-navi-exe4_black"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Right"/>
-    <property name="Text 1" value="Actually I think the password is somthing else.. Might be somthing about dying but for navis being killed... What was the word...?"/>
+    <property name="Text 1" value="Actually I think the password is something else.. Might be something about dying, but for Navis being killed... What was the word...?"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" width="80" height="94" tilewidth="64" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="201">
+<map version="1.8" tiledversion="1.9.2" orientation="isometric" renderorder="right-down" width="80" height="94" tilewidth="64" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="201">
  <properties>
   <property name="Background" value="custom"/>
   <property name="Background Animation" value="/server/assets/custom/backgrounds/crimsonhp/bg.animation"/>
@@ -164,7 +164,7 @@
     <property name="Asset Name" value="prog"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Right"/>
-    <property name="Text 1" value="HEYY THERE ROCKIN NAVI! WELCOME TO THE ONE AND ONLY CRIMSON'S HOME PAGE! SHE LOVES TO ROCK FOR A AUDIANCE! HER SINGING WILL SET YOU ABLAZE AND HER RAGE WILL INFLAME YOU! ENJOY YOUR WARM STAY AND WELCOME!"/>
+    <property name="Text 1" value="HEYYY THERE ROCKIN NAVI! WELCOME TO THE ONE AND ONLY CRIMSON'S HOME PAGE! SHE LOVES TO ROCK FOR AN AUDIANCE! HER SINGING WILL SET YOU ABLAZE AND HER RAGE WILL INFLAME YOU! ENJOY YOUR WARM STAY AND WELCOME!"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -299,7 +299,7 @@
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Right"/>
     <property name="Next Waypoint 1" type="object" value="130"/>
-    <property name="Text 1" value="Huh? Your a fan of Crimson too? Rad man!"/>
+    <property name="Text 1" value="Huh? You're a fan of Crimson too? Rad man!"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -317,7 +317,7 @@
     <property name="Asset Name" value="punk-navi-exe6_red"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Right"/>
-    <property name="Text 1" value="I herd Crimson is a great singer, but whats a gal like her doing in the undernet, and set up stage IN the undernet? She must know no fear..."/>
+    <property name="Text 1" value="I heard Crimson is a great singer, but what's a gal like her doing in the Undernet? And she set up a friggen concert stage IN the UNDERNET?! She must know no fear..."/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -337,7 +337,7 @@
     <property name="Asset Name" value="heel-navi-exe4_black"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Right"/>
-    <property name="Text 1" value="What? No no no, &quot;On your knees&quot; is a better song. You must be out of your mind if you think that isnt peak!"/>
+    <property name="Text 1" value="What? No no no, &quot;On your knees&quot; is a way better song. You must be out of your mind if you think that isn't peak!"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -357,7 +357,7 @@
     <property name="Asset Name" value="heel-navi-exe4_black"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Left"/>
-    <property name="Text 1" value="I herd Crimson used to be a offical battler navi, but retired and became a singer... But why retire?"/>
+    <property name="Text 1" value="I heard Crimson used to be an offical battler navi, but retired and became a singer... But why retire?"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -378,7 +378,7 @@
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Right"/>
     <property name="Next Waypoint 1" type="object" value="138"/>
-    <property name="Text 1" value="Do you think i'd have a chance to score a date with Crimson?....Yea I proboly wont land that.."/>
+    <property name="Text 1" value="Do you think I'd have a chance to score a date with Crimson?....Yea I probably wouldn't land that.."/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -416,7 +416,7 @@
     <property name="Asset Name" value="heel-navi-exe4_blue"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Left"/>
-    <property name="Text 1" value="Man what i'd give to have a few words to her... Huh?Ack! Scram! I wasnt talking! Stop being a creep!"/>
+    <property name="Text 1" value="Man what I'd give to have a few words with her... Huh? Ack! Scram! I wasn't talking! Stop being a creep!"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -426,7 +426,7 @@
     <property name="Asset Name" value="heel-navi-exe4_blue"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Right"/>
-    <property name="Text 1" value="Did you know that the creator hates Asymetry? So logically, he would hate it here!"/>
+    <property name="Text 1" value="Did you know that the server owner hates Asymmetry? So logically; he would hate it here!"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -436,7 +436,7 @@
     <property name="Asset Name" value="heel-navi-exe4_orange"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Left"/>
-    <property name="Text 1" value="Here's somthing funny I witnessed a few days ago... Some navi squad tried to assasinate Crimson while she was performing... Little did they know that her Microphone has a attack mode, she effortlessly just screamed and took them down! She's no ordinary navi thats for sure!"/>
+    <property name="Text 1" value="Here's somthing funny I witnessed a few days ago... Some navi squad tried to assassinate Crimson while she was performing... Little did they know that her Microphone has an attack mode, she effortlessly just screamed and took them down! She's no ordinary navi thats for sure!"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -446,7 +446,7 @@
     <property name="Asset Name" value="prog"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Left"/>
-    <property name="Text 1" value="WHAT AM I DOING HERE? IM ON BREAK! WE ARENT SLAVES THAT WORK 24/7 YA KNOW? I HERD CRIMSON IS A GREAT SINGER THAT WILL BLOW MY PROCESSORS SO I CAME TO SEE! I JUST NEED TO FIND HER STAGE...HMMM..."/>
+    <property name="Text 1" value="WHAT AM I DOING HERE? I'M ON BREAK! WE AREN'T SLAVES THAT WORK 24/7 YA KNOW? I HEARD CRIMSON IS A GREAT SINGER THAT WILL BLOW MY PROCESSORS SO I CAME TO SEE! I JUST NEED TO FIND HER STAGE...HMMM..."/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -457,7 +457,7 @@
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Left"/>
     <property name="Next Waypoint 1" type="object" value="146"/>
-    <property name="Text 1" value="The ammount of people here makes me happy, I know down here is a gloomy place but seems like we can still have a good time!"/>
+    <property name="Text 1" value="The amount of people here makes me happy~ I know down here is a gloomy place, but seems like we can still have a good time!"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -475,7 +475,7 @@
     <property name="Asset Name" value="heel-navi-exe4_blue"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Right"/>
-    <property name="Text 1" value="I should of brought snacks from the food vendor outside... I should before its too late..."/>
+    <property name="Text 1" value="I should've brought snacks from the food vendor outside... I should go get them before it's too late..."/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -485,7 +485,7 @@
     <property name="Asset Name" value="heel-navi-exe4_purple"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Left"/>
-    <property name="Text 1" value="Wait you didnt bring snacks! DUDE you was incharge of that! I gave you zenny for that reason!"/>
+    <property name="Text 1" value="Wait you didn't bring snacks! DUDE you're incharge of that! I gave you zenny for that reason!"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -518,12 +518,12 @@
     <property name="Asset Name" value="punk-navi-exe6_navy"/>
     <property name="Dialogue Type" value="random"/>
     <property name="Direction" value="Down Left"/>
-    <property name="Text 1" value="Welcome to Burn Burn! We have a new special today! Crimson fries! Their litterally red to show its HOT! For 200 zenny!"/>
-    <property name="Text 2" value="Welcome to Burn Burn! We have Crimson shaker soda for 170 zenny! "/>
-    <property name="Text 3" value="Welcome to Burn Burn! We got a deal that if you buy Cyan jaw breakers, you get a free soft drink for 100 zenny!"/>
-    <property name="Text 4" value="Welcome to Burn Burn! We got a new shipment of specials! The Crimson nugget dagger for 250 zenny! Its big and chunkey like the twister virus!"/>
-    <property name="Text 5" value="Welcome to Burn Burn! When Crimson performs currently , a deal on cyberdawgs will be 100 Zenny each! Buy some!"/>
-    <property name="Text 6" value="Welcome to Burn Burn! We recently added Cyber Grinders on the men.... Huh? Whats a grinder? its a hamburger sandwich thats long.... Subway???? We dont call it that here hun, if its gonna bother you then why dont you sti- ahem... sorry about that valued customer... Y-yes that would be 300 zenny..."/>
+    <property name="Text 1" value="Welcome to Burn Burn! We have a new special today! Crimson Fries! They're literally red to show its HOT! For only 200 zenny!"/>
+    <property name="Text 2" value="Welcome to Burn Burn! We have Crimson Shaker Soda for 170 zenny! "/>
+    <property name="Text 3" value="Welcome to Burn Burn! We got a deal that if you buy Cyan Jaw Breakers; you get a free soft drink for 100 zenny!"/>
+    <property name="Text 4" value="Welcome to Burn Burn! We got a new shipment of specials! The Crimson Nugget Dagger for 250 zenny! It's big and chunkey like the Twister virus!"/>
+    <property name="Text 5" value="Welcome to Burn Burn! When Crimson is giving a performance, we'll have a deal on Cyberdawgs for 100 Zenny each! Buy some!"/>
+    <property name="Text 6" value="Welcome to Burn Burn! We recently added Cyber Grinders on the men.... Huh? What's a Grinder? It's a hamburger sandwich thats long.... Subway???? We don't call it that here hun, if it's gonna bother you then why don't you sti- ahem... sorry about that valued customer... Y-yes that would be 300 zenny..."/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -533,10 +533,10 @@
     <property name="Asset Name" value="heel-navi-exe4_green"/>
     <property name="Dialogue Type" value="random"/>
     <property name="Direction" value="Up Right"/>
-    <property name="Text 1" value="Man this blows, I cant see anything!"/>
-    <property name="Text 2" value="Get out of my way! I cant see!"/>
+    <property name="Text 1" value="Man this blows, I can't see anything!"/>
+    <property name="Text 2" value="Get out of my way! I can't see!"/>
     <property name="Text 3" value="What?"/>
-    <property name="Text 4" value="Shut up! Im trying to listen!"/>
+    <property name="Text 4" value="Shut up! I'm trying to listen!"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -566,7 +566,7 @@
     <property name="Asset Name" value="heel-navi-exe4_yellow"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Right"/>
-    <property name="Text 1" value="Their yelling so loud I cant hear her sing properly.."/>
+    <property name="Text 1" value="They're yelling so loud I can't hear her sing properly.."/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -586,7 +586,7 @@
     <property name="Asset Name" value="female-navi-exe5_purple"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Right"/>
-    <property name="Text 1" value="Tell it! TELL IT HOW IT IS GIRL! WOOOOOO!"/>
+    <property name="Text 1" value="Tell It! TELL IT HOW IT IS GIRL! WOOOOOO!"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -606,7 +606,7 @@
     <property name="Asset Name" value="female-navi-exe5_purple"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Right"/>
-    <property name="Text 1" value="Im so recording this! I shall remember this day forever!"/>
+    <property name="Text 1" value="I'm so recording this! I shall remember this day forever!"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -616,7 +616,7 @@
     <property name="Asset Name" value="female-navi-exe5_purple"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Right"/>
-    <property name="Text 1" value="My friends didnt come, but I couldnt care, I wouldnt miss her shows for anyone!"/>
+    <property name="Text 1" value="My friends didn't come, but I couldn't care if you paid me! I wouldn't miss her shows for anyone! Everyone else is just missing out!"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -626,7 +626,7 @@
     <property name="Asset Name" value="heel-navi-exe4_super"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Right"/>
-    <property name="Text 1" value="What? Her music is just that good I calmed down!"/>
+    <property name="Text 1" value="What? Her music is just so good that I calmed down!"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -638,7 +638,7 @@
     <property name="Direction" value="Up Right"/>
     <property name="Text 1" value="Hi!"/>
     <property name="Text 2" value="Hello!"/>
-    <property name="Text 3" value="Im trying to listen to the show! c'mon!"/>
+    <property name="Text 3" value="Im trying to listen to the show! C'mon!"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -658,7 +658,7 @@
     <property name="Asset Name" value="prog"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Right"/>
-    <property name="Text 1" value="I SHOULD BE WORKING RIGHT NOW AND SWEEPING... BUT MY FRIEND DRAGGED ME ALONG!"/>
+    <property name="Text 1" value="I SHOULD BE WORKING RIGHT NOW, AND SWEEPING... BUT MY FRIEND DRAGGED ME ALONG!"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -689,7 +689,7 @@
     <property name="Dialogue Type" value="random"/>
     <property name="Direction" value="Up Right"/>
     <property name="Text 1" value="Rock! Rock! Rock!"/>
-    <property name="Text 2" value="Shes so hot..."/>
+    <property name="Text 2" value="She's so hot..."/>
     <property name="Text 3" value="So hot..."/>
     <property name="Text 4" value="......huh? Why are you staring at me?!"/>
     <property name="Wait Time" value="2"/>
@@ -702,7 +702,7 @@
     <property name="Dialogue Type" value="random"/>
     <property name="Direction" value="Up Right"/>
     <property name="Text 1" value="unz unz unz unz unz unz!"/>
-    <property name="Text 2" value="Hey... Want a dark chip?~"/>
+    <property name="Text 2" value="Hey... Want a Dark Chip?~"/>
     <property name="Text 3" value="Someone here is a liar."/>
     <property name="Wait Time" value="2"/>
    </properties>
@@ -713,9 +713,9 @@
     <property name="Asset Name" value="punk-navi-exe6_navy"/>
     <property name="Dialogue Type" value="random"/>
     <property name="Direction" value="Up Right"/>
-    <property name="Text 1" value="I'm actually suppsoed to be at work to fix somthing... But here I am and proboly gonna get fired..."/>
+    <property name="Text 1" value="I'm actually supposed to be at work to fix somthing... But here I am, and probably gonna get fired..."/>
     <property name="Text 2" value="Why are you talking to me?"/>
-    <property name="Text 3" value="Did you seriously came to this crowed and start talking to me? Are you ok?"/>
+    <property name="Text 3" value="Did you seriously come all the way out to this crowded area, and start talking to specifically me? Are you ok?"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -725,7 +725,7 @@
     <property name="Asset Name" value="heel-navi-exe4_orange"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Right"/>
-    <property name="Text 1" value="*ignores you*"/>
+    <property name="Text 1" value="*Ignores you*"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -735,7 +735,7 @@
     <property name="Asset Name" value="heel-navi-exe4_orange"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Right"/>
-    <property name="Text 1" value="Do you wanna die? Then leave me alone!"/>
+    <property name="Text 1" value="Do you wanna die? No? Then leave me alone!"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -775,7 +775,7 @@
     <property name="Asset Name" value="heel-navi-exe4_black"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Right"/>
-    <property name="Text 1" value="What? Whats some edge guy doing here? Its a free space let me live alright?"/>
+    <property name="Text 1" value="What? What's some edge guy doing here? It's a free space let me live alright?"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -785,7 +785,7 @@
     <property name="Asset Name" value="heel-navi-exe4_black"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Right"/>
-    <property name="Text 1" value="*ignores you*..."/>
+    <property name="Text 1" value="*Ignores you*..."/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -805,7 +805,7 @@
     <property name="Asset Name" value="heel-navi-exe4_blue"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Right"/>
-    <property name="Text 1" value="Im a easter egg but for only one person!"/>
+    <property name="Text 1" value="I'm a easter egg but for only one person!"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -847,7 +847,7 @@
     <property name="Asset Name" value="heel-navi-exe4_yellow"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Right"/>
-    <property name="Text 1" value="Where did the Moloko's come from???"/>
+    <property name="Text 1" value="Where did the Molokos come from???"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -897,7 +897,7 @@
     <property name="Asset Name" value="punk-navi-exe6_navy"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Right"/>
-    <property name="Text 1" value="CRIMSON! I GOT A CYBER TATOO OF YOU ON MY BACK!... Huh? Hey get away from me creep!"/>
+    <property name="Text 1" value="CRIMSON! I GOT A CYBER TATTOO OF YOU ON MY BACK!... Huh? Hey get away from me creep!"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -907,7 +907,7 @@
     <property name="Asset Name" value="ow"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Right"/>
-    <property name="Text 1" value="*jaming to the music*"/>
+    <property name="Text 1" value="*jamming to the music*"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -1255,7 +1255,7 @@
     <property name="Asset Name" value="crimson"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Left"/>
-    <property name="Text 1" value="Heya! How did you get up here? Eh no matter, welcome to my hp! anyone is welcome here especially the ugliest! Your pretty brave to be even speaking to me right now.. say did you know I used to be a offical? I retired after my 30 years of service. It's nice to kick back and enjoy life ya know? Who knows maybe I'll find trouble makers and put their face in the dirt!~ Maybe even i'll feel like battling you too! When im feelin it you will know!"/>
+    <property name="Text 1" value="Heya! How did you get up here? Eh no matter, welcome to my HP! Anyone is welcome here; especially the ugliest and baddest Navis! You're pretty brave to even be speaking to me right now...Say; did you know I used to be an Offical? I retired after my 30 years of service. It's nice to kick back, and enjoy life ya know? Who knows? Maybe I'll find trouble makers, and put their face in the dirt!~ Maybe I'll even feel like battling you too! When I'm feelin it you WILL know!"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
