@@ -1,0 +1,18 @@
+{
+    "listservers":{
+        "main":"http://www.keristero.xyz/server_list/"
+    },
+    "advertisements":[
+        {
+            "unique_server_id":"The_Block",
+            "name":"The Block",
+            "description":"Undernet Enter if you dare",
+            "tags":["pvp"],
+            "address":"165.227.139.229:8765",
+            "data":"",
+            "icon":"advertisement.png",
+            "color":"rgb(128,0,128)",
+            "advertise_map":true
+        }
+    ]
+}
