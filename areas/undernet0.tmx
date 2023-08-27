@@ -98,7 +98,7 @@
    </properties>
    <point/>
   </object>
-  <object id="4" name="Undernet0ToUndernet1" type="Radius Warp" x="148.5" y="1009.5">
+  <object id="4" name="Undernet0ToUndernet1" type="Radius Warp" x="160" y="1008">
    <properties>
     <property name="Activation Radius" value="0.6"/>
     <property name="Arrival Animation" value="arrow_up_left_in"/>
