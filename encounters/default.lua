@@ -239,11 +239,27 @@ local encounter11 = {
     },    
 }
 
+local encounter12 = {
+    path="/server/assets/ezlibs-assets/ezencounters/ezencounters.zip",
+    weight=50,
+    enemies = {
+        {name="Canosmart",rank=1},
+        {name="Sniper",rank=1},
+    },
+    positions = {
+        
+        {0,0,0,0,0,1},
+        {0,0,0,0,0,2},
+        {0,0,0,0,0,1}
+    },
+    
+}
+
 
 return {
     minimum_steps_before_encounter=230,
     encounter_chance_per_step=0.2,
-    encounters={encounter1, encounter2, encounter3, encounter4, encounter5, encounter6, encounter7, encounter8, encounter9, encounter10, encounter11}
+    encounters={encounter1, encounter2, encounter3, encounter4, encounter5, encounter6, encounter7, encounter8, encounter9, encounter10, encounter11, encounter12}
 }
 
 

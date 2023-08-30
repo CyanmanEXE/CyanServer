@@ -69,7 +69,8 @@ local encounter_info = {
         Swordy="com.louise.enemy.Swordy", --v1/v2/v3/SP/NM --
         CirKill="com.louise.enemy.CirKill",--no
         Robber="com.deejay.enemy.HeelNavi",
-        Burglar="com.dj.enemy.HeelNavi"
+        Burglar="com.dj.enemy.HeelNavi",
+        
 
     },
     obstacles = {

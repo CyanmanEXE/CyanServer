@@ -146,10 +146,143 @@ local encounter6 = {
     },
 }
 
+
+local encounter7 = {
+    path="/server/assets/ezlibs-assets/ezencounters/ezencounters.zip",
+    weight=50,
+    enemies = {
+        {name="HotHead",rank=1},
+        {name="Gloomer",rank=1},
+     
+    },
+    positions = {
+        
+        {0,0,0,0,0,1},
+        {0,0,0,0,0,2},
+        {0,0,0,0,0,1}
+    },
+    tiles = {
+        {1,2,1,1,2,1},
+        {2,1,1,1,1,1},
+        {1,2,1,2,1,1}
+    },
+}
+
+local encounter8 = {
+    path="/server/assets/ezlibs-assets/ezencounters/ezencounters.zip",
+    weight=50,
+    enemies = {
+        {name="Spikey",rank=4},
+        {name="GigaCorn",rank=1},
+        {name="Puffy",rank=1},
+     
+    },
+    positions = {
+        
+        {0,0,0,0,0,2},
+        {0,0,0,1,0,3},
+        {0,0,0,0,2,0}
+    },
+    tiles = {
+        {1,9,1,11,1,1},
+        {9,9,9,1,1,11},
+        {1,9,1,11,1,1}
+    },
+}
+
+local encounter9 = {
+    path="/server/assets/ezlibs-assets/ezencounters/ezencounters.zip",
+    weight=50,
+    enemies = {
+        {name="Spikey",rank=4},
+        {name="GigaCorn",rank=1},
+       
+     
+    },
+    positions = {
+        
+        {0,0,0,0,0,2},
+        {0,0,0,1,0,1},
+        {0,0,0,0,2,0}
+    },
+    tiles = {
+        {2,9,2,11,1,1},
+        {9,9,9,1,1,11},
+        {2,9,2,11,1,1}
+    },
+}
+
+local encounter10 = {
+    path="/server/assets/ezlibs-assets/ezencounters/ezencounters.zip",
+    weight=50,
+    enemies = {
+        {name="Canosmart",rank=1}
+     
+    },
+    positions = {
+        
+        {0,0,0,0,0,0},
+        {0,0,0,1,1,1},
+        {0,0,0,0,0,0}
+    },
+    tiles = {
+        {5,5,5,5,5,5},
+        {1,1,1,1,1,1},
+        {4,4,4,4,4,4}
+    },
+}
+
+local encounter11 = {
+    path="/server/assets/ezlibs-assets/ezencounters/ezencounters.zip",
+    weight=50,
+    enemies = {
+        {name="Swordy",rank=1},
+        {name="Swordy",rank=2},
+        {name="Swordy",rank=3},
+        {name="Swordy",rank=4},
+        {name="Swordy",rank=8},
+    },
+    positions = {
+        
+        {0,0,0,4,0,1},
+        {0,0,0,0,2,0},
+        {0,0,0,3,0,5}
+    },
+    tiles = {
+        {1,1,5,1,1,1},
+        {1,1,1,1,1,1},
+        {7,1,4,1,1,1}
+    
+    },
+}
+
+local encounter12 = {
+    path="/server/assets/ezlibs-assets/ezencounters/ezencounters.zip",
+    weight=50,
+    enemies = {
+        {name="Metrid",rank=4},
+        {name="RareChampy",rank=1},
+        {name="HauntedCandle",rank=7},
+    },
+    positions = {
+        
+        {0,0,0,1,0,2},
+        {0,0,0,0,2,0},
+        {0,0,0,0,0,3}
+    },
+    tiles = {
+        {1,1,1,1,1,9},
+        {9,9,9,1,9,1},
+        {1,1,1,9,1,1}
+    
+    },
+    
+}
+
 return {
     minimum_steps_before_encounter=80,
     encounter_chance_per_step=0.9,
-    encounters={encounter1, encounter2, encounter3, encounter4, encounter5, encounter6}
+    encounters={encounter1, encounter2, encounter3, encounter4, encounter5, encounter6, encounter7, encounter8, encounter9, encounter10, encounter11, encounter12}
 }
 
 
