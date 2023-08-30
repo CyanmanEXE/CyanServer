@@ -1346,9 +1346,9 @@
    <properties>
     <property name="Activation Radius" value="0.6"/>
     <property name="Arrival Animation" value="arrow_down_right_in"/>
-    <property name="Leave Animation" value="arrow_down_right_out"/>
+    <property name="Leave Animation" value="arrow_Up_Left_out"/>
     <property name="Target Area" value="gossip"/>
-    <property name="Target Object" value="1"/>
+    <property name="Target Object" value="18"/>
    </properties>
    <point/>
   </object>
