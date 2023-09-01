@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" width="65" height="65" tilewidth="64" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="20">
+<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" width="65" height="65" tilewidth="64" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="21">
  <properties>
   <property name="Background" value="custom"/>
   <property name="Background Animation" value="/server/assets/custom/backgrounds/area1/GrayBG.animation"/>
@@ -93,14 +93,6 @@
     <property name="Target Object" value="131"/>
    </properties>
   </object>
-  <object id="2" name="Open BBS" type="Board" gid="2147483671" x="424" y="1632" width="32" height="56">
-   <properties>
-    <property name="BBS" type="bool" value="true"/>
-    <property name="Color" type="color" value="#ff000000"/>
-    <property name="Name" value="Random BBS"/>
-    <property name="Post Limit" type="int" value="100"/>
-   </properties>
-  </object>
   <object id="4" name="Open BBS" type="Board" gid="2147483671" x="488" y="1632" width="32" height="56">
    <properties>
     <property name="BBS" type="bool" value="true"/>
@@ -109,7 +101,7 @@
     <property name="Post Limit" type="int" value="100"/>
    </properties>
   </object>
-  <object id="5" name="Open BBS" type="Board" gid="2147483671" x="456" y="1632" width="32" height="56">
+  <object id="5" name="Open BBS" type="Board" gid="2147483671" x="424" y="1632" width="32" height="56">
    <properties>
     <property name="BBS" type="bool" value="true"/>
     <property name="Color" type="color" value="#ffaaaaff"/>
@@ -176,7 +168,7 @@
     <property name="Text 1" value="I’ll cut you to pieces and bath in your blood..."/>
     <property name="Text 2" value="Did you know that if you talk to me again I will make the anilatiion of yumland look like a joke?"/>
     <property name="Text 3" value="I love everything. Fire spreading all around my room, it's hard to breath, but that's alright."/>
-    <property name="Wait Time" value="0"/>
+    <property name="Wait Time" value="1"/>
     <property name="Waypoint Type" value="first"/>
    </properties>
    <point/>
@@ -196,6 +188,7 @@
     <property name="Direction" value="Down Right"/>
     <property name="Next Waypoint 1" type="object" value="16"/>
     <property name="Text 1" value="I know you wont belive me... But I swear I seen somthing funky! Some small girl navi with a tank cannon for a charge shot! She blew the poor navi into the sky and we never seen him again... That navi is scary..."/>
+    <property name="Wait Time" value="2"/>
     <property name="Waypoint Type" value="first"/>
    </properties>
    <point/>
@@ -219,13 +212,23 @@
   <object id="18" name="gossipToooo" type="Radius Warp" x="232" y="1648">
    <properties>
     <property name="Activation Radius" value="0.6"/>
-    <property name="Arrival Animation" value="arrow_down_right_in"/>
-    <property name="Leave Animation" value="arrow_down_right_out"/>
+    <property name="Arrival Animation" value="arrow_up_left_in"/>
+    <property name="Leave Animation" value="arrow_up_left_out"/>
     <property name="Target Area" value="ooo"/>
     <property name="Target Object" value="131"/>
    </properties>
    <point/>
   </object>
   <object id="19" gid="2147483681" x="176" y="1592" width="48" height="60"/>
+  <object id="20" name="Dae" type="NPC" x="560" y="1648">
+   <properties>
+    <property name="Asset Name" value="heel-navi-exe4_orange"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Up Right"/>
+    <property name="Text 1" value="What? Why do I look glum? Well to be honest wth you, a mere stranger.... I had a friend who I thought was one of my best buds. Then I learned the hard way I was not only not their best friend, but im pretty much bottom of the barrel priority to them. It made me realize I had a heart and it hurts. I couldnt battle straight for a week I tell ya..... It made me feel angry, depressed and dreadful. I was wondering if there was somthing wrong with me? It couldnt be; so I felt grudge twards them for a good while but I couldnt shake them off because of it out of my mind. So I decided to just do what they done to me and keep expectations low. Here's a lesson for you kid; Never forget how someone treated you. Dont give them any type of satisfacton that you need them. Ever!.... Wow im surprised you listened to all of that.. Here Lemme tell you somthing for your troubles.. There IS a secret way to get to Undernet 3 without needing undernet 2... But sadly im unsure to this day how..."/>
+    <property name="Wait Time" value="2"/>
+   </properties>
+   <point/>
+  </object>
  </objectgroup>
 </map>
