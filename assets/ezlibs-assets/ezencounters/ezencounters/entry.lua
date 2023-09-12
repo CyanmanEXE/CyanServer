@@ -67,9 +67,9 @@ local encounter_info = {
         WindBox="com.louise.enemy.WindBox", --V1/V2/V3/SP/NM --
         VacuumFan="com.louise.enemy.VacuumFan", --V1/V2/V3/SP --
         Swordy="com.louise.enemy.Swordy", --v1/v2/v3/SP/NM --
-        CirKill="com.louise.enemy.CirKill",--no
-        Robber="com.deejay.enemy.HeelNavi",
-        Burglar="com.dj.enemy.HeelNavi",
+        CirKill="com.louise.enemy.CirKill",--v1,v2,v3,SP,R1,R2,NM
+        Volcano="com.louise.enemy.Volcano",
+        Knichovi="com.DawnAndCyan.enemy.Knichovi",
         
 
     },

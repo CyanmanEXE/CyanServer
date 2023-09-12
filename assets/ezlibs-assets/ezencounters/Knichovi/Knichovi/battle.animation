@@ -1,0 +1,20 @@
+imagePath="C:\Users\seven\OneDrive\Desktop\Release\resources\mods\enemies\Knichovi\Knichovi\Knichovi.png"
+
+animation state="IDLE"
+frame duration="0.005" x="38" y="22" w="42" h="29" originx="21" originy="27" flipx="1" flipy="0"
+
+animation state="ATTACK_ONE"
+frame duration="0.1" x="38" y="75" w="42" h="29" originx="21" originy="27" flipx="1" flipy="0"
+frame duration="0.1" x="91" y="74" w="42" h="30" originx="21" originy="28" flipx="1" flipy="0"
+frame duration="0.1" x="140" y="67" w="42" h="37" originx="21" originy="35" flipx="1" flipy="0"
+frame duration="0.1" x="187" y="54" w="42" h="50" originx="21" originy="48" flipx="1" flipy="0"
+frame duration="0.067" x="242" y="74" w="38" h="30" originx="16" originy="28" flipx="1" flipy="0"
+frame duration="0.067" x="289" y="73" w="39" h="31" originx="16" originy="29" flipx="1" flipy="0"
+frame duration="0.067" x="333" y="75" w="69" h="29" originx="44" originy="27" flipx="1" flipy="0"
+frame duration="0.067" x="420" y="60" w="42" h="44" originx="21" originy="42" flipx="1" flipy="0"
+
+animation state="ATTACK_TWO"
+frame duration="0.067" x="38" y="121" w="41" h="30" originx="19" originy="28" flipx="1" flipy="0"
+frame duration="0.067" x="87" y="121" w="45" h="29" originx="24" originy="27" flipx="1" flipy="0"
+frame duration="0.067" x="139" y="120" w="54" h="29" originx="31" originy="27" flipx="1" flipy="0"
+frame duration="0.067" x="206" y="118" w="69" h="29" originx="44" originy="27" flipx="1" flipy="0"

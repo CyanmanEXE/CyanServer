@@ -1,0 +1,6 @@
+imagePath="spell_sword_slashes_compressed.png"
+
+animation state="DEFAULT"
+frame duration="0.05" x="0" y="0" w="39" h="25" originx="29" originy="34" flipx="0" flipy="0"
+frame duration="0.05" x="39" y="0" w="35" h="22" originx="20" originy="35" flipx="0" flipy="0"
+frame duration="0.05" x="74" y="0" w="33" h="18" originx="21" originy="35" flipx="0" flipy="0"

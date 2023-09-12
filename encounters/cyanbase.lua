@@ -27,13 +27,14 @@ local encounter2 = {
     weight=90,
     enemies = {
         {name="CirKill",rank=1},
-       
+        {name="Knichovi",rank=1},
+        {name="Volcano",rank=1},
     },
     positions = {
         
-        {0,0,0,0,0,0},
+        {0,0,0,0,0,2},
         {0,0,0,0,1,0},
-        {0,0,0,0,0,0}
+        {0,0,0,3,0,0}
     },
     
 }
