@@ -28,7 +28,7 @@ local encounter2 = {
     enemies = {
         {name="CirKill",rank=1},
         {name="Knichovi",rank=1},
-        {name="Volcano",rank=1},
+        
     },
     positions = {
         
@@ -39,12 +39,28 @@ local encounter2 = {
     
 }
 
+local encounter3 = {
+    path="/server/assets/ezlibs-assets/ezencounters/ezencounters.zip",
+    weight=90,
+    enemies = {
+       
+        
+        {name="Volcano",rank=1},
+    },
+    positions = {
+        
+        {0,0,0,0,0,0},
+        {0,0,0,0,1,0},
+        {0,0,0,0,0,0}
+    },
+    
+}
 
 
 return {
     minimum_steps_before_encounter=90,
     encounter_chance_per_step=0.9,
-    encounters={encounter1, encounter2}
+    encounters={encounter1, encounter2, encounter3}
 }
 
 
