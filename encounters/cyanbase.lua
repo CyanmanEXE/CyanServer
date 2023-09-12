@@ -22,14 +22,28 @@ local encounter1 = {
     
 }
 
-
+local encounter2 = {
+    path="/server/assets/ezlibs-assets/ezencounters/ezencounters.zip",
+    weight=90,
+    enemies = {
+        {name="CirKill",rank=1},
+       
+    },
+    positions = {
+        
+        {0,0,0,0,0,0},
+        {0,0,0,0,1,0},
+        {0,0,0,0,0,0}
+    },
+    
+}
 
 
 
 return {
     minimum_steps_before_encounter=90,
     encounter_chance_per_step=0.9,
-    encounters={encounter1}
+    encounters={encounter1, encounter2}
 }
 
 
