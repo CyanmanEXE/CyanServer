@@ -1,0 +1,30 @@
+animation state="SPAWN"
+frame duration="0.117" x="28" y="152" w="22" h="60" originx="11" originy="54"
+
+animation state="IDLE"
+frame duration="0.117" x="28" y="152" w="22" h="60" originx="11" originy="54"
+frame duration="0.117" x="148" y="77" w="22" h="61" originx="11" originy="55"
+frame duration="0.1" x="96" y="77" w="22" h="63" originx="11" originy="57"
+frame duration="0.083" x="122" y="77" w="22" h="62" originx="11" originy="56"
+
+animation state="OPEN"
+frame duration="0.033" x="2" y="2" w="43" h="71" originx="27" originy="57"
+frame duration="0.34" x="49" y="2" w="45" h="71" originx="27" originy="57"
+
+animation state="BITE"
+frame duration="0.133" x="98" y="2" w="43" h="71" originx="27" originy="57"
+frame duration="0.033" x="2" y="77" w="43" h="71" originx="14" originy="63"
+frame duration="0.238" x="49" y="77" w="43" h="71" originx="17" originy="59"
+
+animation state="END"
+frame duration="0.1" x="54" y="152" w="22" h="60" originx="11" originy="54"
+frame duration="0.1" x="80" y="152" w="22" h="60" originx="11" originy="54"
+frame duration="0.1" x="145" y="2" w="22" h="61" originx="11" originy="55"
+
+animation state="4"
+frame duration="0.033" x="2" y="152" w="22" h="61" originx="11" originy="55"
+
+animation state="GEDDON"
+frame duration="0.033" x="2" y="2" w="43" h="71" originx="27" originy="57"
+frame duration="2" x="49" y="2" w="45" h="71" originx="27" originy="57"
+

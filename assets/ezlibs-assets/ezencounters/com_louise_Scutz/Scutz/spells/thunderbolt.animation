@@ -1,0 +1,18 @@
+imagePath="thunderbolt.png"
+
+animation state="0"
+frame duration="0.255" x="0" y="0" w="0" h="0" originx="0" originy="0" flipx="0" flipy="0"
+frame duration="0.033" x="2" y="2" w="19" h="128" originx="6" originy="128" flipx="0" flipy="0"
+frame duration="0.033" x="25" y="2" w="8" h="128" originx="4" originy="128" flipx="0" flipy="0"
+frame duration="0.033" x="37" y="2" w="19" h="128" originx="6" originy="128" flipx="0" flipy="0"
+frame duration="0.033" x="60" y="2" w="8" h="128" originx="4" originy="128" flipx="0" flipy="0"
+
+animation state="1"
+frame duration="0.033" x="2" y="2" w="19" h="128" originx="6" originy="128" flipx="0" flipy="0"
+frame duration="0.033" x="25" y="2" w="8" h="128" originx="4" originy="128" flipx="0" flipy="0"
+frame duration="0.033" x="37" y="2" w="19" h="128" originx="6" originy="128" flipx="0" flipy="0"
+frame duration="0.033" x="60" y="2" w="8" h="128" originx="4" originy="128" flipx="0" flipy="0"
+frame duration="0.033" x="2" y="2" w="19" h="128" originx="6" originy="128" flipx="0" flipy="0"
+frame duration="0.033" x="25" y="2" w="8" h="128" originx="4" originy="128" flipx="0" flipy="0"
+frame duration="0.033" x="37" y="2" w="19" h="128" originx="6" originy="128" flipx="0" flipy="0"
+frame duration="0.033" x="60" y="2" w="8" h="128" originx="4" originy="128" flipx="0" flipy="0"

@@ -1,0 +1,24 @@
+animation state="IDLE"
+frame duration="0.067" x="50" y="58" w="31" h="42" originx="18" originy="39"
+frame duration="0.067" x="81" y="58" w="32" h="41" originx="17" originy="38"
+frame duration="0.067" x="0" y="116" w="29" h="40" originx="15" originy="37"
+frame duration="0.067" x="100" y="0" w="31" h="41" originx="16" originy="38"
+
+animation state="LAND"
+frame duration="0.067" x="29" y="116" w="19" h="39" originx="7" originy="36"
+frame duration="0.067" x="48" y="116" w="19" h="38" originx="8" originy="35"
+
+animation state="ATTACK"
+frame duration="0.033" x="67" y="116" w="31" h="31" originx="18" originy="30"
+frame duration="0.166" x="0" y="0" w="50" h="58" originx="22" originy="51"
+frame duration="0.033" x="50" y="0" w="50" h="58" originx="22" originy="51"
+frame duration="0.466" x="0" y="58" w="50" h="58" originx="22" originy="51"
+
+animation state="SHADOW"
+frame duration="0.1" x="46" y="156" w="15" h="6" originx="7" originy="3"
+
+animation state="BIG_SHADOW"
+frame duration="0.1" x="0" y="156" w="46" h="20" originx="22" originy="10"
+
+animation state="JUMP"
+frame duration="0.067" x="50" y="58" w="31" h="32" originx="18" originy="39"

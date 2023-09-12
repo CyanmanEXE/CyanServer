@@ -1,0 +1,25 @@
+animation state="IDLE"
+frame duration="0.133" x="0" y="128" w="120" h="64" originx="58" originy="62" flipx="1"
+frame duration="0.133" x="120" y="128" w="120" h="64" originx="58" originy="62" flipx="1"
+frame duration="0.133" x="240" y="128" w="120" h="64" originx="58" originy="62" flipx="1"
+frame duration="0.133" x="360" y="128" w="120" h="64" originx="58" originy="62" flipx="1"
+frame duration="0.133" x="480" y="128" w="120" h="64" originx="58" originy="62" flipx="1"
+frame duration="0.133" x="600" y="128" w="120" h="64" originx="58" originy="62" flipx="1"
+frame duration="0.133" x="720" y="128" w="120" h="64" originx="58" originy="62" flipx="1"
+
+
+
+animation state="ATTACK_START"
+frame duration="0.133" x="0" y="128" w="120" h="64" originx="58" originy="62" flipx="1"
+frame duration="0.133" x="960" y="128" w="120" h="64" originx="58" originy="62" flipx="1"
+frame duration="0.2" x="1080" y="128" w="120" h="64" originx="58" originy="62" flipx="1"
+
+
+animation state="ATTACK_LOOP"
+frame duration="0.05" x="1320" y="128" w="120" h="64" originx="58" originy="62" flipx="1" --removed
+frame duration="0.0833" x="1200" y="128" w="120" h="64" originx="58" originy="62" flipx="1" -- added
+
+
+
+animation state="START"
+frame duration="0.133" x="0" y="128" w="120" h="64" originx="58" originy="62" flipx="1"

@@ -1,0 +1,36 @@
+animation state="BIG_TELEPORT_FROM"
+frame duration="0.033" x="118" y="2" w="30" h="48" originx="15" originy="25"
+frame duration="0.033" x="2" y="2" w="25" h="56" originx="13" originy="29"
+
+animation state="BIG_TELEPORT_TO"
+frame duration="0.033" x="31" y="2" w="25" h="56" originx="13" originy="29"
+frame duration="0.033" x="2" y="62" w="30" h="48" originx="15" originy="25"
+
+animation state="MEDIUM_TELEPORT_FROM"
+frame duration="0.017" x="75" y="114" w="30" h="32" originx="15" originy="16" flipx="1"
+frame duration="0.033" x="104" y="62" w="25" h="40" originx="13" originy="20" flipx="1"
+
+animation state="MEDIUM_TELEPORT_TO"
+frame duration="0.017" x="2" y="114" w="25" h="40" originx="13" originy="20" flipx="1"
+frame duration="0.033" x="109" y="114" w="30" h="32" originx="15" originy="16" flipx="1"
+
+animation state="SMALL_TELEPORT_FROM"
+frame duration="0.033" x="2" y="158" w="23" h="24" originx="11" originy="13"
+frame duration="0.033" x="31" y="114" w="18" h="34" originx="9" originy="18"
+
+animation state="SMALL_TELEPORT_TO"
+frame duration="0.033" x="53" y="114" w="18" h="34" originx="9" originy="18"
+frame duration="0.033" x="29" y="158" w="23" h="24" originx="11" originy="13"
+
+animation state="6"
+frame duration="0.133" x="56" y="158" w="1" h="1" originx="192" originy="192"
+frame duration="0.033" x="36" y="62" w="30" h="48" originx="15" originy="25"
+frame duration="0.033" x="60" y="2" w="25" h="56" originx="13" originy="29"
+frame duration="0.083" x="61" y="158" w="1" h="1" originx="192" originy="192"
+
+animation state="7"
+frame duration="0.083" x="66" y="158" w="1" h="1" originx="192" originy="192"
+frame duration="0.033" x="89" y="2" w="25" h="56" originx="13" originy="29"
+frame duration="0.033" x="70" y="62" w="30" h="48" originx="15" originy="25"
+frame duration="0.133" x="71" y="158" w="1" h="1" originx="192" originy="192"
+

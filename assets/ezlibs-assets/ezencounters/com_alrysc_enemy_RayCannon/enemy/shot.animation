@@ -1,0 +1,8 @@
+animation state="CANNON_SHOT"
+frame duration="0.033" x="0" y="32" w="64" h="64" originx="32" originy="32" -- 3f each
+frame duration="0.05" x="64" y="32" w="64" h="64" originx="32" originy="32"
+frame duration="0.05" x="128" y="32" w="64" h="64" originx="32" originy="32"
+frame duration="0.05" x="192" y="32" w="64" h="64" originx="32" originy="32"
+frame duration="0.05" x="256" y="32" w="64" h="64" originx="32" originy="32"
+frame duration="0.05" x="320" y="32" w="64" h="64" originx="32" originy="32"
+blank duration="0.033"

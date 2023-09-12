@@ -70,7 +70,15 @@ local encounter_info = {
         CirKill="com.louise.enemy.CirKill",--v1,v2,v3,SP,R1,R2,NM
         Volcano="com.louise.enemy.Volcano",
         Knichovi="com.DawnAndCyan.enemy.Knichovi",
-        
+        Lark="com.louise.enemy.Lark",
+        Skarab="com.louise.enemy.Skarab",
+        Scutz="com.louise.enemy.Scutz",
+        Flashy="com.louise.enemy.Flashy",
+        Dominerd="com.louise.enemy.Dominerd",
+        Cragger="com.louise.enemy.Cragger",
+        DarkMech="com.HNST_SGNL.enemy.DarkMech",
+        RayCannon="com.alrysc.enemy.RayCannon",
+        Juraigon="com.alrysc.enemy.juraigon",
 
     },
     obstacles = {
