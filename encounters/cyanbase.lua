@@ -73,7 +73,7 @@ local encounter4 = {
     
 }
 
-local encounter3 = {
+local encounter5 = {
     path="/server/assets/ezlibs-assets/ezencounters/ezencounters.zip",
     weight=90,
     enemies = {
@@ -90,7 +90,7 @@ local encounter3 = {
     
 }
 
-local encounter3 = {
+local encounter6 = {
     path="/server/assets/ezlibs-assets/ezencounters/ezencounters.zip",
     weight=90,
     enemies = {
@@ -107,7 +107,7 @@ local encounter3 = {
     
 }
 
-local encounter3 = {
+local encounter7 = {
     path="/server/assets/ezlibs-assets/ezencounters/ezencounters.zip",
     weight=90,
     enemies = {
@@ -124,7 +124,7 @@ local encounter3 = {
     
 }
 
-local encounter3 = {
+local encounter8 = {
     path="/server/assets/ezlibs-assets/ezencounters/ezencounters.zip",
     weight=90,
     enemies = {
@@ -141,7 +141,7 @@ local encounter3 = {
     
 }
 
-local encounter3 = {
+local encounter9 = {
     path="/server/assets/ezlibs-assets/ezencounters/ezencounters.zip",
     weight=90,
     enemies = {
@@ -158,7 +158,7 @@ local encounter3 = {
     
 }
 
-local encounter3 = {
+local encounter10 = {
     path="/server/assets/ezlibs-assets/ezencounters/ezencounters.zip",
     weight=90,
     enemies = {
@@ -175,7 +175,7 @@ local encounter3 = {
     
 }
 
-local encounter3 = {
+local encounter11 = {
     path="/server/assets/ezlibs-assets/ezencounters/ezencounters.zip",
     weight=90,
     enemies = {
@@ -192,7 +192,7 @@ local encounter3 = {
     
 }
 
-local encounter3 = {
+local encounter12 = {
     path="/server/assets/ezlibs-assets/ezencounters/ezencounters.zip",
     weight=90,
     enemies = {
@@ -212,7 +212,7 @@ local encounter3 = {
 return {
     minimum_steps_before_encounter=90,
     encounter_chance_per_step=0.9,
-    encounters={encounter1, encounter2, encounter3}
+    encounters={encounter1, encounter2, encounter3, encounter4, encounter5, encounter6, encounter7, encounter8, encounter9, encounter10, encounter11, encounter12}
 }
 
 
