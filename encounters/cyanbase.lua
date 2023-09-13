@@ -193,18 +193,19 @@ local encounter11 = {
 }
 
 local encounter12 = {
-    path="/server/assets/ezlibs-assets/ezencounters/ezencounters_cyan.zip",
+    path="/server/assets/ezlibs-assets/ezencounters/ezencounters.zip",
     weight=90,
     enemies = {
        
         
-        {name="Juraigon",rank=1},
+        {name="Cirkill",rank=1},
+        {name="Basher",rank=1},
     },
     positions = {
         
-        {0,0,0,0,0,0},
-        {0,0,0,0,1,0},
-        {0,0,0,0,0,0}
+        {0,0,0,1,0,0},
+        {0,0,0,0,2,0},
+        {0,0,0,0,0,1}
     },
     
 }
