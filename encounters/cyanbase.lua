@@ -22,175 +22,7 @@ local encounter1 = {
     
 }
 
-local encounter2 = {
-    path="/server/assets/ezlibs-assets/ezencounters/ezencounters.zip",
-    weight=0,
-    enemies = {
-        {name="CirKill",rank=1},
-        {name="Knichovi",rank=1},
-        
-    },
-    positions = {
-        
-        {0,0,0,0,0,2},
-        {0,0,0,0,1,0},
-        {0,0,0,0,0,0}
-    },
-    
-}
 
-local encounter3 = {
-    path="/server/assets/ezlibs-assets/ezencounters/ezencounters.zip",
-    weight=0,
-    enemies = {
-       
-        
-        {name="Volcano",rank=1},
-    },
-    positions = {
-        
-        {0,0,0,0,0,0},
-        {0,0,0,0,1,0},
-        {0,0,0,0,0,0}
-    },
-    
-}
-
-local encounter4 = {
-    path="/server/assets/ezlibs-assets/ezencounters/ezencounters.zip",
-    weight=0,
-    enemies = {
-       
-        
-        {name="Lark",rank=1},
-    },
-    positions = {
-        
-        {0,0,0,0,0,0},
-        {0,0,0,0,1,0},
-        {0,0,0,0,0,0}
-    },
-    
-}
-
-local encounter5 = {
-    path="/server/assets/ezlibs-assets/ezencounters/ezencounters.zip",
-    weight=0,
-    enemies = {
-       
-        
-        {name="Skarab",rank=1},
-    },
-    positions = {
-        
-        {0,0,0,0,0,0},
-        {0,0,0,0,1,0},
-        {0,0,0,0,0,0}
-    },
-    
-}
-
-local encounter6 = {
-    path="/server/assets/ezlibs-assets/ezencounters/ezencounters.zip",
-    weight=0,
-    enemies = {
-       
-        
-        {name="Scutz",rank=1},
-    },
-    positions = {
-        
-        {0,0,0,0,0,0},
-        {0,0,0,0,1,0},
-        {0,0,0,0,0,0}
-    },
-    
-}
-
-local encounter7 = {
-    path="/server/assets/ezlibs-assets/ezencounters/ezencounters.zip",
-    weight=0,
-    enemies = {
-       
-        
-        {name="Flashy",rank=1},
-    },
-    positions = {
-        
-        {0,0,0,0,0,0},
-        {0,0,0,0,1,0},
-        {0,0,0,0,0,0}
-    },
-    
-}
-
-local encounter8 = {
-    path="/server/assets/ezlibs-assets/ezencounters/ezencounters.zip",
-    weight=0,
-    enemies = {
-       
-        
-        {name="Dominerd",rank=1},
-    },
-    positions = {
-        
-        {0,0,0,0,0,0},
-        {0,0,0,0,1,0},
-        {0,0,0,0,0,0}
-    },
-    
-}
-
-local encounter9 = {
-    path="/server/assets/ezlibs-assets/ezencounters/ezencounters.zip",
-    weight=0,
-    enemies = {
-       
-        
-        {name="Cragger",rank=1},
-    },
-    positions = {
-        
-        {0,0,0,0,0,0},
-        {0,0,0,0,1,0},
-        {0,0,0,0,0,0}
-    },
-    
-}
-
-local encounter10 = {
-    path="/server/assets/ezlibs-assets/ezencounters/ezencounters.zip",
-    weight=0,
-    enemies = {
-       
-        
-        {name="DarkMech",rank=1},
-    },
-    positions = {
-        
-        {0,0,0,0,0,0},
-        {0,0,0,0,1,0},
-        {0,0,0,0,0,0}
-    },
-    
-}
-
-local encounter11 = {
-    path="/server/assets/ezlibs-assets/ezencounters/ezencounters.zip",
-    weight=0,
-    enemies = {
-       
-        
-        {name="RayCannon",rank=1},
-    },
-    positions = {
-        
-        {0,0,0,0,0,0},
-        {0,0,0,0,1,0},
-        {0,0,0,0,0,0}
-    },
-    
-}
 
 local encounter12 = {
     path="/server/assets/ezlibs-assets/ezencounters/ezencounters.zip",
@@ -210,10 +42,47 @@ local encounter12 = {
     
 }
 
+local encounter3 = {
+    path="/server/assets/ezlibs-assets/ezencounters/ezencounters.zip",
+    weight=90,
+    enemies = {
+       
+        
+        {name="Cirkill",rank=1},
+        
+    },
+    positions = {
+        
+        {0,0,0,1,0,0},
+        {0,0,0,0,0,0},
+        {0,0,0,0,0,1}
+    },
+    
+}
+
+
+local encounter2 = {
+    path="/server/assets/ezlibs-assets/ezencounters/ezencounters.zip",
+    weight=90,
+    enemies = {
+       
+        
+        
+        {name="Basher",rank=1},
+    },
+    positions = {
+        
+        {0,0,0,1,0,0},
+        {0,0,0,0,0,0},
+        {0,0,0,0,0,1}
+    },
+    
+}
+
 return {
     minimum_steps_before_encounter=90,
     encounter_chance_per_step=0.9,
-    encounters={encounter1, encounter2, encounter3, encounter4, encounter5, encounter6, encounter7, encounter8, encounter9, encounter10, encounter11, encounter12}
+    encounters={encounter1,encounter2, encounter3, encounter12}
 }
 
 
