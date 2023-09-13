@@ -78,7 +78,7 @@ local encounter_info = {
         Cragger="com.louise.enemy.Cragger",
         DarkMech="com.HNST_SGNL.enemy.DarkMech",
         RayCannon="com.alrysc.enemy.RayCannon",
-        Juraigon="com.alrysc.enemy.juraigon",
+        Juraigon="com.alrysc.enemy.juraigonVirus",
 
     },
     obstacles = {

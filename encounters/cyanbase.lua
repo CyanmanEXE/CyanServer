@@ -24,7 +24,7 @@ local encounter1 = {
 
 local encounter2 = {
     path="/server/assets/ezlibs-assets/ezencounters/ezencounters.zip",
-    weight=90,
+    weight=0,
     enemies = {
         {name="CirKill",rank=1},
         {name="Knichovi",rank=1},
@@ -41,7 +41,7 @@ local encounter2 = {
 
 local encounter3 = {
     path="/server/assets/ezlibs-assets/ezencounters/ezencounters.zip",
-    weight=90,
+    weight=0,
     enemies = {
        
         
@@ -58,7 +58,7 @@ local encounter3 = {
 
 local encounter4 = {
     path="/server/assets/ezlibs-assets/ezencounters/ezencounters.zip",
-    weight=90,
+    weight=0,
     enemies = {
        
         
@@ -75,7 +75,7 @@ local encounter4 = {
 
 local encounter5 = {
     path="/server/assets/ezlibs-assets/ezencounters/ezencounters.zip",
-    weight=90,
+    weight=0,
     enemies = {
        
         
@@ -92,7 +92,7 @@ local encounter5 = {
 
 local encounter6 = {
     path="/server/assets/ezlibs-assets/ezencounters/ezencounters.zip",
-    weight=90,
+    weight=0,
     enemies = {
        
         
@@ -109,7 +109,7 @@ local encounter6 = {
 
 local encounter7 = {
     path="/server/assets/ezlibs-assets/ezencounters/ezencounters.zip",
-    weight=90,
+    weight=0,
     enemies = {
        
         
@@ -126,7 +126,7 @@ local encounter7 = {
 
 local encounter8 = {
     path="/server/assets/ezlibs-assets/ezencounters/ezencounters.zip",
-    weight=90,
+    weight=0,
     enemies = {
        
         
@@ -143,7 +143,7 @@ local encounter8 = {
 
 local encounter9 = {
     path="/server/assets/ezlibs-assets/ezencounters/ezencounters.zip",
-    weight=90,
+    weight=0,
     enemies = {
        
         
@@ -160,7 +160,7 @@ local encounter9 = {
 
 local encounter10 = {
     path="/server/assets/ezlibs-assets/ezencounters/ezencounters.zip",
-    weight=90,
+    weight=0,
     enemies = {
        
         
@@ -177,7 +177,7 @@ local encounter10 = {
 
 local encounter11 = {
     path="/server/assets/ezlibs-assets/ezencounters/ezencounters.zip",
-    weight=90,
+    weight=0,
     enemies = {
        
         
