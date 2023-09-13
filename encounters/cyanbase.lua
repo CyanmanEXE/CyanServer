@@ -193,7 +193,7 @@ local encounter11 = {
 }
 
 local encounter12 = {
-    path="/server/assets/ezlibs-assets/ezencounters/ezencounters.zip",
+    path="/server/assets/ezlibs-assets/ezencounters/ezencounters_cyan.zip",
     weight=90,
     enemies = {
        
