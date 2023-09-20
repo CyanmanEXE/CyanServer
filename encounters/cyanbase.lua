@@ -30,7 +30,7 @@ local encounter12 = {
     enemies = {
        
         
-        {name="Cirkill",rank=1},
+        {name="CirKill",rank=1},
         {name="Basher",rank=1},
     },
     positions = {
@@ -48,7 +48,7 @@ local encounter3 = {
     enemies = {
        
         
-        {name="Cirkill",rank=1},
+        {name="CirKill",rank=1},
         
     },
     positions = {
