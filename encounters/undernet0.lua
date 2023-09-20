@@ -257,11 +257,39 @@ local encounter11 = {
     },    
 }
 
+local encounter12 = {
+    path="/server/assets/ezlibs-assets/ezencounters/ezencounters.zip",
+    weight=50,
+    enemies = {
+        {name="Puffy",rank=1,max_hp=500,nickname="Nightmar2"},--!
+
+        
+    },
+    positions = {
+        
+        {0,0,0,0,1,1},
+        {0,0,0,0,1,1},
+        {0,0,0,0,1,1}
+    },
+    tiles = {
+        {1,1,1,11,11,11},
+        {1,1,1,11,11,11},
+        {1,1,1,11,11,11}
+    },
+    obstacles = {
+        {name="RockCube"},
+    },
+    obstacle_positions = {
+        {1,1,1,1,0,0},
+        {1,0,1,1,0,0},
+        {1,1,1,1,0,0}
+    },    
+}
 
 return {
     minimum_steps_before_encounter=90,
     encounter_chance_per_step=0.7,
-    encounters={encounter1, encounter2, encounter3, encounter4, encounter5, encounter6, encounter7, encounter8, encounter9, encounter10, encounter11}
+    encounters={encounter1, encounter2, encounter3, encounter4, encounter5, encounter6, encounter7, encounter8, encounter9, encounter10, encounter11, encounter12}
 }
 
 
