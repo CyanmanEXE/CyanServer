@@ -266,7 +266,8 @@
   <object id="91" name="Server Warp" type="Server Warp" gid="9" x="972.5" y="1197.5" width="62" height="37">
    <properties>
     <property name="Address" value="150.136.185.212"/>
-    <property name="Port" value="7000"/>
+    <property name="Port" type="int" value="7000"/>
+    <property name="Warp In" type="bool" value="true"/>
    </properties>
   </object>
   <object id="92" name="Pranker" type="NPC" x="974.5" y="1073.5">

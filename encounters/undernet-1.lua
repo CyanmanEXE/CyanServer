@@ -279,10 +279,56 @@ local encounter12 = {
     
 }
 
+local encounter13 = {
+    path="/server/assets/ezlibs-assets/ezencounters/ezencounters.zip",
+    weight=90,
+    enemies = {
+       
+        
+        {name="CirSmash",rank=1},
+        {name="Basher",rank=1},
+    },
+    positions = {
+        
+        {0,0,0,1,0,0},
+        {0,0,0,0,2,0},
+        {0,0,0,0,0,1}
+    },
+    tiles = {
+        {14,14,1,11,1,11},
+        {1,1,1,1,1,1},
+        {15,1,14,11,1,11}
+    
+    },
+    
+}
+
+local encounter14 = {
+    path="/server/assets/ezlibs-assets/ezencounters/ezencounters.zip",
+    weight=50,
+    enemies = {
+        {name="Volcano",rank=8},
+        {name="Elemperor",rank=8},
+        
+     
+    },
+    positions = {
+        
+        {0,0,0,0,0,1},
+        {0,0,0,0,2,0},
+        {0,0,0,0,0,0}
+    },
+    tiles = {
+        {1,1,1,1,1,1},
+        {12,1,13,1,12,1},
+        {1,1,1,1,1,13}
+    },
+}
+
 return {
     minimum_steps_before_encounter=80,
     encounter_chance_per_step=0.9,
-    encounters={encounter1, encounter2, encounter3, encounter4, encounter5, encounter6, encounter7, encounter8, encounter9, encounter10, encounter11, encounter12}
+    encounters={encounter1, encounter2, encounter3, encounter4, encounter5, encounter6, encounter7, encounter8, encounter9, encounter10, encounter11, encounter12, encounter13, encounter14}
 }
 
 
