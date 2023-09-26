@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" width="105" height="60" tilewidth="64" tileheight="32" infinite="0" nextlayerid="13" nextobjectid="140">
+<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" width="105" height="60" tilewidth="64" tileheight="32" infinite="0" nextlayerid="13" nextobjectid="199">
  <properties>
   <property name="Background" value="custom"/>
   <property name="Background Animation" value="/server/assets/custom/backgrounds/area1/GrayBG.animation"/>
@@ -27,6 +27,18 @@
  <tileset firstgid="148" source="../assets/tiles/warp.tsx"/>
  <tileset firstgid="154" source="../assets/tiles/fang2.tsx"/>
  <tileset firstgid="157" source="../assets/tiles/Internet House.tsx"/>
+ <tileset firstgid="158" source="../assets/tiles/gobby_standard.tsx"/>
+ <tileset firstgid="206" source="../assets/tiles/under_pine.tsx"/>
+ <tileset firstgid="210" source="../assets/tiles/tree.tsx"/>
+ <tileset firstgid="214" source="../assets/tiles/SDoor.tsx"/>
+ <tileset firstgid="244" source="../assets/tiles/tree2.tsx"/>
+ <tileset firstgid="248" source="../assets/tiles/chip_data.tsx"/>
+ <tileset firstgid="368" source="../assets/tiles/rak.tsx"/>
+ <tileset firstgid="373" source="../assets/tiles/kabob.tsx"/>
+ <tileset firstgid="374" source="../assets/tiles/Fireman Flame.tsx"/>
+ <tileset firstgid="402" source="../assets/tiles/Castle Wall.tsx"/>
+ <tileset firstgid="404" source="../assets/tiles/Cyber Play Dome.tsx"/>
+ <tileset firstgid="407" source="../assets/tiles/Teddy.tsx"/>
  <layer id="1" name="Tile Layer 1" width="105" height="60">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,3,3,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -81,11 +93,11 @@
 0,0,0,0,0,0,0,2,2,2,0,0,0,0,0,0,0,8,3,3,3,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,2,0,0,0,2,1,1,2,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,2,2,2,0,0,0,0,0,0,3,3,3,3,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,5,1,2,0,0,0,0,2,1,2,2,0,0,0,0,0,0,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,6,2,2,0,0,0,0,0,0,3,3,3,3,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,0,0,0,0,0,2,2,2,0,0,0,0,0,0,4,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,3,5,3,0,0,2,2,2,0,0,0,0,0,0,0,8,3,3,3,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,2,2,2,0,0,0,0,0,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,3,3,7,3,3,0,2,2,2,0,0,0,0,0,0,0,0,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,8,3,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,4,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,5,7,7,7,5,2,2,2,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,3,3,3,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,3,3,7,3,3,0,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,3,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,3,5,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,3,3,3,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,177,189,177,0,0,2,2,2,0,0,0,0,0,0,0,8,3,3,3,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,2,2,2,0,0,0,0,0,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,177,176,200,176,177,0,2,2,2,0,0,0,0,0,0,0,0,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,8,3,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,4,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,189,200,7,200,189,197,2,2,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,3,3,3,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,177,176,200,176,177,0,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,3,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,177,189,177,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,3,3,3,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,8,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -568,6 +580,56 @@
     <property name="Port" type="int" value="9876"/>
     <property name="Warp In" type="bool" value="true"/>
    </properties>
+  </object>
+  <object id="140" gid="206" x="80" y="1808" width="64" height="67"/>
+  <object id="141" gid="206" x="48" y="1776" width="64" height="67"/>
+  <object id="142" gid="206" x="48" y="1712" width="64" height="67"/>
+  <object id="143" gid="206" x="80" y="1680" width="64" height="67"/>
+  <object id="145" gid="210" x="1792" y="576" width="44" height="61"/>
+  <object id="146" gid="210" x="1792" y="632" width="44" height="61"/>
+  <object id="147" gid="210" x="1792" y="688" width="44" height="61"/>
+  <object id="148" gid="210" x="1792" y="744" width="44" height="61"/>
+  <object id="149" gid="210" x="1816" y="400" width="44" height="61"/>
+  <object id="150" gid="210" x="1824" y="536" width="44" height="61"/>
+  <object id="151" gid="210" x="1648" y="712" width="44" height="61"/>
+  <object id="152" gid="210" x="1648" y="640" width="44" height="61"/>
+  <object id="153" gid="210" x="1840" y="1016" width="44" height="61"/>
+  <object id="154" gid="210" x="1784" y="1024" width="44" height="61"/>
+  <object id="155" gid="42" x="1592" y="736" width="64" height="32"/>
+  <object id="156" gid="42" x="1600" y="864" width="64" height="32"/>
+  <object id="157" gid="210" x="1680" y="432" width="44" height="61"/>
+  <object id="158" gid="94" x="760" y="800" width="35" height="45"/>
+  <object id="160" gid="95" x="793" y="799" width="35" height="45"/>
+  <object id="161" gid="96" x="809.5" y="794.5" width="35" height="45"/>
+  <object id="162" name="Pi" type="NPC" x="288" y="1344">
+   <properties>
+    <property name="Asset Name" value="normal-navi-bn4_bad"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Down Right"/>
+    <property name="Next Waypoint 1" type="object" value="163"/>
+    <property name="Text 1" value="That cube area looks cool... I wonder How you can get in..."/>
+    <property name="Wait Time" value="1"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="168" gid="244" x="1552" y="720" width="44" height="61"/>
+  <object id="169" gid="244" x="1552" y="848" width="44" height="61"/>
+  <object id="170" gid="244" x="1456" y="848" width="44" height="61"/>
+  <object id="171" gid="244" x="1456" y="720" width="44" height="61"/>
+  <object id="173" gid="371" x="1528" y="744" width="48" height="40"/>
+  <object id="174" gid="369" x="1600" y="832" width="48" height="40"/>
+  <object id="175" gid="2147484019" x="1440" y="768" width="48" height="40"/>
+  <object id="176" gid="2147484019" x="1504" y="864" width="48" height="40"/>
+  <object id="193" gid="404" x="584" y="744" width="58" height="46"/>
+  <object id="195" name="Pen" type="NPC" x="560" y="760">
+   <properties>
+    <property name="Asset Name" value="heel-navi-exe4_purple"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Down Right"/>
+    <property name="Text 1" value="How did this even get down here? This wasnt here yesterday..."/>
+    <property name="Wait Time" value="2"/>
+   </properties>
+   <point/>
   </object>
  </objectgroup>
  <layer id="3" name="Tile Layer 2" width="105" height="60" offsetx="0" offsety="-16">
@@ -1397,5 +1459,49 @@
    </properties>
    <point/>
   </object>
+  <object id="163" name="Waypoint 1" type="Waypoint" x="386.5" y="1827.5">
+   <properties>
+    <property name="Direction" value="Down Left"/>
+    <property name="Next Waypoint 1" type="object" value="164"/>
+    <property name="Wait Time" value="3"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="164" name="Waypoint 1" type="Waypoint" x="320" y="1824">
+   <properties>
+    <property name="Direction" value="Down Left"/>
+    <property name="Next Waypoint 1" type="object" value="166"/>
+    <property name="Wait Time" value="3"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="165" name="Waypoint 1" type="Waypoint" x="352" y="1632">
+   <properties>
+    <property name="Direction" value="Down Left"/>
+    <property name="Next Waypoint 1" type="object" value="167"/>
+    <property name="Wait Time" value="3"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="166" name="Waypoint 1" type="Waypoint" x="320" y="1632">
+   <properties>
+    <property name="Direction" value="Down Left"/>
+    <property name="Next Waypoint 1" type="object" value="165"/>
+    <property name="Wait Time" value="3"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="167" name="Waypoint 1" type="Waypoint" x="320" y="1408">
+   <properties>
+    <property name="Direction" value="Down Left"/>
+    <property name="Next Waypoint 1" type="object" value="162"/>
+    <property name="Wait Time" value="3"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="180" gid="373" x="1832" y="48" width="64" height="52"/>
+  <object id="181" gid="373" x="1584" y="1632" width="64" height="52"/>
+  <object id="197" gid="407" x="1072" y="1392" width="36" height="49"/>
+  <object id="198" gid="248" x="1504" y="864" width="16" height="40"/>
  </objectgroup>
 </map>

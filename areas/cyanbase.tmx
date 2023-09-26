@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" width="40" height="40" tilewidth="64" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="2">
+<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" width="40" height="40" tilewidth="64" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="49">
  <properties>
   <property name="Background" value="custom"/>
   <property name="Background Animation" value="/server/assets/custom/backgrounds/hp/bg.animation"/>
@@ -11,6 +11,7 @@
  </properties>
  <tileset firstgid="1" source="../assets/tiles/rainbow_floor.tsx"/>
  <tileset firstgid="17" source="../assets/tiles/invis tile.tsx"/>
+ <tileset firstgid="18" source="../assets/tiles/chip_data.tsx"/>
  <layer id="1" name="Tile Layer 1" width="40" height="40">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -66,5 +67,37 @@
    </properties>
    <point/>
   </object>
+  <object id="17" gid="18" x="352" y="960" width="16" height="40"/>
+  <object id="18" gid="18" x="424" y="728" width="16" height="40"/>
+  <object id="19" gid="18" x="192" y="592" width="16" height="40"/>
+  <object id="20" gid="18" x="600" y="992" width="16" height="40"/>
+  <object id="21" gid="18" x="616" y="608" width="16" height="40"/>
+  <object id="22" gid="18" x="568" y="472" width="16" height="40"/>
+  <object id="23" gid="18" x="448" y="864" width="16" height="40"/>
+  <object id="24" gid="18" x="216" y="160" width="16" height="40"/>
+  <object id="25" gid="18" x="864" y="816" width="16" height="40"/>
+  <object id="26" gid="18" x="752" y="224" width="16" height="40"/>
+  <object id="27" gid="29" x="808" y="848" width="16" height="40"/>
+  <object id="28" gid="29" x="552" y="400" width="16" height="40"/>
+  <object id="29" gid="29" x="288" y="392" width="16" height="40"/>
+  <object id="30" gid="29" x="128" y="200" width="16" height="40"/>
+  <object id="31" gid="29" x="528" y="264" width="16" height="40"/>
+  <object id="32" gid="29" x="888" y="632" width="16" height="40"/>
+  <object id="33" gid="29" x="264" y="560" width="16" height="40"/>
+  <object id="34" gid="29" x="496" y="560" width="16" height="40"/>
+  <object id="35" gid="32" x="808" y="600" width="16" height="40"/>
+  <object id="36" gid="32" x="736" y="648" width="16" height="40"/>
+  <object id="37" gid="32" x="544" y="280" width="16" height="40"/>
+  <object id="38" gid="32" x="600" y="352" width="16" height="40"/>
+  <object id="39" gid="32" x="864" y="344" width="16" height="40"/>
+  <object id="40" gid="32" x="808" y="296" width="16" height="40"/>
+  <object id="41" gid="32" x="632" y="912" width="16" height="40"/>
+  <object id="42" gid="32" x="504" y="848" width="16" height="40"/>
+  <object id="43" gid="32" x="248" y="280" width="16" height="40"/>
+  <object id="44" gid="32" x="304" y="344" width="16" height="40"/>
+  <object id="45" gid="38" x="392" y="584" width="16" height="40"/>
+  <object id="46" gid="38" x="472" y="672" width="16" height="40"/>
+  <object id="47" gid="38" x="560" y="240" width="16" height="40"/>
+  <object id="48" gid="38" x="128" y="104" width="16" height="40"/>
  </objectgroup>
 </map>
