@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" width="105" height="60" tilewidth="64" tileheight="32" infinite="0" nextlayerid="13" nextobjectid="199">
+<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" width="105" height="60" tilewidth="64" tileheight="32" infinite="0" nextlayerid="13" nextobjectid="261">
  <properties>
   <property name="Background" value="custom"/>
   <property name="Background Animation" value="/server/assets/custom/backgrounds/area1/GrayBG.animation"/>
@@ -39,6 +39,8 @@
  <tileset firstgid="402" source="../assets/tiles/Castle Wall.tsx"/>
  <tileset firstgid="404" source="../assets/tiles/Cyber Play Dome.tsx"/>
  <tileset firstgid="407" source="../assets/tiles/Teddy.tsx"/>
+ <tileset firstgid="408" source="../assets/tiles/Cyber Elephant Slide.tsx"/>
+ <tileset firstgid="411" source="../assets/tiles/CompressionRoadsYoka.tsx"/>
  <layer id="1" name="Tile Layer 1" width="105" height="60">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,3,3,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -631,6 +633,148 @@
    </properties>
    <point/>
   </object>
+  <object id="200" gid="210" x="1104" y="720" width="44" height="61"/>
+  <object id="201" gid="210" x="1240" y="720" width="44" height="61"/>
+  <object id="202" gid="210" x="816" y="1136" width="44" height="61"/>
+  <object id="205" name="Pokadot" type="NPC" x="152" y="1112">
+   <properties>
+    <property name="Asset Name" value="female-navi-exe5_purple"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Down Left"/>
+    <property name="Text 1" value="I wish there was a man for me... Who was brave and strong.... and short... Tall guys are cool and all but like... A great short guy sounds so exotic ya know?"/>
+    <property name="Wait Time" value="2"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="245" name="Waypoint 1" type="Waypoint" x="240" y="464">
+   <properties>
+    <property name="Direction" value="Down Left"/>
+    <property name="Next Waypoint 1" type="object" value="246"/>
+    <property name="Wait Time" value="1"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="246" name="Waypoint 1" type="Waypoint" x="304" y="464">
+   <properties>
+    <property name="Direction" value="Down Right"/>
+    <property name="Next Waypoint 1" type="object" value="247"/>
+    <property name="Wait Time" value="3"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="247" name="Waypoint 1" type="Waypoint" x="304" y="368">
+   <properties>
+    <property name="Direction" value="Down Left"/>
+    <property name="Next Waypoint 1" type="object" value="248"/>
+    <property name="Wait Time" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="248" name="Waypoint 1" type="Waypoint" x="504" y="368">
+   <properties>
+    <property name="Direction" value="Down Left"/>
+    <property name="Next Waypoint 1" type="object" value="249"/>
+    <property name="Wait Time" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="249" name="Waypoint 1" type="Waypoint" x="504" y="344">
+   <properties>
+    <property name="Direction" value="Down Left"/>
+    <property name="Next Waypoint 1" type="object" value="250"/>
+    <property name="Wait Time" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="250" name="Waypoint 1" type="Waypoint" x="240" y="336">
+   <properties>
+    <property name="Direction" value="Down Left"/>
+    <property name="Next Waypoint 1" type="object" value="251"/>
+    <property name="Wait Time" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="251" name="Waypoint 1" type="Waypoint" x="240" y="656">
+   <properties>
+    <property name="Direction" value="Down Left"/>
+    <property name="Next Waypoint 1" type="object" value="252"/>
+    <property name="Wait Time" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="252" name="Waypoint 1" type="Waypoint" x="304" y="656">
+   <properties>
+    <property name="Direction" value="Up Right"/>
+    <property name="Next Waypoint 1" type="object" value="253"/>
+    <property name="Wait Time" value="4"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="253" name="Waypoint 1" type="Waypoint" x="304" y="1424">
+   <properties>
+    <property name="Direction" value="Down Left"/>
+    <property name="Next Waypoint 1" type="object" value="254"/>
+    <property name="Wait Time" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="254" name="Waypoint 1" type="Waypoint" x="600" y="1424">
+   <properties>
+    <property name="Direction" value="Down Left"/>
+    <property name="Next Waypoint 1" type="object" value="255"/>
+    <property name="Wait Time" value="5"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="255" name="Waypoint 1" type="Waypoint" x="240" y="1424">
+   <properties>
+    <property name="Direction" value="Down Left"/>
+    <property name="Next Waypoint 1" type="object" value="256"/>
+    <property name="Wait Time" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="256" name="ObamaMan" type="NPC" x="240" y="1008">
+   <properties>
+    <property name="Asset Name" value="heel-navi-exe4_orange"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Down Right"/>
+    <property name="Next Waypoint 1" type="object" value="245"/>
+    <property name="Text 1" value="I dont get it. Who get's enjoyment from watching those &quot;VR&quot; people? They arent real, just the voice behind it. What kind of pleasure does that bring? Shouldnt it be sad that the person behind the voice doesnt wanna show their face??? I dont get it! Am I missing somthing???"/>
+    <property name="Wait Time" value="2"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="257" name="BidenMan" type="NPC" x="312" y="568">
+   <properties>
+    <property name="Asset Name" value="punk-navi-exe6_red"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Up Left"/>
+    <property name="Text 1" value="Hey, you got some icecream for sale?... No? Ok..."/>
+    <property name="Wait Time" value="2"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="258" name="TrumpMan" type="NPC" x="312" y="536">
+   <properties>
+    <property name="Asset Name" value="heel-navi-exe4_white"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Down Left"/>
+    <property name="Next Waypoint 1" type="object" value="259"/>
+    <property name="Text 1" value="We gotta make undernet great again! Who's with me??"/>
+    <property name="Wait Time" value="1"/>
+    <property name="Waypoint Type" value="first"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="259" name="Waypoint 1" type="Waypoint" x="312" y="536">
+   <properties>
+    <property name="Direction" value="Up Left"/>
+    <property name="Next Waypoint 1" type="object" value="258"/>
+    <property name="Wait Time" value="1"/>
+   </properties>
+   <point/>
+  </object>
  </objectgroup>
  <layer id="3" name="Tile Layer 2" width="105" height="60" offsetx="0" offsety="-16">
   <data encoding="csv">
@@ -919,25 +1063,25 @@
  <layer id="10" name="Tile Layer 6" width="105" height="60" offsetx="0" offsety="-80">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,44,44,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,44,44,44,44,44,44,44,44,44,0,0,0,0,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,44,44,44,44,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,44,44,44,44,44,44,44,44,44,0,0,0,0,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,44,44,44,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,44,44,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,44,44,44,44,44,44,44,44,44,0,0,0,0,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,44,44,44,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,44,44,44,44,44,44,44,44,44,0,0,0,0,44,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,44,44,44,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,44,44,44,44,44,44,44,44,44,0,0,0,0,44,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,44,44,0,0,0,0,0,0,0,0,0,0,44,44,44,44,44,44,44,44,44,44,0,0,44,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,44,44,0,0,0,0,0,44,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,0,0,0,0,0,0,0,0,0,44,44,44,44,44,44,44,44,44,44,44,44,44,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,44,44,0,0,0,0,0,44,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,0,0,0,0,0,0,0,0,0,44,44,44,44,44,44,44,44,44,44,0,0,0,0,0,0,0,0,
-44,44,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,44,44,44,44,44,44,44,44,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,0,0,0,0,0,0,0,0,0,44,44,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-44,44,44,44,44,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,44,44,0,0,0,0,0,0,44,44,44,0,0,0,0,0,0,0,0,0,44,44,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-44,44,44,0,0,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,44,44,0,0,0,0,0,0,44,44,44,0,0,0,0,0,0,0,0,0,44,44,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,44,44,0,0,0,0,0,0,44,44,44,0,0,0,0,0,0,0,0,0,44,44,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,44,44,0,0,0,0,0,0,44,44,44,44,0,0,0,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,0,0,0,0,0,0,
-0,0,0,0,44,44,44,0,0,0,0,0,0,0,0,44,44,44,44,44,44,44,44,44,44,44,0,0,0,0,0,0,0,0,44,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,44,44,0,0,0,0,0,0,44,44,44,44,44,0,0,0,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,0,0,0,0,0,0,
-0,0,0,0,44,44,44,0,0,0,0,0,0,0,0,20,0,0,0,0,0,0,0,0,44,44,44,44,0,0,0,0,0,0,44,44,44,44,44,44,44,44,44,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,44,44,0,0,0,0,0,0,44,44,44,44,44,0,0,0,0,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,0,0,0,0,0,0,
-0,0,0,0,44,44,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,44,44,44,44,44,44,44,44,44,44,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,44,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,51,51,51,0,0,0,0,0,0,44,44,44,44,44,44,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,416,447,447,447,447,447,447,447,447,447,447,447,447,447,447,447,447,447,447,447,447,447,426,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,415,0,0,0,0,0,438,425,425,430,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,419,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,421,0,0,0,0,0,441,0,416,428,0,0,0,0,416,447,447,447,447,447,447,447,447,447,447,447,447,426,0,0,0,419,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,421,0,0,0,0,0,441,0,418,454,454,454,426,0,419,0,0,0,0,0,0,0,0,0,0,0,0,419,0,0,0,419,0,0,0,0,0,0,0,0,0,0,0,0,0,44,44,44,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,44,44,44,44,44,44,44,44,44,0,0,0,0,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,418,447,447,447,447,447,451,446,0,0,0,0,421,0,419,0,0,0,0,0,0,0,0,0,0,0,0,419,0,0,0,419,0,0,0,0,0,0,0,0,0,0,0,0,44,44,44,44,44,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,44,44,44,44,44,44,44,44,44,0,0,0,0,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,416,454,454,454,428,0,419,0,0,0,0,44,44,44,44,44,0,0,0,419,0,0,0,419,0,0,0,0,0,0,0,0,0,0,0,0,0,44,44,44,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,44,44,44,44,44,44,44,44,44,0,0,0,0,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,421,0,0,0,0,0,419,0,0,0,0,44,44,44,44,44,0,0,0,419,0,0,0,419,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,44,44,44,44,44,44,44,44,44,0,0,0,0,44,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,421,0,0,0,0,0,419,0,0,0,0,44,44,44,44,44,0,0,0,419,416,426,0,419,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,44,44,44,44,44,44,44,44,44,0,0,0,0,44,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,421,0,0,0,0,0,412,0,0,0,0,0,0,44,44,44,0,0,0,418,428,419,0,419,0,0,44,44,44,44,44,44,44,44,44,44,0,0,44,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,44,44,0,0,0,0,0,44,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,421,0,50,50,50,44,44,44,44,44,44,44,44,44,44,44,44,0,0,0,0,419,0,419,0,0,44,44,44,44,44,44,44,44,44,44,44,44,44,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,44,44,0,0,0,0,0,44,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,421,0,50,51,50,44,44,44,44,44,44,44,44,44,44,44,44,0,0,0,0,418,449,428,0,0,44,44,44,44,44,44,44,44,44,44,0,0,0,0,0,0,0,0,
+44,44,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,44,44,44,44,44,44,44,44,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,421,0,50,50,50,44,44,44,44,44,44,44,44,44,44,44,44,0,0,0,0,0,441,0,0,0,44,44,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+44,44,44,44,44,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,421,0,0,0,0,44,44,44,0,0,0,0,0,0,44,44,44,0,0,0,0,0,441,0,0,0,44,44,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+44,44,44,0,0,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,421,0,0,0,0,44,44,44,0,0,0,0,0,0,44,44,44,0,0,0,0,0,441,0,0,0,44,44,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,418,454,446,0,0,44,44,44,0,0,0,0,0,0,44,44,44,0,0,0,0,0,434,0,0,0,44,44,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,44,44,0,0,0,0,0,0,44,44,50,50,50,0,0,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,0,0,0,0,0,0,
+0,0,0,0,44,44,44,0,0,0,0,0,0,0,0,44,44,44,44,44,44,44,44,44,44,44,0,0,0,0,0,0,0,0,44,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,50,50,50,0,0,0,0,0,0,44,44,50,51,50,0,0,0,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,0,0,0,0,0,0,
+0,0,0,0,44,44,44,0,0,0,0,0,0,0,0,20,0,0,0,0,0,0,0,0,44,44,44,44,0,0,0,0,0,0,44,44,44,44,44,44,44,44,44,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,50,51,50,0,0,0,0,0,0,44,44,50,50,50,0,0,0,0,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,0,0,0,0,0,0,
+0,0,0,0,44,44,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,44,44,44,44,44,44,44,44,44,44,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,50,50,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,51,51,51,0,0,0,0,0,0,44,44,44,44,44,44,0,0,0,
 0,0,0,0,44,44,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,51,51,51,0,0,0,0,0,0,44,44,44,44,44,44,0,0,0,
 0,0,0,0,44,44,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,51,51,51,0,0,0,0,0,0,44,44,44,44,44,44,0,0,0,
 0,0,44,44,44,44,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,44,44,0,0,0,
@@ -1430,7 +1574,7 @@
     <property name="Asset Name" value="heel-navi-exe4_blue"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Up Left"/>
-    <property name="Text 1" value="Looks like the path is broken..."/>
+    <property name="Text 1" value="Looks like the path is broken... But someone put this narrow road here... I'm sure not going on it, I could easily fall!"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
@@ -1499,9 +1643,139 @@
    </properties>
    <point/>
   </object>
-  <object id="180" gid="373" x="1832" y="48" width="64" height="52"/>
-  <object id="181" gid="373" x="1584" y="1632" width="64" height="52"/>
+  <object id="180" gid="373" x="1328" y="-144" width="64" height="52"/>
+  <object id="181" gid="373" x="2400" y="1904" width="64" height="52"/>
   <object id="197" gid="407" x="1072" y="1392" width="36" height="49"/>
   <object id="198" gid="248" x="1504" y="864" width="16" height="40"/>
+  <object id="204" gid="408" x="1144" y="1520" width="36" height="30"/>
+  <object id="206" gid="388" x="984" y="1656" width="32" height="64"/>
+  <object id="207" gid="388" x="1016" y="1752" width="32" height="64"/>
+  <object id="208" gid="388" x="856" y="1784" width="32" height="64"/>
+  <object id="209" gid="388" x="824" y="1688" width="32" height="64"/>
+  <object id="210" gid="395" x="1024" y="1696" width="32" height="64"/>
+  <object id="211" gid="395" x="832" y="1760" width="32" height="64"/>
+  <object id="212" gid="395" x="864" y="1664" width="32" height="64"/>
+  <object id="213" gid="395" x="992" y="1792" width="32" height="64"/>
+  <object id="215" gid="373" x="1584" y="1632" width="64" height="50"/>
+  <object id="217" gid="404" x="2384" y="248" width="58" height="46"/>
+  <object id="218" gid="373" x="2336" y="376" width="64" height="50"/>
+  <object id="219" gid="210" x="2216" y="304" width="44" height="61"/>
+  <object id="220" gid="210" x="2104" y="304" width="44" height="61"/>
+  <object id="221" gid="210" x="2592" y="608" width="44" height="61"/>
+  <object id="225" gid="210" x="2592" y="584" width="44" height="61"/>
+  <object id="226" gid="210" x="2592" y="560" width="44" height="61"/>
+  <object id="227" gid="210" x="2592" y="536" width="44" height="61"/>
+  <object id="228" gid="210" x="2592" y="512" width="44" height="61"/>
+  <object id="229" gid="210" x="2592" y="480" width="44" height="61"/>
+  <object id="230" gid="210" x="2592" y="632" width="44" height="61"/>
+  <object id="231" gid="210" x="2592" y="656" width="44" height="61"/>
+  <object id="232" gid="210" x="2560" y="656" width="44" height="61"/>
+  <object id="233" name="Scotty" type="NPC" x="2392" y="376">
+   <properties>
+    <property name="Asset Name" value="heel-navi-exe4_purple"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Up Right"/>
+    <property name="Text 1" value="What happends if you fall over the edge?..."/>
+    <property name="Wait Time" value="2"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="234" name="Ban" type="NPC" x="2192" y="432">
+   <properties>
+    <property name="Asset Name" value="heel-navi-exe4_purple"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Up Right"/>
+    <property name="Text 1" value="This is my navi armsman exe, he is a sentient arm that changes to anything , everytime he moves he starts healing. the second he senses enemies near by his life aura comes up that also acts like reflector, the only way to take it off is with northwind but he always carries anti-wind so he activates a program advance called ultra combo that just fires every single chip from his folder thus killing the enemy as they cannot interupt the aaction, then after the battle he absorbs the enemy and can cross fuse with them to geet a new charge shot for his collection"/>
+    <property name="Wait Time" value="2"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="235" name="Lala" type="NPC" x="2520" y="568">
+   <properties>
+    <property name="Asset Name" value="punk-navi-exe6_navy"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Up Right"/>
+    <property name="Next Waypoint 1" type="object" value="236"/>
+    <property name="Text 1" value="Where is it... I lost my frigg'in keys..."/>
+    <property name="Wait Time" value="7"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="236" name="Waypoint 1" type="Waypoint" x="2448" y="560">
+   <properties>
+    <property name="Direction" value="Down Left"/>
+    <property name="Next Waypoint 1" type="object" value="237"/>
+    <property name="Wait Time" value="3"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="237" name="Waypoint 1" type="Waypoint" x="2448" y="464">
+   <properties>
+    <property name="Direction" value="Down Left"/>
+    <property name="Next Waypoint 1" type="object" value="238"/>
+    <property name="Wait Time" value="3"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="238" name="Waypoint 1" type="Waypoint" x="2416" y="464">
+   <properties>
+    <property name="Direction" value="Down Left"/>
+    <property name="Next Waypoint 1" type="object" value="239"/>
+    <property name="Wait Time" value="3"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="239" name="Waypoint 1" type="Waypoint" x="2416" y="400">
+   <properties>
+    <property name="Direction" value="Down Left"/>
+    <property name="Next Waypoint 1" type="object" value="240"/>
+    <property name="Wait Time" value="3"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="240" name="Waypoint 1" type="Waypoint" x="2472" y="400">
+   <properties>
+    <property name="Direction" value="Down Left"/>
+    <property name="Next Waypoint 1" type="object" value="241"/>
+    <property name="Wait Time" value="3"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="241" name="Waypoint 1" type="Waypoint" x="2480" y="528">
+   <properties>
+    <property name="Direction" value="Down Left"/>
+    <property name="Next Waypoint 1" type="object" value="242"/>
+    <property name="Wait Time" value="3"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="242" name="Waypoint 1" type="Waypoint" x="2512" y="528">
+   <properties>
+    <property name="Direction" value="Down Left"/>
+    <property name="Next Waypoint 1" type="object" value="235"/>
+    <property name="Wait Time" value="3"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="243" name="Car" type="NPC" x="2264" y="408">
+   <properties>
+    <property name="Asset Name" value="punk-navi-exe6_red"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Down Left"/>
+    <property name="Text 1" value="Im not real. You just imagned me the second you saw this spot in your view... Let me go, it wasnt your fault... Bwahahah!! You should of saw your reaction! I'm just pullin your leg!"/>
+    <property name="Wait Time" value="2"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="260" name="Yan" type="NPC" x="1080" y="1432">
+   <properties>
+    <property name="Asset Name" value="heel-navi-exe4_brown"/>
+    <property name="Dialogue Type" value="first"/>
+    <property name="Direction" value="Up Right"/>
+    <property name="Text 1" value="What a cute bear... I wonder if someone sells it?"/>
+    <property name="Wait Time" value="2"/>
+   </properties>
+   <point/>
+  </object>
  </objectgroup>
 </map>

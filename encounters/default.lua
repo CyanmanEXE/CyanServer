@@ -255,11 +255,82 @@ local encounter12 = {
     
 }
 
+local encounter13 = {
+    path="/server/assets/ezlibs-assets/ezencounters/ezencounters.zip",
+    weight=52,
+    enemies = {
+       
+        
+        {name="CirKill",rank=1},
+        {name="Basher",rank=1},
+    },
+    positions = {
+        
+        {0,0,0,1,0,0},
+        {0,0,0,0,2,0},
+        {0,0,0,0,0,1}
+    },
+    
+}
+
+local encounter14 = {
+    path="/server/assets/ezlibs-assets/ezencounters/ezencounters.zip",
+    weight=51,
+    enemies = {
+       
+        
+        {name="CirKill",rank=1},
+        
+    },
+    positions = {
+        
+        {0,0,0,1,0,0},
+        {0,0,0,0,0,0},
+        {0,0,0,0,0,1}
+    },
+    
+}
+
+local encounter15 = {
+    path="/server/assets/ezlibs-assets/ezencounters/ezencounters.zip",
+    weight=61,
+    enemies = {
+       
+        
+        {name="CirKill",rank=1},
+        {name="Sniper",rank=1},
+    },
+    positions = {
+        
+        {0,0,0,1,0,0},
+        {0,0,0,0,2,0},
+        {0,0,0,0,0,1}
+    },
+    
+}
+
+local encounter16 = {
+    path="/server/assets/ezlibs-assets/ezencounters/ezencounters.zip",
+    weight=60,
+    enemies = {
+       
+        
+        {name="CirKill",rank=1},
+        {name="JokerEye",rank=1},
+    },
+    positions = {
+        
+        {0,0,0,1,0,0},
+        {0,0,0,0,2,0},
+        {0,0,0,0,0,1}
+    },
+    
+}
 
 return {
     minimum_steps_before_encounter=230,
     encounter_chance_per_step=0.2,
-    encounters={encounter1, encounter2, encounter3, encounter4, encounter5, encounter6, encounter7, encounter8, encounter9, encounter10, encounter11, encounter12}
+    encounters={encounter1, encounter2, encounter3, encounter4, encounter5, encounter6, encounter7, encounter8, encounter9, encounter10, encounter11, encounter12, encounter13, encounter14, encounter15, encounter16}
 }
 
 
