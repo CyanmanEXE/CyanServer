@@ -652,7 +652,7 @@
   <object id="175" gid="101" x="784" y="1888" width="64" height="32"/>
   <object id="176" gid="101" x="472" y="1336" width="64" height="32"/>
   <object id="177" gid="101" x="112" y="1120" width="64" height="32"/>
-  <object id="184" gid="91" x="1368" y="2384" width="34" height="52"/>
+  <object id="184" gid="91" x="1360" y="2384" width="34" height="52"/>
   <object id="185" gid="82" x="2304" y="3808" width="96" height="64"/>
   <object id="186" name="Gigbyte" type="NPC" x="1368" y="2328">
    <properties>

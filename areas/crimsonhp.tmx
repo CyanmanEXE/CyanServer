@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" width="80" height="94" tilewidth="64" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="299">
+<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" width="80" height="94" tilewidth="64" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="327">
  <properties>
   <property name="Background" value="custom"/>
   <property name="Background Animation" value="/server/assets/custom/backgrounds/crimsonhp/bg.animation"/>
@@ -21,6 +21,8 @@
  <tileset firstgid="109" source="../assets/tiles/vendor_desk.tsx"/>
  <tileset firstgid="113" source="../assets/tiles/Fireman Flame.tsx"/>
  <tileset firstgid="141" source="../assets/tiles/Cyber_Rail.tsx"/>
+ <tileset firstgid="142" source="../assets/tiles/gate.tsx"/>
+ <tileset firstgid="147" source="../assets/tiles/MysteryData.tsx"/>
  <layer id="1" name="Tile Layer 1" width="80" height="94">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -1042,7 +1044,7 @@
   <object id="287" gid="134" x="2392" y="2648" width="32" height="64"/>
   <object id="288" gid="134" x="2328" y="2232" width="32" height="64"/>
   <object id="289" gid="127" x="2328" y="2488" width="32" height="64"/>
-  <object id="290" gid="113" x="280" y="248" width="32" height="64"/>
+  <object id="290" gid="113" x="376" y="312" width="32" height="64"/>
   <object id="291" gid="127" x="2392" y="2008" width="32" height="64"/>
   <object id="292" gid="127" x="2328" y="2008" width="32" height="64"/>
   <object id="293" gid="127" x="2392" y="1816" width="32" height="64"/>
@@ -1051,6 +1053,59 @@
   <object id="296" gid="134" x="2360" y="1592" width="32" height="64"/>
   <object id="297" gid="134" x="2328" y="1656" width="32" height="64"/>
   <object id="298" gid="134" x="2360" y="1208" width="32" height="64"/>
+  <object id="299" gid="104" x="264" y="392" width="64" height="32"/>
+  <object id="300" gid="103" x="232" y="360" width="64" height="32"/>
+  <object id="301" gid="105" x="296" y="424" width="64" height="32"/>
+  <object id="303" gid="104" x="336" y="392" width="64" height="32"/>
+  <object id="304" gid="103" x="304" y="360" width="64" height="32"/>
+  <object id="305" gid="105" x="368" y="424" width="64" height="32"/>
+  <object id="309" gid="104" x="400" y="392" width="64" height="32"/>
+  <object id="310" gid="103" x="368" y="360" width="64" height="32"/>
+  <object id="311" gid="105" x="432" y="424" width="64" height="32"/>
+  <object id="312" gid="107" x="376" y="176" width="64" height="32"/>
+  <object id="313" gid="108" x="408" y="208" width="64" height="32"/>
+  <object id="314" gid="106" x="344" y="144" width="64" height="32"/>
+  <object id="315" gid="107" x="312" y="176" width="64" height="32"/>
+  <object id="316" gid="108" x="344" y="208" width="64" height="32"/>
+  <object id="317" gid="106" x="280" y="144" width="64" height="32"/>
+  <object id="318" gid="107" x="248" y="176" width="64" height="32"/>
+  <object id="319" gid="108" x="280" y="208" width="64" height="32"/>
+  <object id="320" gid="106" x="216" y="144" width="64" height="32"/>
+  <object id="321" gid="113" x="216" y="184" width="32" height="64"/>
+  <object id="322" gid="113" x="376" y="184" width="32" height="64"/>
+  <object id="323" gid="113" x="216" y="312" width="32" height="64"/>
+  <object id="324" name="Gobby's somthing one" type="Server Warp" gid="93" x="280" y="240" width="114" height="64">
+   <properties>
+    <property name="Address" value="keristero.xyz"/>
+    <property name="Data" value="TheBlock_1"/>
+    <property name="Direction" value="Down Left"/>
+    <property name="Incoming Data" value="ReyOverhead_1"/>
+    <property name="Port" type="int" value="9876"/>
+    <property name="Warp In" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="325" name="Gobby's somthing one" type="Server Warp" gid="93" x="280" y="240" width="114" height="64">
+   <properties>
+    <property name="Address" value="keristero.xyz"/>
+    <property name="Data" value="TheBlock_1"/>
+    <property name="Direction" value="Down Left"/>
+    <property name="Incoming Data" value="ReyOverhead_1"/>
+    <property name="Port" type="int" value="9876"/>
+    <property name="Warp In" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="326" name="A Violet gate" type="Checkpoint" gid="2147483790" x="656" y="496" width="34" height="52">
+   <properties>
+    <property name="Description" value="A gate blocks your path...It seems to want somthing from you..."/>
+    <property name="Dialogue Type" value="itemcheck"/>
+    <property name="Disappear Cooldown" type="float" value="0"/>
+    <property name="Key Name" value="CrimsonKey"/>
+    <property name="Once" type="bool" value="true"/>
+    <property name="Required Keys" type="int" value="1"/>
+    <property name="Unlock Failed Message" value="You lack what it wants..."/>
+    <property name="Unlocked Message" value="The gate accepts your offer and has moved out of your way...!"/>
+   </properties>
+  </object>
  </objectgroup>
  <layer id="3" name="Tile Layer 2" width="80" height="94" offsetx="0" offsety="-16">
   <data encoding="csv">
