@@ -144,7 +144,7 @@ local encounter8 = {
     weight=50,
     enemies = {
         {name="GigaCorn",rank=1},
-        {name="Cacter",rank=5},
+        {name="Cacter",rank=1},
         {name="Volgear",rank=4},
         {name="Metrid",rank=4},
     },

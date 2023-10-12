@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.5" tiledversion="1.7.1" name="MysteryData" tilewidth="20" tileheight="43" tilecount="40" columns="8">
+<tileset version="1.8" tiledversion="1.8.6" name="MysteryData" tilewidth="20" tileheight="43" tilecount="40" columns="8">
+ <tileoffset x="0" y="-3"/>
  <image source="MysteryData.png" width="160" height="215"/>
  <tile id="0">
   <objectgroup draworder="index" id="2">
