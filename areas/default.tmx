@@ -595,7 +595,7 @@
   <object id="183" name="CHRISTMAS" type="Custom Warp" gid="138" x="208" y="1296" width="114" height="64">
    <properties>
     <property name="Direction" value="Down Right"/>
-    <property name="Target Area" value="hp1"/>
+    <property name="Target Area" value="christmas"/>
     <property name="Target Object" value="2"/>
    </properties>
   </object>
