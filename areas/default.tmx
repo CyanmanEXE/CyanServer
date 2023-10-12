@@ -596,7 +596,7 @@
    <properties>
     <property name="Direction" value="Down Right"/>
     <property name="Target Area" value="christmas"/>
-    <property name="Target Object" value="2"/>
+    <property name="Target Object" value="1"/>
    </properties>
   </object>
   <object id="184" type="Checkpoint" gid="123" x="304" y="1232" width="48" height="52">

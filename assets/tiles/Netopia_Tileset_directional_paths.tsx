@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.5" tiledversion="1.7.1" name="Netopia_Tileset_directional_paths" tilewidth="64" tileheight="40" tilecount="36" columns="12">
+<tileset version="1.8" tiledversion="1.8.6" name="Netopia_Tileset_directional_paths" tilewidth="64" tileheight="40" tilecount="36" columns="12">
  <tileoffset x="0" y="8"/>
  <image source="Netopia_Tileset_directional_paths.png" width="768" height="120"/>
  <tile id="0" type="Conveyor">
   <properties>
    <property name="Direction" value="Down Right"/>
+   <property name="Sound Effect" value="/server/assets/dir_tile.ogg"/>
    <property name="speed" type="float" value="6"/>
   </properties>
   <animation>
@@ -16,6 +17,7 @@
  <tile id="3" type="Conveyor">
   <properties>
    <property name="Direction" value="Up Left"/>
+   <property name="Sound Effect" value="/server/assets/dir_tile.ogg"/>
    <property name="speed" type="float" value="6"/>
   </properties>
   <animation>
@@ -27,6 +29,7 @@
  <tile id="6" type="Conveyor">
   <properties>
    <property name="Direction" value="Down Left"/>
+   <property name="Sound Effect" value="/server/assets/dir_tile.ogg"/>
    <property name="speed" type="float" value="6"/>
   </properties>
   <animation>
@@ -48,6 +51,7 @@
  <tile id="9" type="Conveyor">
   <properties>
    <property name="Direction" value="Up Right"/>
+   <property name="Sound Effect" value="/server/assets/dir_tile.ogg"/>
    <property name="speed" type="float" value="6"/>
   </properties>
   <animation>
@@ -69,6 +73,7 @@
  <tile id="12" type="Conveyor">
   <properties>
    <property name="Direction" value="Down Right"/>
+   <property name="Sound Effect" value="/server/assets/dir_tile.ogg"/>
    <property name="speed" type="float" value="6"/>
   </properties>
   <animation>
@@ -80,6 +85,7 @@
  <tile id="15" type="Conveyor">
   <properties>
    <property name="Direction" value="Up Left"/>
+   <property name="Sound Effect" value="/server/assets/dir_tile.ogg"/>
    <property name="speed" type="float" value="6"/>
   </properties>
   <animation>
@@ -91,6 +97,7 @@
  <tile id="18" type="Conveyor">
   <properties>
    <property name="Direction" value="Down Left"/>
+   <property name="Sound Effect" value="/server/assets/dir_tile.ogg"/>
    <property name="speed" type="float" value="6"/>
   </properties>
   <animation>
@@ -102,6 +109,7 @@
  <tile id="21" type="Conveyor">
   <properties>
    <property name="Direction" value="Up Right"/>
+   <property name="Sound Effect" value="/server/assets/dir_tile.ogg"/>
    <property name="speed" type="float" value="6"/>
   </properties>
   <animation>
@@ -113,6 +121,7 @@
  <tile id="24" type="Conveyor">
   <properties>
    <property name="Direction" value="Down Right"/>
+   <property name="Sound Effect" value="/server/assets/dir_tile.ogg"/>
    <property name="speed" type="float" value="6"/>
   </properties>
   <animation>
@@ -124,6 +133,7 @@
  <tile id="27" type="Conveyor">
   <properties>
    <property name="Direction" value="Up Left"/>
+   <property name="Sound Effect" value="/server/assets/dir_tile.ogg"/>
    <property name="speed" type="float" value="6"/>
   </properties>
   <animation>
@@ -135,6 +145,7 @@
  <tile id="30" type="Conveyor">
   <properties>
    <property name="Direction" value="Down Left"/>
+   <property name="Sound Effect" value="/server/assets/dir_tile.ogg"/>
    <property name="speed" type="float" value="6"/>
   </properties>
   <animation>
@@ -146,6 +157,7 @@
  <tile id="33" type="Conveyor">
   <properties>
    <property name="Direction" value="Up Right"/>
+   <property name="Sound Effect" value="/server/assets/dir_tile.ogg"/>
    <property name="speed" type="float" value="6"/>
   </properties>
   <animation>
