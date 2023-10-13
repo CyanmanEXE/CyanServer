@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" width="65" height="65" tilewidth="64" tileheight="32" infinite="0" nextlayerid="2" nextobjectid="1">
+<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" width="65" height="65" tilewidth="64" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="57">
+ <properties>
+  <property name="Background" value="custom"/>
+  <property name="Background Animation" value="/server/assets/NebuLibsAssets/Nebulous-Liberations-Assets-main/Nebulous-Liberations-Assets-main/backgrounds/ACDC/ACDC.animation"/>
+  <property name="Background Texture" value="/server/assets/NebuLibsAssets/Nebulous-Liberations-Assets-main/Nebulous-Liberations-Assets-main/backgrounds/ACDC/ACDC Unliberated.png"/>
+  <property name="Background Vel X" value="0"/>
+  <property name="Background Vel Y" value="0"/>
+  <property name="Liberation Encounters" value="server\scripts\ezlibs-custom\Nebulous-Liberations-Scripts-main\liberations\enemies"/>
+  <property name="Liberation Tileset" value="server\assets\tiles"/>
+  <property name="Name" value="Practice Area"/>
+  <property name="Respawn Area" value="ooo"/>
+  <property name="Song" value="/server/assets/music/undernet4theme.ogg"/>
+  <property name="Target Phase Count" type="int" value="10"/>
+  <property name="Target Player Count" type="int" value="8"/>
+  <property name="Waiting Area" value="ooo"/>
+ </properties>
  <tileset firstgid="1" source="../assets/tiles/panel base.tsx"/>
+ <tileset firstgid="4" source="../assets/tiles/panels.tsx"/>
+ <tileset firstgid="74" source="../assets/tiles/Liberation Collision.tsx"/>
  <layer id="1" name="Tile Layer 1" width="65" height="65">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -49,11 +66,11 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,1,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,1,1,0,0,1,0,0,3,3,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,0,0,2,1,1,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,0,0,2,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,1,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -70,4 +87,119 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
+ <objectgroup id="2" name="Object Layer 1">
+  <object id="1" name="Spawn" type="Spawn Point" x="1104" y="1552">
+   <properties>
+    <property name="Next Spawn" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="2" name="DARK PANEL NORMAL" type="Dark Panel" x="1040" y="1488">
+   <point/>
+  </object>
+  <object id="3" name="ITEM PANEL" type="Item Panel" x="1040" y="1552">
+   <properties>
+    <property name="Specific Loot" value="ORDER_POINT"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="4" name="TRAP dmg" type="Trap Panel" x="1168" y="1520">
+   <properties>
+    <property name="Damage Dealt" type="int" value="300"/>
+    <property name="Damage Trap" type="bool" value="true"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="5" name="TRAP stun" type="Trap Panel" x="1168" y="1584">
+   <properties>
+    <property name="Stun Trap" type="bool" value="true"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="6" name="GATE1" type="Panel Gate" x="1104" y="1360">
+   <properties>
+    <property name="Gate ID" value="1"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="7" name="ITEM PANEL" type="Item Panel" x="1040" y="1584">
+   <properties>
+    <property name="Money" type="int" value="100"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="8" name="BONUS PANEL" type="Bonus Panel" x="944" y="1392">
+   <properties>
+    <property name="Money" type="int" value="100"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="9" name="DARK PANEL NORMAL" type="Dark Panel" x="784" y="1424">
+   <point/>
+  </object>
+  <object id="10" name="DARK PANEL NORMAL" type="Dark Panel" x="816" y="1424">
+   <point/>
+  </object>
+  <object id="11" name="DARK PANEL NORMAL" type="Dark Panel" x="848" y="1424">
+   <point/>
+  </object>
+  <object id="12" name="DARK PANEL NORMAL" type="Dark Panel" x="816" y="1456">
+   <point/>
+  </object>
+  <object id="13" name="DARK PANEL NORMAL" type="Dark Panel" x="848" y="1456">
+   <point/>
+  </object>
+  <object id="14" name="DARK HOLE" type="Dark Hole" x="816" y="1328">
+   <properties>
+    <property name="Direction" value="Up Right"/>
+    <property name="Spawns " value="/server/scripts/ezlibs-custom/Nebulous-Liberations-Scripts-main/liberations/enemies/bigbrute.lua"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="15" name="DARK PANEL NORMAL" type="Dark Panel" x="848" y="1328">
+   <point/>
+  </object>
+  <object id="16" name="INVINCIBLE PANEL" type="Indestructible Panel" x="784" y="1360">
+   <point/>
+  </object>
+  <object id="18" name="DARK PANEL BOSS" type="Dark Panel" x="784" y="1520">
+   <properties>
+    <property name="Boss" value="/server/scripts/ezlibs-custom/Nebulous-Liberations-Scripts-main/liberations/enemies/blizzardman.lua"/>
+    <property name="Direction" value="Down Right"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="19" gid="4" x="1024" y="1472" width="50" height="30"/>
+  <object id="22" gid="5" x="1024" y="1536" width="50" height="30"/>
+  <object id="23" gid="5" x="1024" y="1568" width="50" height="30"/>
+  <object id="24" gid="5" x="1152" y="1568" width="50" height="30"/>
+  <object id="25" gid="5" x="1152" y="1504" width="50" height="30"/>
+  <object id="26" gid="7" x="768" y="1344" width="50" height="30"/>
+  <object id="27" gid="8" x="928" y="1376" width="50" height="30"/>
+  <object id="29" gid="9" x="1088" y="1344" width="50" height="30"/>
+  <object id="30" gid="74" x="1024" y="1472" width="50" height="30"/>
+  <object id="31" gid="74" x="1024" y="1536" width="50" height="30"/>
+  <object id="32" gid="74" x="1024" y="1568" width="50" height="30"/>
+  <object id="33" gid="74" x="1152" y="1504" width="50" height="30"/>
+  <object id="34" gid="74" x="1152" y="1568" width="50" height="30"/>
+  <object id="35" gid="74" x="928" y="1376" width="50" height="30"/>
+  <object id="36" gid="74" x="768" y="1344" width="50" height="30"/>
+  <object id="37" gid="74" x="768" y="1504" width="50" height="30"/>
+  <object id="39" gid="4" x="768" y="1504" width="50" height="30"/>
+  <object id="40" gid="4" x="832" y="1312" width="50" height="30"/>
+  <object id="41" gid="4" x="800" y="1312" width="50" height="30"/>
+  <object id="42" gid="4" x="832" y="1440" width="50" height="30"/>
+  <object id="43" gid="4" x="832" y="1408" width="50" height="30"/>
+  <object id="44" gid="4" x="800" y="1440" width="50" height="30"/>
+  <object id="45" gid="4" x="800" y="1408" width="50" height="30"/>
+  <object id="46" gid="4" x="768" y="1408" width="50" height="30"/>
+  <object id="47" gid="74" x="832" y="1408" width="50" height="30"/>
+  <object id="48" gid="74" x="800" y="1408" width="50" height="30"/>
+  <object id="49" gid="74" x="768" y="1408" width="50" height="30"/>
+  <object id="50" gid="74" x="800" y="1440" width="50" height="30"/>
+  <object id="51" gid="74" x="832" y="1440" width="50" height="30"/>
+  <object id="52" gid="74" x="768" y="1504" width="50" height="30"/>
+  <object id="55" gid="74" x="832" y="1312" width="50" height="30"/>
+  <object id="56" gid="74" x="800" y="1312" width="50" height="30"/>
+ </objectgroup>
 </map>

@@ -420,7 +420,12 @@
    </properties>
    <point/>
   </object>
-  <object id="60" gid="141" x="1952" y="888" width="63" height="92"/>
+  <object id="60" name="GATE TEST" type="Liberation Gate" gid="141" x="1952" y="888" width="63" height="92">
+   <properties>
+    <property name="Liberation Map File Name" value="testlib"/>
+    <property name="Liberation Map Name" value="Practice Area"/>
+   </properties>
+  </object>
   <object id="61" name="Syrup" type="NPC" x="1880" y="1008">
    <properties>
     <property name="Asset Name" value="punk-navi-exe6_magenta"/>

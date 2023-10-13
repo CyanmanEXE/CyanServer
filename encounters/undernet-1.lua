@@ -174,7 +174,7 @@ local encounter8 = {
     enemies = {
         {name="Spikey",rank=4},
         {name="GigaCorn",rank=1},
-        {name="Puffy",rank=1},
+        {name="Puffy",rank=1},--cant be puffy
      
     },
     positions = {
@@ -194,8 +194,8 @@ local encounter9 = {
     path="/server/assets/ezlibs-assets/ezencounters/ezencounters.zip",
     weight=50,
     enemies = {
-        {name="Spikey",rank=4},
-        {name="GigaCorn",rank=1},
+        {name="Spikey",rank=4},--?
+        {name="GigaCorn",rank=1},--?
        
      
     },
