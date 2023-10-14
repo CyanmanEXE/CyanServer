@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" width="65" height="65" tilewidth="64" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="57">
+<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" width="65" height="65" tilewidth="64" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="60">
  <properties>
   <property name="Background" value="custom"/>
   <property name="Background Animation" value="/server/assets/NebuLibsAssets/Nebulous-Liberations-Assets-main/Nebulous-Liberations-Assets-main/backgrounds/ACDC/ACDC.animation"/>
@@ -201,5 +201,23 @@
   <object id="52" gid="74" x="768" y="1504" width="50" height="30"/>
   <object id="55" gid="74" x="832" y="1312" width="50" height="30"/>
   <object id="56" gid="74" x="800" y="1312" width="50" height="30"/>
+  <object id="57" name="Point of Interest" type="Point of Interest" x="1104" y="1424">
+   <properties>
+    <property name="isBoss" type="bool" value="false"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="58" name="Point of Interest" type="Point of Interest" x="912" y="1264">
+   <properties>
+    <property name="isBoss" type="bool" value="false"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="59" name="Point of Interest" type="Point of Interest" x="1264" y="1424">
+   <properties>
+    <property name="isBoss" type="bool" value="false"/>
+   </properties>
+   <point/>
+  </object>
  </objectgroup>
 </map>
