@@ -1,0 +1,48 @@
+animation state="IDLE"
+frame duration="0.133" x="2" y="64" w="39" h="44" originx="22" originy="40"
+frame duration="0.133" x="45" y="64" w="39" h="44" originx="22" originy="40"
+frame duration="0.133" x="88" y="64" w="39" h="44" originx="22" originy="40"
+frame duration="0.133" x="86" y="2" w="38" h="46" originx="21" originy="42"
+
+animation state="SPAWN"
+frame duration="0.133" x="2" y="64" w="39" h="44" originx="22" originy="40"
+
+animation state="HOP"
+frame duration="0.033" x="131" y="64" w="39" h="44" originx="22" originy="40"
+frame duration="0.033" x="172" y="207" w="39" h="40" originx="22" originy="36"
+frame duration="0.017" x="2" y="2" w="38" h="58" originx="21" originy="54"
+frame duration="0.033" x="44" y="2" w="38" h="48" originx="21" originy="44"
+frame duration="0.033" x="171" y="112" w="39" h="43" originx="22" originy="39"
+frame duration="0.033" x="174" y="64" w="39" h="44" originx="22" originy="40"
+
+animation state="BEGIN_HOP"
+frame duration="0.033" x="131" y="64" w="39" h="44" originx="22" originy="40"
+frame duration="0.033" x="172" y="207" w="39" h="40" originx="22" originy="36"
+
+animation state="IN_AIR"
+frame duration="0.017" x="2" y="2" w="38" h="58" originx="21" originy="54"
+
+animation state="LAND"
+frame duration="0.033" x="44" y="2" w="38" h="48" originx="21" originy="44"
+frame duration="0.033" x="171" y="112" w="39" h="43" originx="22" originy="39"
+frame duration="0.067" x="174" y="64" w="39" h="44" originx="22" originy="40"
+
+animation state="ATTACK"
+frame duration="0.067" x="2" y="112" w="39" h="44" originx="22" originy="40"
+frame duration="0.033" x="128" y="2" w="38" h="45" originx="21" originy="41"
+frame duration="0.033" x="86" y="207" w="39" h="41" originx="22" originy="37"
+frame duration="0.033" x="129" y="207" w="39" h="41" originx="21" originy="37"
+frame duration="0.033" x="2" y="207" w="39" h="42" originx="21" originy="38"
+frame duration="0.083" x="2" y="160" w="38" h="43" originx="20" originy="39"
+frame duration="0.083" x="44" y="160" w="38" h="43" originx="20" originy="39"
+frame duration="0.117" x="86" y="160" w="38" h="43" originx="20" originy="39"
+frame duration="0.033" x="45" y="207" w="37" h="42" originx="20" originy="38"
+frame duration="0.033" x="45" y="112" w="38" h="44" originx="20" originy="40"
+frame duration="0.017" x="87" y="112" w="37" h="44" originx="19" originy="40"
+frame duration="0.133" x="128" y="160" w="36" h="43" originx="18" originy="39"
+
+animation state="ATTACK_END"
+frame duration="0.067" x="168" y="160" w="37" h="43" originx="20" originy="39"
+frame duration="0.067" x="170" y="2" w="38" h="45" originx="21" originy="41"
+frame duration="0.133" x="128" y="112" w="39" h="44" originx="22" originy="40"
+

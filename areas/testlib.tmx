@@ -6,8 +6,8 @@
   <property name="Background Texture" value="/server/assets/NebuLibsAssets/Nebulous-Liberations-Assets-main/Nebulous-Liberations-Assets-main/backgrounds/ACDC/ACDC Unliberated.png"/>
   <property name="Background Vel X" value="0"/>
   <property name="Background Vel Y" value="0"/>
-  <property name="Liberation Encounters" value="server\scripts\ezlibs-custom\Nebulous-Liberations-Scripts-main\liberations\enemies"/>
-  <property name="Liberation Tileset" value="server\assets\tiles"/>
+  <property name="Liberation Encounters" value="server/scripts/ezlibs-custom/Nebulous-Liberations-Scripts-main/liberations/enemies"/>
+  <property name="Liberation Tileset" value="server/assets/tiles"/>
   <property name="Name" value="Practice Area"/>
   <property name="Respawn Area" value="ooo"/>
   <property name="Song" value="/server/assets/music/undernet4theme.ogg"/>
