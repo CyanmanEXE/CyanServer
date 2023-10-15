@@ -134,7 +134,7 @@
     <property name="Dialogue Type" value="None"/>
     <property name="Disappear Cooldown" type="float" value="0"/>
     <property name="Once" type="bool" value="false"/>
-    <property name="Password" value="Dark Meteor"/>
+    <property name="Password" value="DARK METEOR"/>
     <property name="Required Keys" type="int" value="1"/>
     <property name="Take Item" type="bool" value="false"/>
     <property name="Unlock GID" type="int" value="0"/>

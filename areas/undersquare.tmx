@@ -74,7 +74,7 @@
     <property name="Asset Name" value="heel-navi-exe4_purple"/>
     <property name="Dialogue Type" value="first"/>
     <property name="Direction" value="Down Left"/>
-    <property name="Text 1" value="Hey kid, I'm cooking up sum neat programs right now! Give me sum time, and maybe we can do sum business sometime..."/>
+    <property name="Text 1" value="Hey kid, I know I took months but im almost done!"/>
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>

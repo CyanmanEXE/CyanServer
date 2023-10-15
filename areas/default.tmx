@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" width="46" height="50" tilewidth="64" tileheight="32" infinite="0" nextlayerid="13" nextobjectid="185">
+<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" width="46" height="50" tilewidth="64" tileheight="32" infinite="0" nextlayerid="13" nextobjectid="213">
  <properties>
   <property name="Background" value="custom"/>
   <property name="Background Animation" value="/server/assets/custom/backgrounds/area1/GrayBG.animation"/>
   <property name="Background Texture" value="/server/assets/custom/backgrounds/area1/Undernet_BG.png"/>
   <property name="Background Vel X" value="0"/>
   <property name="Background Vel Y" value="0"/>
+  <property name="Mystery Data Maximum" type="int" value="8"/>
+  <property name="Mystery Data Minimum" type="int" value="4"/>
   <property name="Name" value="Undernet_1"/>
   <property name="Song" value="/server/assets/music/undernet4theme.ogg"/>
  </properties>
@@ -25,6 +27,7 @@
  <tileset firstgid="123" source="../assets/tiles/bn6_securitycube.tsx"/>
  <tileset firstgid="137" source="../assets/tiles/hp_warp.tsx"/>
  <tileset firstgid="142" source="../assets/tiles/rak.tsx"/>
+ <tileset firstgid="147" source="../assets/tiles/GreenMysteryData.tsx"/>
  <layer id="1" name="Tile Layer 1" width="46" height="50">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,12,0,0,0,0,0,0,0,0,0,0,0,0,8,7,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -286,7 +289,6 @@
     <property name="Dialogue Type" value="shop"/>
     <property name="Direction" value="Down Left"/>
     <property name="Item 1" type="object" value="137"/>
-    <property name="Next 1" value="Come again soon!"/>
     <property name="Text 1" value="Welcome to Killobyte Prices! Here's what I got in stock!"/>
     <property name="Wait Time" value="2"/>
    </properties>
@@ -505,10 +507,12 @@
   <object id="133" gid="14" x="65" y="1039" width="96" height="64"/>
   <object id="134" gid="17" x="1248.5" y="1167.5" width="96" height="64"/>
   <object id="136" gid="17" x="1248.5" y="687.5" width="96" height="64"/>
-  <object id="137" name="Potato Chip" type="Item" x="952" y="408">
+  <object id="137" name="Potato Chip" type="Item" x="208.5" y="205.5">
    <properties>
-    <property name="Dialogue Type" value="first"/>
-    <property name="Text 1" value="Bingo"/>
+    <property name="Description" value="OOO"/>
+    <property name="Name" value="Bingo"/>
+    <property name="Price" type="int" value="1"/>
+    <property name="Type" value="keyitem"/>
    </properties>
    <point/>
   </object>
@@ -535,7 +539,7 @@
   <object id="140" gid="144" x="675.5" y="1154.5" width="48" height="40"/>
   <object id="141" gid="145" x="772" y="1184" width="48" height="40"/>
   <object id="142" gid="145" x="838" y="1282" width="48" height="40"/>
-  <object id="143" gid="143" x="839" y="1223" width="48" height="40"/>
+  <object id="143" gid="143" x="837" y="1221" width="48" height="40"/>
   <object id="144" gid="143" x="331.5" y="582.5" width="48" height="40"/>
   <object id="145" gid="143" x="323" y="573" width="48" height="40"/>
   <object id="146" gid="143" x="317.5" y="574.5" width="48" height="40"/>
@@ -610,6 +614,272 @@
     <property name="Required Keys" type="int" value="1"/>
     <property name="Take Item" type="bool" value="false"/>
     <property name="Unlock Item" value="Shifting Key"/>
+   </properties>
+  </object>
+  <object id="185" name="MO000" type="Mystery Option" x="626.5" y="-552.5">
+   <properties>
+    <property name="Amount" type="int" value="1"/>
+    <property name="Description" value="money"/>
+    <property name="Name" value="money"/>
+    <property name="Once" type="bool" value="false"/>
+    <property name="Price" type="int" value="5"/>
+    <property name="Type" value="money"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="186" name="MO001" type="Mystery Option" x="634.5" y="-560.5">
+   <properties>
+    <property name="Amount" type="int" value="100"/>
+    <property name="Description" value="money"/>
+    <property name="Name" value="money"/>
+    <property name="Once" type="bool" value="false"/>
+    <property name="Price" type="int" value="10"/>
+    <property name="Type" value="money"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="187" name="MO002" type="Mystery Option" x="642.5" y="-568.5">
+   <properties>
+    <property name="Amount" type="int" value="200"/>
+    <property name="Description" value="money"/>
+    <property name="Name" value="money"/>
+    <property name="Once" type="bool" value="false"/>
+    <property name="Price" type="int" value="15"/>
+    <property name="Type" value="money"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="188" name="MO003" type="Mystery Option" x="650.5" y="-576.5">
+   <properties>
+    <property name="Amount" type="int" value="250"/>
+    <property name="Description" value="money"/>
+    <property name="Name" value="money"/>
+    <property name="Once" type="bool" value="false"/>
+    <property name="Price" type="int" value="20"/>
+    <property name="Type" value="money"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="189" name="MO004" type="Mystery Option" x="658.5" y="-584.5">
+   <properties>
+    <property name="Amount" type="int" value="255"/>
+    <property name="Description" value="money"/>
+    <property name="Name" value="money"/>
+    <property name="Once" type="bool" value="false"/>
+    <property name="Price" type="int" value="25"/>
+    <property name="Type" value="money"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="190" name="MO005" type="Mystery Option" x="666.5" y="-592.5">
+   <properties>
+    <property name="Amount" type="int" value="400"/>
+    <property name="Description" value="money"/>
+    <property name="Name" value="money"/>
+    <property name="Once" type="bool" value="false"/>
+    <property name="Price" type="int" value="30"/>
+    <property name="Type" value="money"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="191" name="MO006" type="Mystery Option" x="674.5" y="-600.5">
+   <properties>
+    <property name="Amount" type="int" value="450"/>
+    <property name="Description" value="money"/>
+    <property name="Name" value="money"/>
+    <property name="Once" type="bool" value="false"/>
+    <property name="Price" type="int" value="35"/>
+    <property name="Type" value="money"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="192" name="MO007" type="Mystery Option" x="682.5" y="-608.5">
+   <properties>
+    <property name="Amount" type="int" value="500"/>
+    <property name="Description" value="money"/>
+    <property name="Name" value="money"/>
+    <property name="Once" type="bool" value="false"/>
+    <property name="Price" type="int" value="40"/>
+    <property name="Type" value="money"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="193" name="MO008" type="Mystery Option" x="690.5" y="-616.5">
+   <properties>
+    <property name="Amount" type="int" value="1000"/>
+    <property name="Description" value="money"/>
+    <property name="Name" value="money"/>
+    <property name="Once" type="bool" value="false"/>
+    <property name="Price" type="int" value="45"/>
+    <property name="Type" value="money"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="194" name="MO009" type="Mystery Option" x="698.5" y="-624.5">
+   <properties>
+    <property name="Amount" type="int" value="15000"/>
+    <property name="Description" value="money"/>
+    <property name="Name" value="money"/>
+    <property name="Once" type="bool" value="false"/>
+    <property name="Price" type="int" value="50"/>
+    <property name="Type" value="money"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="195" name="MO013" type="Mystery Option" x="674.5" y="-552.5">
+   <properties>
+    <property name="Next 1" type="object" value="185"/>
+    <property name="Next 2" type="object" value="185"/>
+    <property name="Next 3" type="object" value="185"/>
+    <property name="Next 4" type="object" value="186"/>
+    <property name="Next 5" type="object" value="186"/>
+    <property name="Next 6" type="object" value="186"/>
+    <property name="Next 7" type="object" value="187"/>
+    <property name="Next 8" type="object" value="187"/>
+    <property name="Next 9" type="object" value="188"/>
+    <property name="Once" type="bool" value="false"/>
+    <property name="Type" value="random"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="196" name="MO014" type="Mystery Option" x="682.5" y="-560.5">
+   <properties>
+    <property name="Next 1" type="object" value="185"/>
+    <property name="Next 2" type="object" value="185"/>
+    <property name="Next 3" type="object" value="185"/>
+    <property name="Next 4" type="object" value="187"/>
+    <property name="Next 5" type="object" value="188"/>
+    <property name="Next 6" type="object" value="188"/>
+    <property name="Next 7" type="object" value="189"/>
+    <property name="Next 8" type="object" value="189"/>
+    <property name="Next 9" type="object" value="189"/>
+    <property name="Once" type="bool" value="false"/>
+    <property name="Type" value="random"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="197" name="MO015" type="Mystery Option" x="690.5" y="-568.5">
+   <properties>
+    <property name="Next 1" type="object" value="186"/>
+    <property name="Next 2" type="object" value="186"/>
+    <property name="Next 3" type="object" value="188"/>
+    <property name="Next 4" type="object" value="188"/>
+    <property name="Next 5" type="object" value="189"/>
+    <property name="Next 6" type="object" value="189"/>
+    <property name="Next 7" type="object" value="191"/>
+    <property name="Next 8" type="object" value="193"/>
+    <property name="Next 9" type="object" value="193"/>
+    <property name="Once" type="bool" value="false"/>
+    <property name="Type" value="random"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="198" name="MO016" type="Mystery Option" x="698.5" y="-576.5">
+   <properties>
+    <property name="Next 1" type="object" value="187"/>
+    <property name="Next 2" type="object" value="187"/>
+    <property name="Next 3" type="object" value="187"/>
+    <property name="Next 4" type="object" value="191"/>
+    <property name="Next 5" type="object" value="191"/>
+    <property name="Next 6" type="object" value="192"/>
+    <property name="Next 7" type="object" value="192"/>
+    <property name="Next 8" type="object" value="193"/>
+    <property name="Next 9" type="object" value="194"/>
+    <property name="Once" type="bool" value="false"/>
+    <property name="Type" value="random"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="199" name="MO017" type="Mystery Option" x="706.5" y="-584.5">
+   <properties>
+    <property name="Next 1" type="object" value="195"/>
+    <property name="Next 2" type="object" value="195"/>
+    <property name="Next 3" type="object" value="195"/>
+    <property name="Next 4" type="object" value="195"/>
+    <property name="Next 5" type="object" value="196"/>
+    <property name="Next 6" type="object" value="196"/>
+    <property name="Next 7" type="object" value="196"/>
+    <property name="Next 8" type="object" value="197"/>
+    <property name="Next 9" type="object" value="194"/>
+    <property name="Once" type="bool" value="false"/>
+    <property name="Type" value="random"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="200" name="MO018" type="Mystery Option" x="714.5" y="-592.5">
+   <properties>
+    <property name="Next 1" type="object" value="196"/>
+    <property name="Next 2" type="object" value="196"/>
+    <property name="Next 3" type="object" value="196"/>
+    <property name="Next 4" type="object" value="196"/>
+    <property name="Next 5" type="object" value="197"/>
+    <property name="Next 6" type="object" value="197"/>
+    <property name="Next 7" type="object" value="197"/>
+    <property name="Next 8" type="object" value="198"/>
+    <property name="Next 9" type="object" value="194"/>
+    <property name="Once" type="bool" value="false"/>
+    <property name="Type" value="random"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="201" type="Mystery Datum" gid="147" x="561" y="883" width="14" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="200"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="202" type="Mystery Datum" gid="147" x="853" y="403" width="14" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="199"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="203" type="Mystery Datum" gid="147" x="146" y="852" width="14" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="200"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="204" type="Mystery Datum" gid="147" x="467.5" y="500.5" width="14" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="200"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="205" type="Mystery Datum" gid="147" x="243" y="403" width="14" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="200"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="206" type="Mystery Datum" gid="147" x="850" y="20" width="14" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="200"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="207" type="Mystery Datum" gid="147" x="850.5" y="1233.5" width="14" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="199"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="208" type="Mystery Datum" gid="147" x="338" y="818" width="14" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="199"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="209" type="Mystery Datum" gid="147" x="1141" y="727" width="14" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="199"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="210" type="Mystery Datum" gid="147" x="240.5" y="115.5" width="14" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="199"/>
+    <property name="Type" value="random"/>
    </properties>
   </object>
  </objectgroup>
@@ -830,6 +1100,18 @@
     <property name="Wait Time" value="2"/>
    </properties>
    <point/>
+  </object>
+  <object id="211" type="Mystery Datum" gid="147" x="1044" y="1428" width="14" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="199"/>
+    <property name="Type" value="random"/>
+   </properties>
+  </object>
+  <object id="212" type="Mystery Datum" gid="147" x="403" y="1459" width="14" height="43">
+   <properties>
+    <property name="Next 1" type="object" value="200"/>
+    <property name="Type" value="random"/>
+   </properties>
   </object>
  </objectgroup>
 </map>
