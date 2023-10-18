@@ -16,12 +16,11 @@ function package_init(package)
 end
 
 function package_build(mob, data)
-    local texPath = _modpath.."BG.png"
-    local animPath = _modpath.."BG.animation"
-    mob:set_background(texPath, animPath, 0.5, -0.3)
+    
+    
     mob:stream_music(_modpath.."song.mid", 0, 0)
     mob:enable_freedom_mission(3, false)
-    local rank = Rank.V1
+    local rank = Rank.SP
     if data.rank then
         rank = data.rank
         print(rank)

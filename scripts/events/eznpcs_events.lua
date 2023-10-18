@@ -31,7 +31,7 @@ end
 }
 
 local liberation_item_list = {
-	{n="LongSwrd",d="A Long Sword Chip. Use it in Liberations!"},
+	{n="HeroSwrd",d="A Hero Sword Chip. Use it in Liberations!"},
 	{n="WideSwrd",d="A Wide Sword Chip. Use it in Liberations!"},
 	{n="OldSaber",d="A Saber projection hilt, scarred with age. Use it in Liberations!"},
 	{n="HevyShld",d="A heavy shield, great for defense. Use it in Liberations!"},

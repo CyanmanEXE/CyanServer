@@ -47,12 +47,13 @@ local Ability = {
   Guard = {name = "Guard"}, -- passive, knightman's ability
   Shadowstep = {name = "Shadowstep"}, --passive, Shadowman's ability
   LongSwrd = {
-    name = "LongSwrd",
-    question = "Use LongSwrd?",
-    cost = 1,
+    name = "HeroSwrd",
+    question = "Use HeroSwrd?",
+    cost = 2,
     remove_traps = false,
     destroy_items = false,
     generate_shape = static_shape_generator(0, 0, {
+      {1},
       {1},
       {1}
     }),
@@ -72,7 +73,7 @@ local Ability = {
   GutsWave = {
     name = "GutsWave",
     question = "Destroy with GutsWave?",
-    cost = 1,
+    cost = 3,
     remove_traps = false,
     destroy_items = true,
     generate_shape = static_shape_generator(0, 0, {
@@ -87,7 +88,7 @@ local Ability = {
   ScrenDiv = {
     name = "ScrenDiv",
     question = "Use ScrenDiv to liberate?",
-    cost = 3,
+    cost = 6,
     remove_traps = false,
     destroy_items = false,
     generate_shape = static_shape_generator(0, 0, {
@@ -143,7 +144,7 @@ local Ability = {
 }
 
 local navi_ability_map = {
-  LongSwrd = Ability.LongSwrd,
+  HeroSwrd = Ability.HeroSwrd,
   WideSwrd = Ability.WideSwrd,
   OldSaber = Ability.ScrenDiv,
   HevyShld = Ability.Guard,
